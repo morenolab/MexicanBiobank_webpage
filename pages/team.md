@@ -1,6 +1,6 @@
 ---
 layout: default
-title: research_team
+title: Team
 permalink: /team/
 ---
 

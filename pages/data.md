@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Contact
-permalink: /contact/
+title: Data
+permalink: /data/
 ---
 
 <section id="data_access_tools">
