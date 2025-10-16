@@ -1,8 +1,8 @@
-<!-- 404.html -->
+<!-- index.html -->
 ---
 layout: default
 title: Home
-permalink: /
+permalink: /index.md
 ---
 <section id="index">
 
