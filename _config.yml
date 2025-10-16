@@ -1,9 +1,4 @@
-title: Mexican Biobank
 url: https://morenolab.github.io
-<<<<<<< HEAD
-baseurl: /MexicanBiobank_webpage
-=======
-baseurl: /mexican-biobank   # empty "" if publishing from a user/org site root
->>>>>>> origin/jenkyll_implementation
+baseurl: /MexicanBiobank_webpage  
 markdown: kramdown
-permalink: pretty           # makes /about/ instead of /about.html
+permalink: pretty
