@@ -51,7 +51,8 @@ permalink: /news_publications/
 
           <p class="news-meta">Carmina Barberena-Jonas, Unidad de Genómica Avanzada (UGA), Mexico</p>
           <p class="news-body"><em>Analyzing IBD segments in the MX Biobank to track the genetic structure of Mexico through time.</em></p>
-
+        </article>
+        <article>
           <p class="news-meta" style="margin-top:.35rem;">Also: SMBE Graduate Student Excellence Award</p>
           
           <p class="news-links"><a href="https://www.smbe.org/smbe-graduate-student-excellence-awards/">Award link</a></p>
