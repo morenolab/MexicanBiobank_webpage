@@ -1,0 +1,5 @@
+title: Mexican Biobank
+url: https://morenolab.github.io
+baseurl: /MexicanBiobank_webpage
+markdown: kramdown
+permalink: pretty           # makes /about/ instead of /about.html
