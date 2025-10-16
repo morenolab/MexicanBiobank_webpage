@@ -1,4 +1,4 @@
-<!-- index.md -->
+<!-- 404.html -->
 ---
 layout: default
 title: Home
