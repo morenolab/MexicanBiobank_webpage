@@ -1,35 +1,10 @@
-<!DOCTYPE html>
+---
+layout: default
+title: Contact
+permalink: /contact/
+---
 
-<html lang="en"><head>
-
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-
-<title>Mexican Biobank — Data Access &amp; Tools</title>
-<link href="assets/css/styles.css" rel="stylesheet"/>
-
-</head>
-
-<body>
-
-<header>
-
-	<h1><a href="index.html" style="text-decoration:none;color:inherit;">Mexican Biobank</a></h1>
-	<p>A genomic Resource for Mexico and the World</p>
-</header>
-
-<nav>
-	<a href="index.html">Home</a>
-	<a href="about.html">About</a>
-	<a href="mission.html">Mission</a>
-	<a href="team.html">Team</a>
-	<a href="research.html">Research</a>
-	<a href="data.html">Data Access &amp; Tools</a>
-	<a href="news_publications.html">News &amp; Publications</a>
-	<a href="contact.html">Contact</a>
-</nav>
-
-<div class="container"><section id="data_access_tools">
+<section id="data_access_tools">
 
 	<h2>Data Availability</h2>
 
@@ -46,13 +21,3 @@
 	<p class="center"><strong><a href="https://morenolab.shinyapps.io/mexvar/" target="_blank">You can try MexVar here</a></strong></p>
 
 </section>
-
-</div>
-
-<footer>
-	<p>© 2025 Mexican Biobank. All rights reserved.</p>
-</footer>
-
-</body>
-
-</html>

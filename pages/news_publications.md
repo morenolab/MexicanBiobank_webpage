@@ -1,76 +1,75 @@
-<!DOCTYPE html>
-<html lang="en"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Mexican Biobank — News</title><link href="assets/css/styles.css" rel="stylesheet"/></head>
+---
+layout: default
+title: News & Publications
+permalink: /news_publications/
+---
 
-<body>
+<section id="news_publications">
 
-    <header>
+  <h2>News</h2>
 
-    <h1><a href="index.html" style="text-decoration:none;color:inherit;">Mexican Biobank</a></h1>
-    <p>A genomic Resource for Mexico and the World</p>
-    </header>
+  <p>Stay up to date with the latest discoveries, collaborations, and scientific achievements from the MXB.</p>
 
-<nav>
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="mission.html">Mission</a>
-<a href="team.html">Team</a>
-<a href="research.html">Research</a>
-<a href="data.html">Data Access &amp; Tools</a>
-<a href="news_publications.html">News &amp; Publications</a>
-<a href="contact.html">Contact</a>
-</nav>
-<div class="container"><section id="news">
-<h2>News</h2>
-<p>Stay up to date with the latest discoveries, collaborations, and scientific achievements from the MXB.</p>
-<p>This section highlights our ongoing progress in building one of the largest genomic resources in Latin America, along with key milestones in data generation, analysis, and international collaboration.</p>
-<p>Here you will find news, publications, and announcements related to our research, training activities, and partnerships. Together, these updates reflect the MXB’s mission to advance genomic science, strengthen local research capacity, and contribute to a more inclusive understanding of human diversity and health.</p>
-<div class="news-list">
-<div class="news-item">
-<div class="news-date">Oct 2025</div>
-<article class="news-card">
-<h3 class="news-title">Poster presentation at ASHG 2025 (Boston, USA)</h3>
-<p class="news-meta">Carmina Barberena-Jonas, CINVESTAV, Mexico</p>
-<p class="news-body">
-                Board 2017F: <em>MexVar database for expanding Latin American precision medicine illustrates striking clinical genetic variation in the Mexican Biobank.</em>
-</p>
-<p class="news-links" style="margin:.35rem 0 0;">
-<a href="https://meetings.ashg.org/event/ASHG25/sessions/SESSOAEI1EOL90ZZ0">Session link</a>
-</p>
-</article>
-</div>
-<div class="news-item">
-<div class="news-date">Jul 2025</div>
-<article class="news-card">
-<h3 class="news-title">Poster presentation at SMBE 2025 (Beijing, China)</h3>
-<p class="news-meta">Carmina Barberena-Jonas, CINVESTAV, Mexico</p>
-<p class="news-body">
-                S27-P11: <em>Unraveling 500 Years of Evolutionary History and Admixture Through IBD Genomic Analyses in the Mexican Biobank.</em>
-</p>
-</article>
-</div>
-<div class="news-item">
-<div class="news-date">Jul 2023</div>
-<article class="news-card">
-<h3 class="news-title">Oral presentations on MXB data at SMBE 2023 (Ferrara, Italy)</h3>
-<p class="news-meta">Carmina Barberena-Jonas, Unidad de Genómica Avanzada (UGA), Mexico</p>
-<p class="news-body">
-<em>Analyzing IBD segments in the MX Biobank to track the genetic structure of Mexico through time.</em>
-</p>
-<p class="news-meta" style="margin-top:.35rem;">Also: SMBE Graduate Student Excellence Award</p>
-<p class="news-links">
-<a href="https://www.smbe.org/smbe-graduate-student-excellence-awards/">Award link</a>
-</p>
-<hr style="border:none;border-top:1px solid var(--border);margin:.7rem 0;"/>
-<p class="news-meta">Santiago Medina-Muñoz, UGA, Mexico</p>
-<p class="news-body"><em>Demographic modeling of admixed Latin American populations from whole genomes.</em></p>
-</article>
-</div>
-</div>
+  <p>This section highlights our ongoing progress in building one of the largest genomic resources in Latin America, along with key milestones in data generation, analysis, and international collaboration.</p>
+  
+  <p>Here you will find news, publications, and announcements related to our research, training activities, and partnerships. Together, these updates reflect the MXB’s mission to advance genomic science, strengthen local research capacity, and contribute to a more inclusive understanding of human diversity and health.</p>
 
-<h2>Publications</h2>
+  <div class="news-list">
+
+    <div class="news-item">
+      <div class="news-date">Oct 2025</div>
+        <article class="news-card">
+          <h3 class="news-title">Poster presentation at ASHG 2025 (Boston, USA)</h3>
+          
+          <p class="news-meta">Carmina Barberena-Jonas, CINVESTAV, Mexico</p>
+
+          <p class="news-body">
+                  Board 2017F: <em>MexVar database for expanding Latin American precision medicine illustrates striking clinical genetic variation in the Mexican Biobank.</em>
+          </p>
+
+          <p class="news-links" style="margin:.35rem 0 0;"><a href="https://meetings.ashg.org/event/ASHG25/sessions/SESSOAEI1EOL90ZZ0">Session link</a></p>
+
+        </article>
+    </div>
+
+    <div class="news-item">
+      <div class="news-date">Jul 2025</div>
+        <article class="news-card">
+          <h3 class="news-title">Poster presentation at SMBE 2025 (Beijing, China)</h3>
+          
+          <p class="news-meta">Carmina Barberena-Jonas, CINVESTAV, Mexico</p>
+          <p class="news-body">
+                  S27-P11: <em>Unraveling 500 Years of Evolutionary History and Admixture Through IBD Genomic Analyses in the Mexican Biobank.</em>
+          </p>
+        </article>
+    </div>
+
+    <div class="news-item">
+      <div class="news-date">Jul 2023</div>
+        <article class="news-card">
+          <h3 class="news-title">Oral presentations on MXB data at SMBE 2023 (Ferrara, Italy)</h3>
+
+          <p class="news-meta">Carmina Barberena-Jonas, Unidad de Genómica Avanzada (UGA), Mexico</p>
+          <p class="news-body"><em>Analyzing IBD segments in the MX Biobank to track the genetic structure of Mexico through time.</em></p>
+
+          <p class="news-meta" style="margin-top:.35rem;">Also: SMBE Graduate Student Excellence Award</p>
+          
+          <p class="news-links"><a href="https://www.smbe.org/smbe-graduate-student-excellence-awards/">Award link</a></p>
+
+          <hr style="border:none;border-top:1px solid var(--border);margin:.7rem 0;"/>
+          
+          <p class="news-meta">Santiago Medina-Muñoz, UGA, Mexico</p>
+          <p class="news-body"><em>Demographic modeling of admixed Latin American populations from whole genomes.</em></p>
+        </article>
+    </div>
+  
+  </div>
+
+</section>
+
+<section id="publications">
+
+  <h2>Publications</h2>
       <div class="pub-grid">
 
         <!-- 1 -->
@@ -185,8 +184,5 @@
           </div>
         </article>
       </div>
-    </section>
 
-</section></div><footer>
-<p>© 2025 Mexican Biobank. All rights reserved.</p>
-</footer></body></html>
+</section>

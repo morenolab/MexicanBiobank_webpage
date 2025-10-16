@@ -1,34 +1,10 @@
-<!DOCTYPE html>
+---
+layout: default
+title: Mission
+permalink: /mission/
+---
 
-<html lang="en"><head>
-
-<meta charset="utf-8"/>
-
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-
-<title>Mexican Biobank — Mission</title><link href="assets/css/styles.css" rel="stylesheet"/></head>
-
-<body>
-
-<header>
-
-	<h1><a href="index.html" style="text-decoration:none;color:inherit;">Mexican Biobank</a></h1>
-
-	<p>A genomic Resource for Mexico and the World</p>
-</header>
-
-<nav>
-	<a href="index.html">Home</a>
-	<a href="about.html">About</a>
-	<a href="mission.html">Mission</a>
-	<a href="team.html">Team</a>
-	<a href="research.html">Research</a>
-	<a href="data.html">Data Access &amp; Tools</a>
-	<a href="news_publications.html">News &amp; Publications</a>
-	<a href="contact.html">Contact</a>
-</nav>
-
-<div class="container"><section id="mission">
+<section id="mission">
 
 <h2>Mission</h2>
 
@@ -43,13 +19,3 @@
 	<p>While each population has its own diversity profile, the analytical tools, statistical models, and computational methods developed through the MXB benefit other Hispanic and Latin American genomic initiatives. By building genomic capacity locally, Mexico is creating a regional hub for discovery, training, and innovation in human genetics.</p>
 
 </section>
-
-</div>
-
-<footer>
-	<p>© 2025 Mexican Biobank. All rights reserved.</p>
-</footer>
-
-</body>
-
-</html>
