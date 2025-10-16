@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mexican Biobank</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+
+  <header>
+    <h1>Mexican Biobank</h1>
+    <p>A genomic Resource for Mexico and the World</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#mission">Mission</a>
+    <a href="#research_team">Team</a>
+    <a href="#research">Research</a>
+    <a href="#data_access_tools">Data Access & Tools</a>
+    <a href="#news">News & Publications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section>
+      <p>
+        The Mexican Biobank is a landmark initiative to understand the genetic diversity of the Mexican population and its impact on health and human evolution. By analyzing more than 6,000 individuals from diverse regions and ethnic backgrounds, the project is building one of the most comprehensive genomic resources ever created in Latin America. Developed entirely in Mexico, it aims to advance biomedical research, guide public health policy, and contribute to a more inclusive global view of human genetics.</p>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>The Mexican Biobank (MXB) is establishing the first large-scale genetic resource of/with nationwide coverage outside Europe and North America, with over 6,000 samples processed in the current phase. The knowledge generated through this initiative will enhance public health in Mexico, advance global human genetics research, and deepen our understanding of human evolution.</p>
+      
+      <p>Developed and analyzed entirely in Mexico, the MXB is part of a broader effort to uncover the biological and cultural layers that define Mexican identity. Insights from this project will open new avenues for local research and training, fostering a more inclusive and global view of human health and evolution.</p>
+
+      <h3>Understanding Mexico’s Genetic Diversity</h3>
+      <p>
+        Mexico’s population is highly structured and genetically diverse, shaped by centuries of migration, admixture, and adaptation to distinct environments. This complexity is reflected in the varied burden of cardiometabolic and infectious diseases across regions and communities.</p>
+      
+      <p>Through large-scale genome-wide association studies (GWAS), the MXB project is identifying genetic factors that influence how different Mexican subpopulations respond to local infectious agents. These studies are uncovering genetic variants unique to specific ancestries, which may protect against or predispose to certain diseases. The discoveries emerging from this work will inform targeted biomedical research, including the development of population-specific drugs and vaccines.</p>
+
+      <p>The resulting genetic catalog—the first comprehensive one in Mexico—will also guide more accurate genetic counseling and support personalized medicine initiatives. By revealing the country’s intricate genetic landscape, the MXB ensures that the diverse health needs of Mexico’s populations are understood and addressed.</p>
+
+      <h3>Building Capacity and Accelerating Research</h3>
+
+      <p>Beyond its scientific goals, the MXB is committed to building national capacity in genomics and data science. Through specialized workshops and collaborative training programs, local researchers are being equipped with the skills to analyze and interpret genomic data.</p>
+
+      <p>This initiative is already accelerating genomic research and health-related data science within Mexico, fostering a new generation of experts capable of leading large-scale projects in human genetics, bioinformatics, and computational biology.</p>
+
+      <h3>A Global Resource for Inclusive Science</h3>
+
+      <p>Until recently, most human genetics research has relied on populations of European descent, shaping our understanding of the genetic architecture of complex traits and the models used to study them. As a result, many global predictions about health, disease, and evolution are affected by this Eurocentric bias.</p>
+
+      <p>The Mexican Biobank offers a timely and powerful opportunity to test, refine, and expand existing evolutionary and statistical models. It provides a much-needed reference dataset for admixed populations, enabling the development of more accurate and equitable approaches to studying human genetic diversity.</p>
+
+      <h3>Illuminating Human Evolution</h3>
+
+      <p>This unique dataset will also advance our understanding of human evolutionary history. It will enable researchers to explore how beneficial and deleterious genetic variants behave through admixture, migration, population bottlenecks, and local adaptation—processes that remain poorly understood.</p>
+
+      <p>By tracing demographic and admixture events throughout the history of the Americas, the MXB will not only expand global knowledge of human evolution but also strengthen Mexico’s scientific sovereignty and self-understanding, illuminating the genetic narratives of its many populations and identities.</p>
+    </section>
+
+    <section id="mission">
+      <h2>Mission</h2>
+      <p>Genomic data is transforming how we understand health, diversity, and human evolution. Yet many regions still lack the local capacity to lead large-scale genomic research. The MXB is changing this by creating a nationwide DNA biobank, genotyped entirely within Mexican institutions and analyzed by local scientists as part of an international collaborative network.</p>
+
+      <p>This initiative builds national expertise in data generation, bioinformatics, and genomic medicine, strengthening Mexico’s ability to lead future population-scale projects and translate discoveries into improved healthcare.</p>
+
+      <p>Drawing on samples from ENSA 2000, the MXB represents the most comprehensive genetic and phenotypic profiling of the Mexican population to date. It will reveal how genetics, migration, mating patterns, and environment have shaped Mexico’s diversity, offering new insights into both disease risk and national identity.</p>
+
+      <p>The MXB is aligned with global efforts such as the UK Biobank (led by Rory Collins, University of Oxford), the China Kadoorie Biobank (led by Zhengming Chen, University of Oxford), the African Partnership for Chronic Disease Research (coordinated by Shabbar Jaffar, Moffat Nyirenda, and collaborators across Africa and the UK), and regional projects including the Lesser Antilles Diversity Project (led by Jada Benn Torres, Vanderbilt University), the Peruvian Diversity Project (led by Anne Stone, Arizona State University), and the Chile Genómico and Patagonia Diversity Projects (led by Ricardo Verdugo and Mauricio Moraga, University of Chile).</p>
+
+      <p>While each population has its own diversity profile, the analytical tools, statistical models, and computational methods developed through the MXB benefit other Hispanic and Latin American genomic initiatives. By building genomic capacity locally, Mexico is creating a regional hub for discovery, training, and innovation in human genetics.</p>
+    </section>
+
+    <section id="research_team">
+      <h2>Research Team</h2>
+      <h3>Principal Investigators</h3>
+      <div class="card">
+        <h3>Andrés Moreno Estrada</h3>
+        <p>CINVESTAV, México
+        <p><a href = "http://www.morenolab.org/" target="_blank">Webpage</a></p>
+        <p><a href="mailto:andres.moreno@cinvestav.mx">Contact</a></p>
+      </div>
+      <div class="card">
+        <h3>Adrian VS Hill</h3>
+        <p>The Jenner Institute, University of Oxford, UK</p>
+        <p><a href = "https://www.ndm.ox.ac.uk/principal-investigators/researcher/adrian-hill" target="_blank">Webpage</a></p>
+        <p><a href="mailto:adrian.hill@ndm.ox.ac.uk">Contact</a></p>
+      </div>
+      <div class="card">
+        <h3>Alexander J. Mentzer</h3>
+        <p>Wellcome Centre for Human Genetics/Li Ka Shing Big Data Institute, UK</p>
+        <p><a href = "http://www.well.ox.ac.uk/dr-alex-mentzer-clinical-research-fellow" target="_blank">Webpage</a></p>
+        <p><a href="mailto:alexander.mentzer@ndm.ox.ac.uk">Contact</a></p>
+      </div>
+      <div class="card">
+        <h3>Maria de Lourdes Garcia-Garcia</h3>
+        <p>Instituto Nacional de Salud Pública, México</p>
+        <p><a href = "https://www.insp.mx" target="_blank">Webpage</a></p>
+        <p><a href="mailto:garcigar@insp.mx">Contact</a></p>
+      </div>
+      <div class="card">
+        <h3>María Teresa Tusié Luna</h3>
+        <p>Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán, México</p>
+        <p><a href = "https://www.biomedicas.unam.mx/personal-academico/maria-teresa-tusie-luna/" target="_blank">Webpage</a></p>
+        <p><a href="mailto:mttusie@gmail.com">Contact</a></p>
+      </div>
+      <div class="card">
+        <h3>Carlos A. Aguilar Salinas</h3>
+        <p>Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán, México</p>
+        <p><a href="https://www.incmnsz.mx/opencms/contenido/investigacion/director.html" target="_blank">Webpage</a></p>
+        <p><a href="mailto:carlos.aguilars@incmnsz.mx">Contact</a></p>
+      </div>
+      <h3>Institutions</h3>
+      <div class="card">
+        <h3><a href="https://cinvestav.mx/" target="_blank">Centro de Investigación y de Estudios Avanzados / Center for Research and Advanced Studies (CINVESTAV)</a></h3>
+      </div>
+      <div class="card">
+        <h3><a href="https://www.insp.mx/" target="_blank">Instituto Nacional de Salud Pública / National Institute of Public Health</a></h3>
+      </div>
+      <div class="card">
+        <h3><a href="https://www.innsz.mx/" target="_blank">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán / National Institute of Medical Sciences & Nutrition Salvador Zubirán</a></h3>
+      </div>
+      <div class="card">
+        <h3><a href="http://www.ox.ac.uk/" target="_blank">University of Oxford</a></h3>
+      </div>
+      <div class="card">
+        <h3><a href="http://www.well.ox.ac.uk/home" target="_blank">Wellcome Trust Centre for Human Genetics</a></h3>
+      </div>
+      <div class="card">
+        <h3><a href="https://www.jenner.ac.uk/home" target="_blank">Jenner Institute</a></h3>
+      </div>
+
+      <h3>ENSA Genomics Consortium</h3>
+
+      <table>
+      <thead>
+        <tr>
+          <th>Last name</th>
+          <th>Name</th>
+          <th>Affiliation</th>
+          <th>Present address</th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>Aguilar-Salinas</td>
+        <td>Carlos</td>
+        <td>Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Barberena-Jonás</td>
+        <td>Carmina</td>
+        <td>Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Canizales-Quintero</td>
+        <td>Sergio</td>
+        <td>Instituto Nacional de Salud Pública (INSP)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Cedillo-Castelán</td>
+        <td>Vianka</td>
+        <td>Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Cruz-Hervert</td>
+        <td>Luis Pablo</td>
+        <td>Instituto Nacional de Salud Pública (INSP)</td>
+        <td>Universidad Nacional Autónoma de México</td>
+      </tr>
+      <tr>
+        <td>Delgado-Sánchez</td>
+        <td>Guadalupe</td>
+        <td>Instituto Nacional de Salud Pública (INSP)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Ferreira-Guerrero</td>
+        <td>Elizabeth</td>
+        <td>Instituto Nacional de Salud Pública (INSP)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Ferreyra-Reyes</td>
+        <td>Leticia</td>
+        <td>Instituto Nacional de Salud Pública (INSP)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>García-García</td>
+        <td>Lourdes</td>
+        <td>Instituto Nacional de Salud Pública (INSP)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Gutiérrez-López</td>
+        <td>Cecilia</td>
+        <td>Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Hernández-Avila</td>
+        <td>Juan Eugenio</td>
+        <td>Instituto Nacional de Salud Pública (INSP)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Huerta-Chagoya</td>
+        <td>Alicia</td>
+        <td>Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Juárez-Figueroa</td>
+        <td>Luis</td>
+        <td>Instituto Nacional de Salud Pública (INSP)</td>
+        <td><em>Deceased</em></td>
+      </tr>
+      <tr>
+        <td>Kuri-Morales</td>
+        <td>Pablo</td>
+        <td>Secretaría de Salud</td>
+        <td>Tecnológico de Monterrey</td>
+      </tr>
+      <tr>
+        <td>Magis-Rodriguéz</td>
+        <td>Carlos</td>
+        <td>Secretaría de Salud</td>
+        <td>Universidad Nacional Autónoma de México</td>
+      </tr>
+      <tr>
+        <td>Mongua-Rodriguéz</td>
+        <td>Norma</td>
+        <td>Instituto Nacional de Salud Pública (INSP)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Moreno-Estrada</td>
+        <td>Andres</td>
+        <td>Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Moreno-Macias</td>
+        <td>Hortensia</td>
+        <td>Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</td>
+        <td>Universidad Autónoma Metropolitana</td>
+      </tr>
+      <tr>
+        <td>Ordóñez-Sánchez</td>
+        <td>Maria Luisa</td>
+        <td>Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Ortega-Estrada</td>
+        <td>María de Jesús</td>
+        <td>Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Palma-Martínez</td>
+        <td>María José</td>
+        <td>Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</td>
+        <td>Universidad Nacional Autónoma de México</td>
+      </tr>
+      <tr>
+        <td>Quinto-Cortés</td>
+        <td>Consuelo D</td>
+        <td>Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Rodríguez-Guillen</td>
+        <td>Rosario</td>
+        <td>Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Sarti-Gutíerrez</td>
+        <td>Elsa</td>
+        <td>Instituto Nacional de Salud Pública (INSP)</td>
+        <td><em>Retired</em></td>
+      </tr>
+      <tr>
+        <td>Sepúlveda-Amor</td>
+        <td>Jaime</td>
+        <td>Instituto Nacional de Salud Pública (INSP)</td>
+        <td>University of California San Francisco (UCSF)</td>
+      </tr>
+      <tr>
+        <td>Sohail</td>
+        <td>Mashaal</td>
+        <td>Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</td>
+        <td>Universidad Nacional Autónoma de México</td>
+      </tr>
+      <tr>
+        <td>Tapia-Conyer</td>
+        <td>Roberto</td>
+        <td>Secretaría de Salud</td>
+        <td>Fundación Carlos Slim</td>
+      </tr>
+      <tr>
+        <td>Tusié-Luna</td>
+        <td>Maria Teresa</td>
+        <td>Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Valdespino-Gómez</td>
+        <td>José Luis</td>
+        <td>Instituto Nacional de Salud Pública (INSP)</td>
+        <td><em>Deceased</em></td>
+      </tr>
+      <tr>
+        <td>Tellez-Vazquez</td>
+        <td>Norma</td>
+        <td>Instituto Nacional de Salud Pública (INSP)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Velázquez-Meza</td>
+        <td>Manuel</td>
+        <td>Instituto Nacional de Salud Pública (INSP)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Velázquez-Monroy</td>
+        <td>Oscar</td>
+        <td>Secretaría de Salud</td>
+        <td><em>Deceased</em></td>
+      </tr>
+      <tr>
+        <td>Lazcano-Ponce</td>
+        <td>Eduardo</td>
+        <td>Instituto Nacional de Salud Pública (INSP)</td>
+        <td></td>
+      </tr>
+        </tbody>
+      </table>
+
+      <p></p>
+    </section>
+
+    <section id="research">
+      <h2>Prior research</h2>
+      <h3>The ENSA 2000 Cohort: A National Resource for Genomic Discovery</h3>
+      <p>Since 1987, Mexico has conducted periodic National Health Surveys (ENSA) to monitor the country’s health status through population-based data. For this study, we use samples and data collected during the ENSA 2000, a nationwide health survey carried out by the Mexican Secretariat of Health between November 1999 and June 2000.</p>
+
+      <p>ENSA 2000 was a probabilistic, multi-stage, stratified, cluster household survey designed to be representative of the civilian, non-institutionalized Mexican population at both the state and national levels. Trained personnel conducted interviews and collected information on household and sociodemographic characteristics, current health status, health care usage, and behavioral factors. In addition, sera and buffy coat samples were obtained from 43,085 individuals aged 20 years or older.</p>
+
+      <p>To date, over 50 scientific publications have been derived from this survey, providing key insights into national health trends and even preliminary genetic characteristics of the Mexican population. Importantly, ENSA 2000 included individuals from remote and rural regions, making it one of the most geographically and demographically inclusive population health studies ever conducted in Mexico.</p>
+
+      <p>Given its large scale, sophisticated sampling design, and rich phenotypic data, the ENSA 2000 represents a valuable untapped genetic resource to link genetic markers with health outcomes. Its effective genetic characterization has now become feasible through the combined expertise of a multidisciplinary team spanning Public Health, Epidemiology, Immunology, Pediatrics, Population Genetics, and Computational Genomics.</p>
+
+      <h3>Why ENSA 2000 Matters</h3>
+
+      <p>Working with Mexico’s National Health Surveys provides exceptional advantages:</p>
+
+      <ul class="list-tight">
+
+        <li>Comprehensive health coverage: ENSA datasets capture numerous traits relevant to cardiovascular and metabolic diseases, along with seroprevalence data for various infectious diseases. These insights have directly informed public health interventions, including vaccination strategies for hepatitis A and varicella-zoster virus (VZV) [3–6].</li>
+
+        <li>Unprecedented population diversity: Recent advances in Mexican genomics include the development of a fine-scale genetic map of ethnic variation [7], revealing extraordinary levels of genetic differentiation, especially among individuals of Indigenous ancestry. This diversity has been linked to physiological traits, such as lung function, underscoring the importance of studying population substructure in relation to health and disease.</li>
+
+        <li>Unique opportunity for discovery: The combination of detailed phenotypic data and deep genetic variation makes Mexico an unparalleled setting for exploring highly heritable traits and genetic risk factors with large effects. The Mexican Biobank project leverages this foundation to perform genome-wide association studies (GWAS) across diverse biomedical traits, using population substructure maps to refine and interpret genetic associations.</li>
+        </ul>
+
+      <div class="refs.refs-compact" id="citations">
+        <ol>
+          <li>
+            <span class="ref-authors">Sepúlveda, J., et&nbsp;al.</span>
+            <span class="ref-year"> (2007).</span>
+            <span class="ref-title">Diseño y metodología de la Encuesta Nacional de Salud 2000.</span>
+            <span class="ref-source">Salud Pública de México</span>,
+            <span class="ref-ids">49, s427–s432.</span>
+          </li>
+
+          <li>
+            <span class="ref-authors">Gamboa-Melendez, M. A., et&nbsp;al.</span>
+            <span class="ref-year"> (2012).</span>
+            <span class="ref-title">Contribution of common genetic variation to the risk of type 2 diabetes in the Mexican Mestizo population.</span>
+            <span class="ref-source">Diabetes</span>,
+            <span class="ref-ids">61(12), 3314–21.</span>
+          </li>
+
+          <li>
+            <span class="ref-authors">Gutiérrez, J. P., et&nbsp;al.</span>
+            <span class="ref-year"> (2014).</span>
+            <span class="ref-title">[HIV seroprevalence among Mexicans age 15 to 49: results from the National Health &amp; Nutrition Survey 2012].</span>
+            <span class="ref-source">Salud Publica Mex</span>,
+            <span class="ref-ids">56(4), 323–32.</span>
+          </li>
+
+          <li>
+            <span class="ref-authors">Lazcano-Ponce, E., et&nbsp;al.</span>
+            <span class="ref-year"> (2013).</span>
+            <span class="ref-title">Seroprevalence of hepatitis A virus in a cross-sectional study in Mexico: Implications for hepatitis A vaccination.</span>
+            <span class="ref-source">Hum Vaccin Immunother</span>,
+            <span class="ref-ids">9(2), 375–81.</span>
+          </li>
+
+          <li>
+            <span class="ref-authors">Conde-Glez, C., et&nbsp;al.</span>
+            <span class="ref-year"> (2013).</span>
+            <span class="ref-title">Seroprevalences of varicella-zoster virus, herpes simplex virus and cytomegalovirus in a cross-sectional study in Mexico.</span>
+            <span class="ref-source">Vaccine</span>,
+            <span class="ref-ids">31(44), 5067–74.</span>
+          </li>
+
+          <li>
+            <span class="ref-authors">Caballero-Ortega, H., et&nbsp;al.</span>
+            <span class="ref-year"> (2012).</span>
+            <span class="ref-title">Seroprevalence and national distribution of human toxoplasmosis in Mexico: analysis of the 2000 and 2006 National Health Surveys.</span>
+            <span class="ref-source">Trans R Soc Trop Med Hyg</span>,
+            <span class="ref-ids">106(11), 653–59.</span>
+          </li>
+
+          <li>
+            <span class="ref-authors">Moreno-Estrada, A., et&nbsp;al.</span>
+            <span class="ref-year"> (2014).</span>
+            <span class="ref-title">The genetics of Mexico recapitulates Native American substructure and affects biomedical traits.</span>
+            <span class="ref-source">Science</span>,
+            <span class="ref-ids">344(6189), 1280–85.</span>
+          </li>
+        </ol>
+      </div>
+
+      <section id="current-research" class="container">
+        <h2>Current research</h2>
+        <div class="cr-grid">
+          <article class="cr-panel"><h3 class="cr-title">Population genomics</h3></article>
+          <article class="cr-panel"><h3 class="cr-title">GWAS</h3></article>
+          <article class="cr-panel"><h3 class="cr-title">Serology</h3></article>
+          <article class="cr-panel"><h3 class="cr-title">Pharmacogenomics</h3></article>
+        </div>
+
+      </section>
+    </section>
+
+    <section id="data_access_tools">
+      <h2>Data Availability</h2>
+      <p>The genetic data generated and analyzed by the Mexican Biobank (MXB) Project are available through the European Genome-phenome Archive (EGA) under the study number <a href="https://ega-archive.org/studies/EGAS00001005797" target="_blank">EGAS00001005797</a>.</p>
+
+      <p>Access to the dataset is controlled in order to protect participant privacy and comply with ethical and legal requirements. Researchers interested in using the data should submit a data access request via the EGA platform, which will be evaluated by the Mexican Biobank Data Access Committee. Approved users will receive authorization to download the data for research purposes consistent with the original informed consent.</p>
+
+      <h2>MexVar</h2>
+
+      <p>The analyses of the MXB data revealed complex patterns of genetic variation across Mexico which are shaped by the diverse backgrounds of the population. This highlights the importance of a case-by-case exploration of each clinically, and biomedically, relevant genetic variants (SNVs). We believe that doing so will allow us to reach a better understanding of the highly admixed Mexican population.</p>
+
+      <p>That is why we created MexVar, an interactive platform that allows users to explore SNVs annotated with GWASCatalog, ClinVar, PharmGKB, and OMIM in a semi-automated way. Powered by MXB data, MexVar providees a new way to visualize allele frequency data and corralate it to geography and/or ancestry (global and local) variables.</p>
+
+      <p class="center"><strong><a href="https://morenolab.shinyapps.io/mexvar/" target=_blank>You can try MexVar here</a></strong></p>
+    </section>
+
+    <section id="news">
+      <h2>News</h2>
+          <p>Stay up to date with the latest discoveries, collaborations, and scientific achievements from the MXB.</p>
+          <p>This section highlights our ongoing progress in building one of the largest genomic resources in Latin America, along with key milestones in data generation, analysis, and international collaboration.</p>
+          <p>Here you will find news, publications, and announcements related to our research, training activities, and partnerships. Together, these updates reflect the MXB’s mission to advance genomic science, strengthen local research capacity, and contribute to a more inclusive understanding of human diversity and health.</p>
+
+        <div class="news-list">
+
+          <div class="news-item">
+            <div class="news-date">Oct&nbsp;2025</div>
+            <article class="news-card">
+              <h3 class="news-title">Poster presentation at ASHG 2025 (Boston, USA)</h3>
+              <p class="news-meta">Carmina Barberena-Jonas, CINVESTAV, Mexico</p>
+              <p class="news-body">
+                Board 2017F: <em>MexVar database for expanding Latin American precision medicine illustrates striking clinical genetic variation in the Mexican Biobank.</em>
+              </p>
+              <p class="news-links" style="margin:.35rem 0 0;">
+                <a href="https://meetings.ashg.org/event/ASHG25/sessions/SESSOAEI1EOL90ZZ0">Session link</a>
+              </p>
+            </article>
+          </div>
+
+          <div class="news-item">
+            <div class="news-date">Jul&nbsp;2025</div>
+            <article class="news-card">
+              <h3 class="news-title">Poster presentation at SMBE 2025 (Beijing, China)</h3>
+              <p class="news-meta">Carmina Barberena-Jonas, CINVESTAV, Mexico</p>
+              <p class="news-body">
+                S27-P11: <em>Unraveling 500 Years of Evolutionary History and Admixture Through IBD Genomic Analyses in the Mexican Biobank.</em>
+              </p>
+            </article>
+          </div>
+
+          <div class="news-item">
+            <div class="news-date">Jul&nbsp;2023</div>
+            <article class="news-card">
+              <h3 class="news-title">Oral presentations on MXB data at SMBE 2023 (Ferrara, Italy)</h3>
+              <p class="news-meta">Carmina Barberena-Jonas, Unidad de Genómica Avanzada (UGA), Mexico</p>
+              <p class="news-body">
+                <em>Analyzing IBD segments in the MX Biobank to track the genetic structure of Mexico through time.</em>
+              </p>
+              <p class="news-meta" style="margin-top:.35rem;">Also: SMBE Graduate Student Excellence Award</p>
+              <p class="news-links">
+                <a href="https://www.smbe.org/smbe-graduate-student-excellence-awards/">Award link</a>
+              </p>
+              <hr style="border:none;border-top:1px solid var(--border);margin:.7rem 0;">
+              <p class="news-meta">Santiago Medina-Muñoz, UGA, Mexico</p>
+              <p class="news-body"><em>Demographic modeling of admixed Latin American populations from whole genomes.</em></p>
+            </article>
+          </div>
+
+        </div>
+      </section>
+
+
+
+      <h2>Publications</h2>
+      <div class="pub-grid">
+
+        <!-- 1 -->
+        <article class="pub-card">
+          <div class="pub-journal"><em>Frontiers in Genetics</em> • 2022</div>
+          <h3 class="pub-title">
+            <a href="https://pubmed.ncbi.nlm.nih.gov/35046991/" target="_blank" rel="noopener">
+            Imputation Performance in Latin American Populations: Improving Rare Variants Representation With the Inclusion of Native American Genomes
+            </a>
+          </h3>
+          <div class="pub-authors">Jiménez-Kaufmann A <span aria-hidden="true" style="opacity:.7">et&nbsp;al.</span><span class="sr-only">et al.</span></div>
+          <div class="pub-ids">
+            PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/35046991/">35046991</a> ·
+            PMCID: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8762266/">PMC8762266</a> ·
+            DOI: <a href="https://doi.org/10.3389/fgene.2021.719791">10.3389/fgene.2021.719791</a>
+          </div>
+        </article>
+
+        <!-- 2 -->
+        <article class="pub-card">
+          <div class="pub-journal"><em>Genes &amp; Diseases</em> • 2025</div>
+          <h3 class="pub-title">
+            <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12495275/" target="_blank" rel="noopener">
+              Genetic analysis of <em>APOE</em> reveals distinct origins and distribution of ancestry-enrichment haplotypes in the Mexican Biobank
+            </a>
+          </h3>
+          <div class="pub-authors">Barberena-Jonás C <span aria-hidden="true" style="opacity:.7">et&nbsp;al.</span><span class="sr-only">et al.</span></div>
+          <div class="pub-ids">
+            PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/41049132/">41049132</a> ·
+            PMCID: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12495275/">PMC12495275</a> ·
+            DOI: <a href="https://doi.org/10.1016/j.gendis.2025.101542">10.1016/j.gendis.2025.101542</a>
+          </div>
+        </article>
+
+        <!-- 3 -->
+        <article class="pub-card">
+          <div class="pub-journal"><em>medRxiv (preprint)</em> • 2025</div>
+          <h3 class="pub-title">
+            <a href="https://pubmed.ncbi.nlm.nih.gov/40778152/" target="_blank" rel="noopener">
+              Multi-ancestry polygenic risk scores for the prediction of type 2 diabetes and complications in diverse ancestries
+            </a>
+          </h3>
+          <div class="pub-authors">Huerta-Chagoya A <span aria-hidden="true" style="opacity:.7">et&nbsp;al.</span><span class="sr-only">et al.</span></div>
+          <div class="pub-ids">
+            PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/40778152/">40778152</a> ·
+            PMCID: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12330429/">PMC12330429</a> ·
+            DOI: <a href="https://doi.org/10.1101/2025.07.21.25331778">10.1101/2025.07.21.25331778</a>
+          </div>
+        </article>
+
+        <!-- 4 -->
+        <article class="pub-card">
+          <div class="pub-journal"><em>Disease Models &amp; Mechanisms</em> • 2024</div>
+          <h3 class="pub-title">
+            <a href="https://pubmed.ncbi.nlm.nih.gov/38299665/" target="_blank" rel="noopener">
+              The Mexican Biobank Project promotes genetic discovery, inclusive science and local capacity building
+            </a>
+          </h3>
+          <div class="pub-authors">Sohail M, Moreno-Estrada A</div>
+          <div class="pub-ids">
+            PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/38299665/">38299665</a> ·
+            PMCID: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10855211/">PMC10855211</a> ·
+            DOI: <a href="https://doi.org/10.1242/dmm.050522">10.1242/dmm.050522</a>
+          </div>
+        </article>
+
+        <!-- 5 -->
+        <article class="pub-card">
+          <div class="pub-journal"><em>American Journal of Human Genetics</em> • 2023</div>
+          <h3 class="pub-title">
+            <a href="https://pubmed.ncbi.nlm.nih.gov/37725976/" target="_blank" rel="noopener">
+              Demographic modeling of admixed Latin American populations from whole genomes
+            </a>
+          </h3>
+          <div class="pub-authors">Medina-Muñoz SG <span aria-hidden="true" style="opacity:.7">et&nbsp;al.</span><span class="sr-only">et al.</span></div>
+          <div class="pub-ids">
+            PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/37725976/">37725976</a> ·
+            PMCID: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10577084/">PMC10577084</a> ·
+            DOI: <a href="https://doi.org/10.1016/j.ajhg.2023.08.015">10.1016/j.ajhg.2023.08.015</a>
+          </div>
+        </article>
+
+        <!-- 6 -->
+        <article class="pub-card">
+          <div class="pub-journal"><em>Diabetologia</em> • 2023</div>
+          <h3 class="pub-title">
+            <a href="https://pubmed.ncbi.nlm.nih.gov/37148359/" target="_blank" rel="noopener">
+              The power of TOPMed imputation for the discovery of Latino-enriched rare variants associated with type 2 diabetes
+            </a>
+          </h3>
+          <div class="pub-authors">Huerta-Chagoya A <span aria-hidden="true" style="opacity:.7">et&nbsp;al.</span><span class="sr-only">et al.</span></div>
+          <div class="pub-ids">
+            PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/37148359/">37148359</a> ·
+            PMCID: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10244266/">PMC10244266</a> ·
+            DOI: <a href="https://doi.org/10.1007/s00125-023-05912-9">10.1007/s00125-023-05912-9</a>
+          </div>
+        </article>
+
+        <!-- 7 -->
+        <article class="pub-card">
+          <div class="pub-journal"><em>Nature</em> • 2023</div>
+          <h3 class="pub-title">
+            <a href="https://pubmed.ncbi.nlm.nih.gov/37821706/" target="_blank" rel="noopener">
+              Mexican Biobank advances population and medical genomics of diverse ancestries
+            </a>
+          </h3>
+          <div class="pub-authors">Sohail M <span aria-hidden="true" style="opacity:.7">et&nbsp;al.</span><span class="sr-only">et al.</span></div>
+          <div class="pub-ids">
+            PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/37821706/">37821706</a> ·
+            PMCID: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10600006/">PMC10600006</a> ·
+            DOI: <a href="https://doi.org/10.1038/s41586-023-06560-0">10.1038/s41586-023-06560-0</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>We welcome inquiries from researchers, students, institutions, and members of the public interested in learning more about the Mexican Biobank (MXB), data access, or collaboration opportunities.</p>
+
+      <p>For general questions, partnership proposals, or media inquiries, please contact us at: <a href="mailto:andres.moreno@cinvestav.mx">andres.moreno@cinvestav.mx</a></p>
+
+      <p>Researchers seeking access to genetic data should submit a formal request through the European Genome-Phenome Archive (EGA)</p>
+
+      <p>We look forward to connecting with you and fostering collaboration to advance genomic research in Mexico and beyond.</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Mexican Biobank. All rights reserved.</p>
+  </footer>
+</body>
+</html>

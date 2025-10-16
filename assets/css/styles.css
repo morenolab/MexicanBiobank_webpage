@@ -477,3 +477,7 @@ p a:hover{ color: var(--brand-700); }
     padding: .35rem .55rem;
   }
 }
+
+.center { 
+  text-align: center; 
+}
