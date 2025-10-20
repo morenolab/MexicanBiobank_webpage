@@ -1,5 +1,6 @@
 url: https://morenolab.github.io
-baseurl: /MexicanBiobank_webpage  
+baseurl: /MexicanBiobank_webpage
 markdown: kramdown
 permalink: pretty
 title: Mexican Biobank Project
+logo: /assets/logos/mexican_biobank_project_white-cropped.svg

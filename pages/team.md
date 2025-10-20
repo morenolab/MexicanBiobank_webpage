@@ -4,55 +4,109 @@ title: Team
 permalink: /team/
 ---
 
+
+
+
+
 <section id="research_team">
 
         <h2>Research Team</h2>
 
         <h3>Principal Investigators</h3>
 
-                <div class="card">
-                        <h3>Andrés Moreno Estrada</h3>
-                        <p>CINVESTAV, México</p>
-                        <p><a href="http://www.morenolab.org/" target="_blank">Webpage</a></p>
-                        <p><a href="mailto:andres.moreno@cinvestav.mx">Contact</a></p>
-                </div>
+        <div class="team-cards">
 
-                <div class="card">
-                        <h3>Adrian VS Hill</h3>
-                        <p>The Jenner Institute, University of Oxford, UK</p>
-                        <p><a href="https://www.ndm.ox.ac.uk/principal-investigators/researcher/adrian-hill" target="_blank">Webpage</a></p>
-                        <p><a href="mailto:adrian.hill@ndm.ox.ac.uk">Contact</a></p>
-                </div>
-                
-                <div class="card">
-                        <h3>Alexander J. Mentzer</h3>
-                        <p>Wellcome Centre for Human Genetics/Li Ka Shing Big Data Institute, UK</p>
-                        <p><a href="http://www.well.ox.ac.uk/dr-alex-mentzer-clinical-research-fellow" target="_blank">Webpage</a></p>
-                        <p><a href="mailto:alexander.mentzer@ndm.ox.ac.uk">Contact</a></p>
-                </div>
+          <article class="team-card">
+            <div class="team-card__media">
+              <img src="{{ '/assets/photos/Andres_Moreno.JPG' | relative_url }}"
+                   alt="Andrés Moreno Estrada">
+            </div>
+            <div class="team-card__body">
+              <h3 class="team-card__name">Andrés Moreno Estrada</h3>
+              <p class="team-card__meta">CINVESTAV, México</p>
+              <div class="team-card__links">
+                <a href="http://www.morenolab.org/" target="_blank" rel="noopener">Webpage</a>
+                <a href="mailto:andres.moreno@cinvestav.mx">Contact</a>
+              </div>
+            </div>
+          </article>
 
-                <div class="card">
-                
-                        <h3>Maria de Lourdes Garcia-Garcia</h3>
-                        <p>Instituto Nacional de Salud Pública, México</p>
-                        <p><a href="https://www.insp.mx" target="_blank">Webpage</a></p>
-                        <p><a href="mailto:garcigar@insp.mx">Contact</a></p>
-                </div>
-        
-                <div class="card">
-                        <h3>María Teresa Tusié Luna</h3>
-                        <p>Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán, México</p>
-                        <p><a href="https://www.biomedicas.unam.mx/personal-academico/maria-teresa-tusie-luna/" target="_blank">Webpage</a></p>
-                        <p><a href="mailto:mttusie@gmail.com">Contact</a></p>
-                </div>
+          <article class="team-card">
+            <div class="team-card__media">
+              <img src="{{ '/assets/photos/Adrian_Hill.jpg' | relative_url }}"
+                   alt="Adrian Hill">
+            </div>
+            <div class="team-card__body">
+              <h3 class="team-card__name">Adrian VS Hill</h3>
+              <p class="team-card__meta">The Jenner Institute, University of Oxford, UK</p>
+              <div class="team-card__links">
+                <a href="https://www.ndm.ox.ac.uk/principal-investigators/researcher/adrian-hill" target="_blank" rel="noopener">Webpage</a>
+                <a href="mailto:adrian.hill@ndm.ox.ac.uk">Contact</a>
+              </div>
+            </div>
+          </article>
 
-                <div class="card">
+          <article class="team-card">
+            <div class="team-card__media">
+              <img src="{{ '/assets/photos/Alex_Mentzer.jpg' | relative_url }}"
+                   alt="Alexander J. Mentzer">
+            </div>
+            <div class="team-card__body">
+              <h3 class="team-card__name">Alexander J. Mentzer</h3>
+              <p class="team-card__meta">Wellcome Centre for Human Genetics/Li Ka Shing Big Data Institute, UK</p>
+              <div class="team-card__links">
+                <a href="http://www.well.ox.ac.uk/dr-alex-mentzer-clinical-research-fellow" target="_blank" rel="noopener">Webpage</a>
+                <a href="mailto:alexander.mentzer@ndm.ox.ac.uk">Contact</a>
+              </div>
+            </div>
+          </article>
 
-                        <h3>Carlos A. Aguilar Salinas</h3>
-                        <p>Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán, México</p>
-                        <p><a href="https://www.incmnsz.mx/opencms/contenido/investigacion/director.html" target="_blank">Webpage</a></p>
-                        <p><a href="mailto:carlos.aguilars@incmnsz.mx">Contact</a></p>
-                </div>
+          <article class="team-card">
+            <div class="team-card__media">
+              <img src="{{ '/assets/photos/Lourdes_Garcia.png' | relative_url }}"
+                   alt="Maria de Lourdes Garcia-Garcia">
+            </div>
+            <div class="team-card__body">
+              <h3 class="team-card__name">Maria de Lourdes Garcia-Garcia</h3>
+              <p class="team-card__meta">Instituto Nacional de Salud Pública, México</p>
+              <div class="team-card__links">
+                <a href="https://www.insp.mx" target="_blank" rel="noopener">Webpage</a>
+                <a href="mailto:garcigar@insp.mx">Contact</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="team-card">
+            <div class="team-card__media">
+              <img src="{{ '/assets/photos/Carlos_Aguilar.jpg' | relative_url }}"
+                   alt="Carlos A. Aguilar Salinas">
+            </div>
+            <div class="team-card__body">
+              <h3 class="team-card__name">Carlos A. Aguilar Salinas</h3>
+              <p class="team-card__meta">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán, México</p>
+              <div class="team-card__links">
+                <a href="https://www.incmnsz.mx/opencms/contenido/investigacion/director.html" target="_blank" rel="noopener">Webpage</a>
+                <a href="mailto:carlos.aguilars@incmnsz.mx">Contact</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="team-card">
+            <div class="team-card__media">
+              <img src="{{ '/assets/photos/Teresa_Tusie.png' | relative_url }}"
+                   alt="María Teresa Tusié Luna">
+            </div>
+            <div class="team-card__body">
+              <h3 class="team-card__name">María Teresa Tusié Luna</h3>
+              <p class="team-card__meta">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán, México</p>
+              <div class="team-card__links">
+                <a href="https://www.biomedicas.unam.mx/personal-academico/maria-teresa-tusie-luna/" target="_blank" rel="noopener">Webpage</a>
+                <a href="mailto:mttusie@gmail.com">Contact</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
 
         <h3>Institutions</h3>
 
