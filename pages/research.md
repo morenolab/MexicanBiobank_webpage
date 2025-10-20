@@ -98,9 +98,26 @@ permalink: /research/
         <h2>Current research</h2>
 
         <div class="cr-grid">
-            <article class="cr-panel" style="--bg-image: url('/assets/icons/popgen.png'); --bg-size: contain; --bg-position: center;"><h3 class="cr-title">Population genomics</h3></article>
-            <article class="cr-panel" style="--bg-image: url('/assets/icons/gwas.svg')"><h3 class="cr-title">GWAS</h3></article>
-            <article class="cr-panel" style="--bg-image: url('/assets/icons/serology.svg'); --bg-size: contain; --bg-position: center"><h3 class="cr-title">Serology</h3></article>
-            <article class="cr-panel" style="--bg-image: url('/assets/icons/health.svg'); --bg-size: contain; --bg-position: center"><h3 class="cr-title">Pharmacogenomics</h3></article>
+
+            <article class="cr-panel"
+                style="--bg-image: url('{{ "/assets/icons/popgen.png" | relative_url }}'); --bg-size: contain; --bg-position: center;">
+                <h3 class="cr-title">Population genomics</h3>
+            </article>
+
+
+            <article class="cr-panel"
+                style="--bg-image: url('{{ "/assets/icons/gwas.svg" | relative_url }}'); --bg-size: contain; --bg-position: center;">
+                <h3 class="cr-title">GWAS</h3>
+            </article>
+
+            <article class="cr-panel"
+                style="--bg-image: url('{{ "/assets/icons/serology.png" | relative_url }}'); --bg-size: contain; --bg-position: center;">
+                <h3 class="cr-title">Serology</h3>
+            </article>
+
+            <article class="cr-panel"
+                style="--bg-image: url('{{ "/assets/icons/health.png" | relative_url }}'); --bg-size: contain; --bg-position: center;">
+                <h3 class="cr-title">Pharmacogenomics</h3>
+            </article>
         </div>
 </section>
