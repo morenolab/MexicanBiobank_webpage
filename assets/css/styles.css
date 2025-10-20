@@ -321,6 +321,8 @@ p a:hover{ color: var(--brand-700); }
 /* ---------- Current Research (sub-page) ---------- */
 #current-research{
   margin: 1.5rem 0 0;
+  /* Slightly larger base text within this section */
+  font-size: clamp(1rem, 0.4vw + 0.95rem, 1.125rem);
 }
 
 .cr-grid{
@@ -331,29 +333,52 @@ p a:hover{ color: var(--brand-700); }
 
 /* Panel card */
 .cr-panel{
-  aspect-ratio: 1 / 1;            /* <-- keeps each panel square */
+  aspect-ratio: 1 / 1;            /* keeps each panel square */
+  position: relative;
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
-  padding: 1.25rem;
+  padding: 1.35rem;               /* a touch more breathing room */
   display: grid;
-  place-items: center;             /* centers the text */
+  place-items: center;            /* centers the text */
   text-align: center;
-  transition: transform .15s ease, box-shadow .15s ease;
+  transition: transform .2s ease, box-shadow .2s ease, filter .2s ease;
+  overflow: hidden;
+
+  /* Background image support (set --bg-image per panel) */
+  background-image:
+    linear-gradient(to bottom, rgba(0,0,0,.12), rgba(0,0,0,.38)),
+    var(--bg-image, none);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* If an image is present, switch text to light for contrast */
+  color: var(--card);
 }
 
 .cr-panel:hover{
   transform: translateY(-2px);
   box-shadow: 0 12px 28px rgba(0,0,0,.12);
+  filter: saturate(1.05);
 }
 
-/* Centered bold text */
+/* Centered bold text — bigger & responsive */
 .cr-panel .cr-title{
   margin: 0;
   font-weight: 800;
-  font-size: 1.05rem;
-  color: var(--brand-700);
+  /* Up from 1.05rem -> responsive bump */
+  font-size: clamp(1.1rem, 0.8vw + 1rem, 1.5rem);
+  line-height: 1.2;
+  /* If no image, use brand color; with image, keep high contrast */
+  color: color-mix(in oklab, var(--brand-700) 92%, #000 8%);
+}
+
+/* Make sure text stays readable when image is present */
+.cr-panel[style*="--bg-image"] .cr-title{
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0,0,0,.35);
 }
 
 /* Optional: clickable panels */
@@ -366,6 +391,12 @@ p a:hover{ color: var(--brand-700); }
   outline: none;
   box-shadow: var(--ring);
   border-radius: calc(var(--radius) - 2px);
+}
+
+/* Respect motion preferences */
+@media (prefers-reduced-motion: reduce){
+  .cr-panel{ transition: none; }
+  .cr-panel:hover{ transform: none; filter: none; }
 }
 
 /* Responsive: stack on small screens */
