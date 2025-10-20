@@ -107,7 +107,7 @@ permalink: /news_publications/
 <section id="publications">
 
   <h2>Publications</h2>
-      <div class="pub-grid">
+    <div class="pub-grid">
 
         <!-- 1 -->
         <article class="pub-card">
@@ -157,7 +157,7 @@ permalink: /news_publications/
           </div>
         </article>
 
-        <! -- 4 -->
+        <!-- 4 -->
         <article class="pub-card">
           <div class="pub-journal"><em>Nature</em> • 2023</div>
           <h3 class="pub-title">
@@ -173,7 +173,7 @@ permalink: /news_publications/
           </div>
         </article>
 
-        <! -- 5 -->
+        <!-- 5 -->
         <article class="pub-card">
           <div class="pub-journal"><em>American Journal of Human Genetics</em> • 2023</div>
           <h3 class="pub-title">
@@ -189,7 +189,7 @@ permalink: /news_publications/
           </div>
         </article>
 
-        <! -- 6 -->
+        <!-- 6 -->
         <article class="pub-card">
           <div class="pub-journal"><em>Diabetologia</em> • 2023</div>
           <h3 class="pub-title">
@@ -221,6 +221,6 @@ permalink: /news_publications/
           </div>
         </article>
 
-      </div>
+    </div>
 
 </section>
