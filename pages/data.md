@@ -8,7 +8,7 @@ permalink: /data/
 
 	<h2>Data Availability</h2>
 
-	<p>The genetic data generated and analyzed by the Mexican Biobank (MXB) Project are available through the European Genome-phenome Archive (EGA) under the study number <a href="https://ega-archive.org/studies/EGAS00001005797" target="_blank">EGAS00001005797</a>.</p>
+	<p>The genetic data generated and analyzed by the Mexican Biobank (MXB) Project are available through the European Genome-phenome Archive (EGA) under the study number <strong><a href="https://ega-archive.org/studies/EGAS00001005797" target="_blank">EGAS00001005797</a>.</strong></p>
 	
 	<p>Access to the dataset is controlled in order to protect participant privacy and comply with ethical and legal requirements. Researchers interested in using the data should submit a data access request via the EGA platform, which will be evaluated by the Mexican Biobank Data Access Committee. Approved users will receive authorization to download the data for research purposes consistent with the original informed consent.</p>
 

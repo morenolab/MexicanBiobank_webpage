@@ -7,7 +7,7 @@ permalink: /about/
 <section id="about">
         <h2>About</h2>
 
-        <p>The Mexican Biobank (MXB) is establishing the first large-scale genetic resource of/with nationwide coverage outside Europe and North America, with over 6,000 samples processed in the current phase. The knowledge generated through this initiative will enhance public health in Mexico, advance global human genetics research, and deepen our understanding of human evolution.</p>
+        <p>The Mexican Biobank (MXB) is establishing the first large-scale genetic resource with nationwide coverage outside Europe and North America, with over 6,000 samples processed in the current phase. The knowledge generated through this initiative will enhance public health in Mexico, advance global human genetics research, and deepen our understanding of human evolution.</p>
 
         <p>Developed and analyzed entirely in Mexico, the MXB is part of a broader effort to uncover the biological and cultural layers that define Mexican identity. Insights from this project will open new avenues for local research and training, fostering a more inclusive and global view of human health and evolution.</p>
 

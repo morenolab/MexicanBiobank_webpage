@@ -117,7 +117,7 @@ permalink: /news_publications/
             Imputation Performance in Latin American Populations: Improving Rare Variants Representation With the Inclusion of Native American Genomes
             </a>
           </h3>
-          <div class="pub-authors">Jiménez-Kaufmann A <span aria-hidden="true" style="opacity:.7">et&nbsp;al.</span><span class="sr-only">et al.</span></div>
+          <div class="pub-authors">Jiménez-Kaufmann A <span aria-hidden="true" style="opacity:.7">et&nbsp;al.</span></div>
           <div class="pub-ids">
             PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/35046991/">35046991</a> ·
             PMCID: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8762266/">PMC8762266</a> ·
