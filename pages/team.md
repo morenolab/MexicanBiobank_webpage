@@ -18,7 +18,7 @@ permalink: /team/
 
           <article class="team-card">
             <div class="team-card__media">
-              <img src="{{ '/assets/photos/Andres_Moreno.JPG' | relative_url }}"
+              <img src="{{ '/assets/photos/IMG_4479.png' | relative_url }}"
                    alt="Andrés Moreno Estrada">
             </div>
             <div class="team-card__body">
