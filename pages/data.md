@@ -1,39 +1,14 @@
-<!DOCTYPE html>
+---
+layout: default
+title: Data
+permalink: /data/
+---
 
-<html lang="en"><head>
-
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-
-<title>Mexican Biobank — Data Access &amp; Tools</title>
-<link href="assets/css/styles.css" rel="stylesheet"/>
-
-</head>
-
-<body>
-
-<header>
-
-	<h1><a href="index.html" style="text-decoration:none;color:inherit;">Mexican Biobank</a></h1>
-	<p>A genomic Resource for Mexico and the World</p>
-</header>
-
-<nav>
-	<a href="index.html">Home</a>
-	<a href="about.html">About</a>
-	<a href="mission.html">Mission</a>
-	<a href="team.html">Team</a>
-	<a href="research.html">Research</a>
-	<a href="data.html">Data Access &amp; Tools</a>
-	<a href="news_publications.html">News &amp; Publications</a>
-	<a href="contact.html">Contact</a>
-</nav>
-
-<div class="container"><section id="data_access_tools">
+<section id="data_access_tools">
 
 	<h2>Data Availability</h2>
 
-	<p>The genetic data generated and analyzed by the Mexican Biobank (MXB) Project are available through the European Genome-phenome Archive (EGA) under the study number <a href="https://ega-archive.org/studies/EGAS00001005797" target="_blank">EGAS00001005797</a>.</p>
+	<p>The genetic data generated and analyzed by the Mexican Biobank (MXB) Project are available through the European Genome-phenome Archive (EGA) under the study number <strong><a href="https://ega-archive.org/studies/EGAS00001005797" target="_blank">EGAS00001005797</a>.</strong></p>
 	
 	<p>Access to the dataset is controlled in order to protect participant privacy and comply with ethical and legal requirements. Researchers interested in using the data should submit a data access request via the EGA platform, which will be evaluated by the Mexican Biobank Data Access Committee. Approved users will receive authorization to download the data for research purposes consistent with the original informed consent.</p>
 
@@ -46,13 +21,3 @@
 	<p class="center"><strong><a href="https://morenolab.shinyapps.io/mexvar/" target="_blank">You can try MexVar here</a></strong></p>
 
 </section>
-
-</div>
-
-<footer>
-	<p>© 2025 Mexican Biobank. All rights reserved.</p>
-</footer>
-
-</body>
-
-</html>

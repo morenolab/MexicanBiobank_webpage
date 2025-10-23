@@ -22,6 +22,7 @@ body{
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji","Segoe UI Emoji";
   margin:0; padding:0;
   line-height:1.65;
+  font-size: 18px;
   background:var(--bg);
   color:var(--text);
   -webkit-font-smoothing:antialiased;
@@ -320,6 +321,8 @@ p a:hover{ color: var(--brand-700); }
 /* ---------- Current Research (sub-page) ---------- */
 #current-research{
   margin: 1.5rem 0 0;
+  /* Slightly larger base text within this section */
+  font-size: clamp(1rem, 0.4vw + 0.95rem, 1.125rem);
 }
 
 .cr-grid{
@@ -330,29 +333,62 @@ p a:hover{ color: var(--brand-700); }
 
 /* Panel card */
 .cr-panel{
-  aspect-ratio: 1 / 1;            /* <-- keeps each panel square */
+  aspect-ratio: 1 / 1;            /* keeps each panel square */
+  position: relative;
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
-  padding: 1.25rem;
+  padding: 1.35rem;               /* a touch more breathing room */
   display: grid;
-  place-items: center;             /* centers the text */
+  place-items: center;            /* centers the text */
   text-align: center;
-  transition: transform .15s ease, box-shadow .15s ease;
+  transition: transform .2s ease, box-shadow .2s ease, filter .2s ease;
+  overflow: hidden;
+
+  /* Background image support (set --bg-image per panel) */
+  background-image: var(--overlay), var(--bg-image);
+  background-size: var(--bg-size), var(--bg-size);      /* match both layers */
+  background-position: var(--bg-position), var(--bg-position);
+  background-repeat: var(--bg-repeat), var(--bg-repeat);
+
+
+  /* Background image control */
+
+  --bg-image: none;
+  --bg-size: cover;                 /* default: fill panel, may crop */
+  --bg-position: center;            /* default alignment */
+  --bg-repeat: no-repeat;
+  --overlay: linear-gradient(to bottom, rgba(0,0,0,.12), rgba(0,0,0,.38));
+
+
+
+
+  /* If an image is present, switch text to light for contrast */
+  color: var(--card);
 }
 
 .cr-panel:hover{
   transform: translateY(-2px);
   box-shadow: 0 12px 28px rgba(0,0,0,.12);
+  filter: saturate(1.05);
 }
 
-/* Centered bold text */
+/* Centered bold text — bigger & responsive */
 .cr-panel .cr-title{
   margin: 0;
   font-weight: 800;
-  font-size: 1.05rem;
-  color: var(--brand-700);
+  /* Up from 1.05rem -> responsive bump */
+  font-size: clamp(1.1rem, 0.8vw + 1rem, 1.5rem);
+  line-height: 1.2;
+  /* If no image, use brand color; with image, keep high contrast */
+  color: color-mix(in oklab, var(--brand-700) 92%, #000 8%);
+}
+
+/* Make sure text stays readable when image is present */
+.cr-panel[style*="--bg-image"] .cr-title{
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0,0,0,.35);
 }
 
 /* Optional: clickable panels */
@@ -365,6 +401,12 @@ p a:hover{ color: var(--brand-700); }
   outline: none;
   box-shadow: var(--ring);
   border-radius: calc(var(--radius) - 2px);
+}
+
+/* Respect motion preferences */
+@media (prefers-reduced-motion: reduce){
+  .cr-panel{ transition: none; }
+  .cr-panel:hover{ transform: none; filter: none; }
 }
 
 /* Responsive: stack on small screens */
@@ -433,6 +475,7 @@ p a:hover{ color: var(--brand-700); }
   box-shadow: 0 12px 28px rgba(0,0,0,.12);
 }
 
+
 /* Text elements */
 .news-title{
   margin: 0 0 .35rem 0;
@@ -452,20 +495,19 @@ p a:hover{ color: var(--brand-700); }
 }
 
 /* Links */
-.news-links a{
-  color: var(--brand);
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-.news-links a:hover{ color: var(--brand-700); }
-
-/* Compact spacing between multiple bullets/links */
-.news-links a + a::before{
-  content: " · ";
-  color: var(--muted);
+.news-title a,
+.news-title a:link,
+.news-title a:visited {
+  color: inherit;
   text-decoration: none;
-  margin: 0 .15rem;
+  font: inherit;              /* inherits weight/size from .news-title */
 }
+
+.news-title a:focus-visible {
+  outline: 2px solid var(--brand-700);
+  outline-offset: 2px;
+}
+
 
 /* Responsive */
 @media (max-width: 720px){
@@ -480,4 +522,227 @@ p a:hover{ color: var(--brand-700); }
 
 .center { 
   text-align: center; 
+}
+
+
+/* === News Carousel === */
+.news-carousel {
+  position: relative;
+  margin: 1rem 0 2rem;
+}
+
+.news-track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(280px, 420px);
+  gap: 1rem;
+
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding: .5rem .5rem 1rem;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: var(--brand) transparent;
+}
+
+.news-card {
+  scroll-snap-align: start;
+  border: 1px solid var(--border);
+  border-radius: .9rem;
+  background: #fff;
+  padding: 1rem;
+  min-height: 180px;
+  box-shadow: 0 1px 2px rgba(0,0,0,.04);
+}
+
+.news-title { margin: 0 0 .35rem; font-size: 1.05rem; }
+.news-meta  { margin: 0; font-size: .95rem; opacity: .85; }
+.news-body  { margin: .5rem 0 0; }
+
+/* Group label (month/year) */
+.news-group-label {
+  font-weight: 700;
+  color: var(--brand);
+  margin: 0 0 .5rem;
+}
+
+/* Controls */
+.carousel-controls {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  justify-content: flex-end;
+  margin: .25rem .5rem 0;
+}
+
+.carousel-btn {
+  border: 1px solid var(--border);
+  background: #fff;
+  border-radius: .6rem;
+  padding: .4rem .6rem;
+  cursor: pointer;
+  font: inherit;
+}
+.carousel-btn:hover { background: rgba(0,0,0,.04); }
+.carousel-btn[disabled] { opacity: .4; cursor: not-allowed; }
+
+/* Dots (optional) */
+.carousel-dots { display: flex; gap: .4rem; margin-left: auto; }
+.carousel-dot {
+  width: .45rem; height: .45rem; border-radius: 50%;
+  background: #d1d5db; border: none;
+}
+.carousel-dot[aria-current="true"] { background: var(--brand); }
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .news-track { scroll-behavior: auto; }
+}
+
+.news-badge {
+  display: inline-block;
+  font-size: .85rem;
+  font-weight: 600;
+  color: var(--brand);
+  background: rgba(0,0,0,.03);
+  border: 1px solid var(--border);
+  border-radius: .5rem;
+  padding: .2rem .5rem;
+  margin: 0 0 .5rem;
+}
+
+
+/* Header */
+.site-header{
+  background: var(--brand-700);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,.06);
+}
+.site-header a{ color: inherit; text-decoration: none; }
+
+.site-header__inner{
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centered brand */
+  gap: 0.75rem;
+  padding: clamp(0.6rem, 1.2vw, 1rem) 0;
+}
+
+/* Brand block (logo + title) */
+.site-brand{
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  line-height: 1;
+}
+
+/* Logo sizing (SVG/PNG) */
+.site-logo{
+  display: block;
+  height: clamp(28px, 3.5vw, 44px);
+  width: auto;
+  filter: drop-shadow(0 1px 1px rgba(0,0,0,.08));
+}
+
+/* Title style (slightly larger) */
+.site-title{
+  font-weight: 800;
+  font-size: clamp(1.05rem, 1.2vw + 0.8rem, 1.6rem);
+  letter-spacing: .2px;
+}
+
+/* Optional: darken on hover slightly */
+.site-brand:hover .site-title{ opacity: .95; }
+
+/* Respect motion preferences */
+@media (prefers-reduced-motion: reduce){
+  .site-brand, .site-logo { transition: none; }
+}
+
+/* ---------- Team cards ---------- */
+/* Container (optional grid helper) */
+.team-cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: clamp(1rem, 2vw, 1.25rem);
+}
+
+/* Card wrapper */
+.team-card{
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;                 /* round the image corners */
+  transition: transform .15s ease, box-shadow .15s ease, filter .2s ease;
+  display: grid;
+  grid-template-rows: auto 1fr;     /* media (top) + body (bottom) */
+}
+
+/* Hover like .card */
+.team-card:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(0,0,0,.12);
+  filter: saturate(1.03);
+}
+
+/* Top media panel */
+/* Fixed box; cards stay same height */
+.team-card__media{
+  aspect-ratio: 4 / 3;        /* tweak to 3/2 or 1/1 if you prefer */
+  background: var(--card);    /* shows behind “letterbox” */
+  display: grid;
+  place-items: center;        /* centers the image */
+  overflow: hidden;
+}
+
+/* Show entire image (no cropping) */
+.team-card__media img{
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+/* Bottom info panel */
+.team-card__body{
+  padding: 1rem 1.1rem 1.1rem;
+}
+
+/* Name/title */
+.team-card__name{
+  margin: .2rem 0 .4rem 0;
+  color: var(--brand);
+  font-weight: 800;
+  font-size: clamp(1rem, .4vw + .95rem, 1.15rem);
+  line-height: 1.2;
+}
+
+/* Affiliation / text */
+.team-card__meta{
+  color: var(--muted);
+  margin: .25rem 0 .5rem 0;
+}
+
+/* Links row */
+.team-card__links{
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem 1rem;
+  margin-top: .25rem;
+}
+.team-card__links a{
+  color: var(--brand-700);
+  text-decoration: none;
+  font-weight: 700;
+}
+.team-card__links a:hover{ text-decoration: underline; }
+
+/* Keyboard focus */
+.team-card:focus-within{
+  outline: none;
+  box-shadow: var(--shadow), var(--ring);
 }

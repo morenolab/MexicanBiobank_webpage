@@ -1,0 +1,23 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ page.title }} · {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | strip_newlines }}">
+</head>
+
+<body>
+  {% include header.html %}
+  {% include nav.html %}
+  <div class="container">
+    {{ content }}
+  </div>
+  {% include footer.html %}
+
+</body>
+
+</html>

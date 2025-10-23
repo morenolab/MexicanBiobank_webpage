@@ -1,37 +1,13 @@
-<!DOCTYPE html>
+---
+layout: default
+title: About
+permalink: /about/
+---
 
-<html lang="en"><head>
-
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-
-<title>Mexican Biobank — About</title>
-<link href="assets/css/styles.css" rel="stylesheet"/>
-
-</head>
-
-<body>
-
-<header>
-        <h1><a href="index.html" style="text-decoration:none;color:inherit;">Mexican Biobank</a></h1>
-        <p>A genomic Resource for Mexico and the World</p>
-</header>
-
-<nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="mission.html">Mission</a>
-        <a href="team.html">Team</a>
-        <a href="research.html">Research</a>
-        <a href="data.html">Data Access &amp; Tools</a>
-        <a href="news_publications.html">News &amp; Publications</a>
-        <a href="contact.html">Contact</a>
-</nav>
-
-<div class="container"><section id="about">
+<section id="about">
         <h2>About</h2>
 
-        <p>The Mexican Biobank (MXB) is establishing the first large-scale genetic resource of/with nationwide coverage outside Europe and North America, with over 6,000 samples processed in the current phase. The knowledge generated through this initiative will enhance public health in Mexico, advance global human genetics research, and deepen our understanding of human evolution.</p>
+        <p>The Mexican Biobank (MXB) is establishing the first large-scale genetic resource with nationwide coverage outside Europe and North America, with over 6,000 samples processed in the current phase. The knowledge generated through this initiative will enhance public health in Mexico, advance global human genetics research, and deepen our understanding of human evolution.</p>
 
         <p>Developed and analyzed entirely in Mexico, the MXB is part of a broader effort to uncover the biological and cultural layers that define Mexican identity. Insights from this project will open new avenues for local research and training, fostering a more inclusive and global view of human health and evolution.</p>
 
@@ -61,11 +37,3 @@
 
         <p>By tracing demographic and admixture events throughout the history of the Americas, the MXB will not only expand global knowledge of human evolution but also strengthen Mexico’s scientific sovereignty and self-understanding, illuminating the genetic narratives of its many populations and identities.</p>
 </section>
-
-</div>
-
-<footer>
-        <p>© 2025 Mexican Biobank. All rights reserved.</p>
-</footer>
-</body>
-</html>
