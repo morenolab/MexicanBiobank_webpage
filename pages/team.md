@@ -33,7 +33,7 @@ permalink: /team/
 
           <article class="team-card">
             <div class="team-card__media">
-              <img src="{{ '/assets/photos/Adrian_Hill.jpg' | relative_url }}"
+              <img src="{{ '/assets/photos/Adrian_Hill.png' | relative_url }}"
                    alt="Adrian Hill">
             </div>
             <div class="team-card__body">
@@ -48,7 +48,7 @@ permalink: /team/
 
           <article class="team-card">
             <div class="team-card__media">
-              <img src="{{ '/assets/photos/Alex_Mentzer.jpg' | relative_url }}"
+              <img src="{{ '/assets/photos/Alex_Mentzer.png' | relative_url }}"
                    alt="Alexander J. Mentzer">
             </div>
             <div class="team-card__body">
