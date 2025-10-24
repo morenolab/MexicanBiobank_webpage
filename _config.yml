@@ -1,5 +1,5 @@
 url: https://www.mxbiobank.org
-baseurl: /MexicanBiobank_webpage
+baseurl: ""
 markdown: kramdown
 permalink: pretty
 title: Mexican Biobank Project
