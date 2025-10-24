@@ -350,4 +350,6 @@ permalink: /team/
 
         <h3>Funding</h3>
 
+        <body>This project is co-funded by Mexico’s National Council of Science and Technology (CONACYT) and The UK Research Councils (RCUK) through The Newton Fund.</body>
+
 </section>
