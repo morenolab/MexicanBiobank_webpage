@@ -348,4 +348,6 @@ permalink: /team/
                 </tbody>
         </table>
 
+        <h3>Funding</h3>
+
 </section>
