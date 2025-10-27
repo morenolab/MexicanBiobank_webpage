@@ -111,6 +111,23 @@ permalink: /news_publications/
 
         <!-- 1 -->
         <article class="pub-card">
+          <div class="pub-journal"><em>Nature Medicine (in press)</em> • 2025</div>
+          <h3 class="pub-title">
+            <a href="" target="_blank" rel="noopener">
+              Clinical genetic variation across Hispanic populations in the Mexican Biobank
+            </a>
+          </h3>
+          <div class="pub-authors">Barberena-Jonas C <span aria-hidden="true" style="opacity:.7">et&nbsp;al.</span></div>
+          <div class="pub-ids">
+            PMID: <a href="">N/A</a> ·
+            PMCID: <a href="">N/A</a> ·
+            DOI: <a href="">N/A</a>
+          </div>
+        </article>
+
+
+        <!-- 2 -->
+        <article class="pub-card">
           <div class="pub-journal"><em>medRxiv (preprint)</em> • 2025</div>
           <h3 class="pub-title">
             <a href="https://pubmed.ncbi.nlm.nih.gov/40778152/" target="_blank" rel="noopener">
@@ -125,7 +142,7 @@ permalink: /news_publications/
           </div>
         </article>
 
-        <!-- 2 -->
+        <!-- 3 -->
         <article class="pub-card">
           <div class="pub-journal"><em>Genes &amp; Diseases</em> • 2025</div>
           <h3 class="pub-title">
@@ -141,7 +158,7 @@ permalink: /news_publications/
           </div>
         </article>
 
-        <!-- 3 -->
+        <!-- 4 -->
         <article class="pub-card">
           <div class="pub-journal"><em>Disease Models &amp; Mechanisms</em> • 2024</div>
           <h3 class="pub-title">
@@ -149,7 +166,7 @@ permalink: /news_publications/
               The Mexican Biobank Project promotes genetic discovery, inclusive science and local capacity building
             </a>
           </h3>
-          <div class="pub-authors">Sohail M &amp;Moreno-Estrada A</div>
+          <div class="pub-authors">Sohail M &amp; Moreno-Estrada A</div>
           <div class="pub-ids">
             PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/38299665/">38299665</a> ·
             PMCID: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10855211/">PMC10855211</a> ·
@@ -157,7 +174,7 @@ permalink: /news_publications/
           </div>
         </article>
 
-        <!-- 4 -->
+        <!-- 5 -->
         <article class="pub-card">
           <div class="pub-journal"><em>Nature</em> • 2023</div>
           <h3 class="pub-title">
@@ -173,7 +190,7 @@ permalink: /news_publications/
           </div>
         </article>
 
-        <!-- 5 -->
+        <!-- 6 -->
         <article class="pub-card">
           <div class="pub-journal"><em>American Journal of Human Genetics</em> • 2023</div>
           <h3 class="pub-title">
@@ -189,7 +206,7 @@ permalink: /news_publications/
           </div>
         </article>
 
-        <!-- 6 -->
+        <!-- 7 -->
         <article class="pub-card">
           <div class="pub-journal"><em>Diabetologia</em> • 2023</div>
           <h3 class="pub-title">
@@ -205,7 +222,7 @@ permalink: /news_publications/
           </div>
         </article>
 
-        <!-- 7 -->
+        <!-- 8 -->
         <article class="pub-card">
           <div class="pub-journal"><em>Frontiers in Genetics</em> • 2022</div>
           <h3 class="pub-title">

@@ -110,6 +110,8 @@ permalink: /team/
 
         <h3>Institutions</h3>
 
+        <section class="institutions">
+
                 <div class="card">
                         <h3><a href="https://cinvestav.mx/" target="_blank">Centro de Investigación y de Estudios Avanzados / Center for Research and Advanced Studies (CINVESTAV)</a></h3>
                 </div>
@@ -133,6 +135,8 @@ permalink: /team/
                 <div class="card">
                         <h3><a href="https://www.jenner.ac.uk/home" target="_blank">Jenner Institute</a></h3>
                 </div>
+
+        </section>
         
         <h3>ENSA Genomics Consortium</h3>
         <table>
