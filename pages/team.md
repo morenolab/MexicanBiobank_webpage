@@ -139,218 +139,274 @@ permalink: /team/
         </section>
         
         <h3>ENSA Genomics Consortium</h3>
-        <table>
-                <thead>
-                        <tr>
-                                <th>Last name</th>
-                                <th>Name</th>
-                                <th>Affiliation</th>
-                                <th>Present address</th>
-                        </tr>
-                </thead>
-                
-                <tbody>
-                        <tr>
-                                <td>Aguilar-Salinas</td>
-                                <td>Carlos</td>
-                                <td>Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</td>
-                                <td></td>
-                        </tr>
-                        <tr>
-                                <td>Barberena-Jonás</td>
-                                <td>Carmina</td>
-                                <td>Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</td>
-                                <td></td>
-                        </tr>
-                        <tr>
+<section class="team-grid">
 
-                                <td>Canizales-Quintero</td>
-                                <td>Sergio</td>
-                                <td>Instituto Nacional de Salud Pública (INSP)</td>
-                                <td></td>
-                        </tr>
-                        <tr>
-                                <td>Cedillo-Castelán</td>
-                                <td>Vianka</td>
-                                <td>Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</td>
-                                <td></td>
-                        </tr>
-                        <tr>
-                                <td>Cruz-Hervert</td>
-                                <td>Luis Pablo</td>
-                                <td>Instituto Nacional de Salud Pública (INSP)</td>
-                                <td>Universidad Nacional Autónoma de México</td>
-                        </tr>
-                        <tr>
-                                <td>Delgado-Sánchez</td>
-                                <td>Guadalupe</td>
-                                <td>Instituto Nacional de Salud Pública (INSP)</td>
-                                <td></td>
-                        </tr>
-                        <tr>
-                                <td>Ferreira-Guerrero</td>
-                                <td>Elizabeth</td>
-                                <td>Instituto Nacional de Salud Pública (INSP)</td>
-                                <td></td>
-                        </tr>
-                        <tr>
-                                <td>Ferreyra-Reyes</td>
-                                <td>Leticia</td>
-                                <td>Instituto Nacional de Salud Pública (INSP)</td>
-                                <td></td>
-                        </tr>
-                        <tr>
-                                <td>García-García</td>
-                                <td>Lourdes</td>
-                                <td>Instituto Nacional de Salud Pública (INSP)</td>
-                                <td></td>
-                        </tr>
-                        <tr>
-                                <td>Gutiérrez-López</td>
-                                <td>Cecilia</td>
-                                <td>Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</td>
-                                <td></td>
-                        </tr>
-                        <tr>
-                                <td>Hernández-Avila</td>
-                                <td>Juan Eugenio</td>
-                                <td>Instituto Nacional de Salud Pública (INSP)</td>
-                                <td></td>
-                        </tr>
-                        <tr>
-                                <td>Huerta-Chagoya</td>
-                                <td>Alicia</td>
-                                <td>Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</td>
-                                <td></td>
-                        </tr>
-                        <tr>
-                                <td>Juárez-Figueroa</td>
-                                <td>Luis</td>
-                                <td>Instituto Nacional de Salud Pública (INSP)</td>
-                                <td><em>Deceased</em></td>
-                        </tr>
-                        <tr>
-                                <td>Kuri-Morales</td>
-                                <td>Pablo</td>
-                                <td>Secretaría de Salud</td>
-                                <td>Tecnológico de Monterrey</td>
-                        </tr>
-                        <tr>
-                                <td>Magis-Rodriguéz</td>
-                                <td>Carlos</td>
-                                <td>Secretaría de Salud</td>
-                                <td>Universidad Nacional Autónoma de México</td>
-                        </tr>
-                        <tr>
-                                <td>Mongua-Rodriguéz</td>
-                                <td>Norma</td>
-                                <td>Instituto Nacional de Salud Pública (INSP)</td>
-                                <td></td>
-                        </tr>
-                        <tr>
-                                <td>Moreno-Estrada</td>
-                                <td>Andres</td>
-                                <td>Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</td>
-                                <td></td>
-                        </tr>
-                        <tr>
-                                <td>Moreno-Macias</td>
-                                <td>Hortensia</td>
-                                <td>Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</td>
-                                <td>Universidad Autónoma Metropolitana</td>
-                        </tr>
-                        <tr>
-                                <td>Ordóñez-Sánchez</td>
-                                <td>Maria Luisa</td>
-                                <td>Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</td>
-                                <td></td>
-                        </tr>
-                        <tr>
-                                <td>Ortega-Estrada</td>
-                                <td>María de Jesús</td>
-                                <td>Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</td>
-                                <td></td>
-                        </tr>
-                        <tr>
-                                <td>Palma-Martínez</td>
-                                <td>María José</td>
-                                <td>Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</td>
-                                <td>Universidad Nacional Autónoma de México</td>
-                        </tr>
-                        <tr>
-                                <td>Quinto-Cortés</td>
-                                <td>Consuelo D</td>
-                                <td>Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</td>
-                                <td></td>
-                        </tr>
-                        <tr>
-                                <td>Rodríguez-Guillen</td>
-                                <td>Rosario</td>
-                                <td>Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</td>
-                                <td></td>
-                        </tr>
-                        <tr>
-                                <td>Sarti-Gutíerrez</td>
-                                <td>Elsa</td>
-                                <td>Instituto Nacional de Salud Pública (INSP)</td>
-                                <td><em>Retired</em></td>
-                        </tr>
-                        <tr>
-                                <td>Sepúlveda-Amor</td>
-                                <td>Jaime</td>
-                                <td>Instituto Nacional de Salud Pública (INSP)</td>
-                                <td>University of California San Francisco (UCSF)</td>
-                        </tr>
-                        <tr>
-                                <td>Sohail</td>
-                                <td>Mashaal</td>
-                                <td>Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</td>
-                                <td>Universidad Nacional Autónoma de México</td>
-                        </tr>
-                        <tr>
-                                <td>Tapia-Conyer</td>
-                                <td>Roberto</td>
-                                <td>Secretaría de Salud</td>
-                                <td>Fundación Carlos Slim</td>
-                        </tr>
-                        <tr>
-                                <td>Tusié-Luna</td>
-                                <td>Maria Teresa</td>
-                                <td>Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</td>
-                                <td></td>
-                        </tr>
-                        <tr>
-                                <td>Valdespino-Gómez</td>
-                                <td>José Luis</td>
-                                <td>Instituto Nacional de Salud Pública (INSP)</td>
-                                <td><em>Deceased</em></td>
-                        </tr>
-                        <tr>
-                                <td>Tellez-Vazquez</td>
-                                <td>Norma</td>
-                                <td>Instituto Nacional de Salud Pública (INSP)</td>
-                                <td></td>
-                        </tr>
-                        <tr>
-                                <td>Velázquez-Meza</td>
-                                <td>Manuel</td>
-                                <td>Instituto Nacional de Salud Pública (INSP)</td>
-                                <td></td>
-                        </tr>
-                        <tr>
-                                <td>Velázquez-Monroy</td>
-                                <td>Oscar</td>
-                                <td>Secretaría de Salud</td>
-                                <td><em>Deceased</em></td>
-                        </tr>
-                        <tr>
-                                <td>Lazcano-Ponce</td>
-                                <td>Eduardo</td>
-                                <td>Instituto Nacional de Salud Pública (INSP)</td>
-                                <td></td>
-                        </tr>
-                </tbody>
-        </table>
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Carlos Aguilar-Salinas</h3>
+      <p class="team-card__meta">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> —</p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Carmina Barberena-Jonás</h3>
+      <p class="team-card__meta">Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> —</p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Sergio Canizales-Quintero</h3>
+      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> —</p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Vianka Cedillo-Castelán</h3>
+      <p class="team-card__meta">Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> —</p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Luis Pablo Cruz-Hervert</h3>
+      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> Universidad Nacional Autónoma de México</p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Guadalupe Delgado-Sánchez</h3>
+      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> —</p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Elizabeth Ferreira-Guerrero</h3>
+      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> —</p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Leticia Ferreyra-Reyes</h3>
+      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> —</p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Lourdes García-García</h3>
+      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> —</p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Cecilia Gutiérrez-López</h3>
+      <p class="team-card__meta">Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> —</p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Juan Eugenio Hernández-Avila</h3>
+      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> —</p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Alicia Huerta-Chagoya</h3>
+      <p class="team-card__meta">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> —</p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Luis Juárez-Figueroa</h3>
+      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> <em>Deceased</em></p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Pablo Kuri-Morales</h3>
+      <p class="team-card__meta">Secretaría de Salud</p>
+      <p class="team-card__meta"><strong>Present address:</strong> Tecnológico de Monterrey</p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Carlos Magis-Rodriguéz</h3>
+      <p class="team-card__meta">Secretaría de Salud</p>
+      <p class="team-card__meta"><strong>Present address:</strong> Universidad Nacional Autónoma de México</p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Norma Mongua-Rodriguéz</h3>
+      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> —</p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Andres Moreno-Estrada</h3>
+      <p class="team-card__meta">Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> —</p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Hortensia Moreno-Macias</h3>
+      <p class="team-card__meta">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> Universidad Autónoma Metropolitana</p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Maria Luisa Ordóñez-Sánchez</h3>
+      <p class="team-card__meta">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> —</p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">María de Jesús Ortega-Estrada</h3>
+      <p class="team-card__meta">Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> —</p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">María José Palma-Martínez</h3>
+      <p class="team-card__meta">Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> Universidad Nacional Autónoma de México</p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Consuelo D Quinto-Cortés</h3>
+      <p class="team-card__meta">Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> —</p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Rosario Rodríguez-Guillen</h3>
+      <p class="team-card__meta">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> —</p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Elsa Sarti-Gutíerrez</h3>
+      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> <em>Retired</em></p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Jaime Sepúlveda-Amor</h3>
+      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> University of California San Francisco (UCSF)</p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Mashaal Sohail</h3>
+      <p class="team-card__meta">Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> Universidad Nacional Autónoma de México</p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Roberto Tapia-Conyer</h3>
+      <p class="team-card__meta">Secretaría de Salud</p>
+      <p class="team-card__meta"><strong>Present address:</strong> Fundación Carlos Slim</p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Maria Teresa Tusié-Luna</h3>
+      <p class="team-card__meta">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> —</p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">José Luis Valdespino-Gómez</h3>
+      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> <em>Deceased</em></p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Norma Tellez-Vazquez</h3>
+      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> —</p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Manuel Velázquez-Meza</h3>
+      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> —</p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Oscar Velázquez-Monroy</h3>
+      <p class="team-card__meta">Secretaría de Salud</p>
+      <p class="team-card__meta"><strong>Present address:</strong> <em>Deceased</em></p>
+    </div>
+  </article>
+
+  <article class="team-card">
+    <div class="team-card__body">
+      <h3 class="team-card__name">Eduardo Lazcano-Ponce</h3>
+      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
+      <p class="team-card__meta"><strong>Present address:</strong> —</p>
+    </div>
+  </article>
+
+</section>
+
 
         <h3>Funding</h3>
 
