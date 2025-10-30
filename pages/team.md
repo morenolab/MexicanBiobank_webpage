@@ -33,36 +33,6 @@ permalink: /team/
 
           <article class="team-card">
             <div class="team-card__media">
-              <img src="{{ '/assets/photos/Adrian_Hill.png' | relative_url }}"
-                   alt="Adrian Hill">
-            </div>
-            <div class="team-card__body">
-              <h3 class="team-card__name">Adrian VS Hill</h3>
-              <p class="team-card__meta">The Jenner Institute, University of Oxford, UK</p>
-              <div class="team-card__links">
-                <a href="https://www.ndm.ox.ac.uk/principal-investigators/researcher/adrian-hill" target="_blank" rel="noopener">Webpage</a>
-                <a href="mailto:adrian.hill@ndm.ox.ac.uk">Contact</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="team-card">
-            <div class="team-card__media">
-              <img src="{{ '/assets/photos/Alex_Mentzer.png' | relative_url }}"
-                   alt="Alexander J. Mentzer">
-            </div>
-            <div class="team-card__body">
-              <h3 class="team-card__name">Alexander J. Mentzer</h3>
-              <p class="team-card__meta">Wellcome Centre for Human Genetics/Li Ka Shing Big Data Institute, UK</p>
-              <div class="team-card__links">
-                <a href="http://www.well.ox.ac.uk/dr-alex-mentzer-clinical-research-fellow" target="_blank" rel="noopener">Webpage</a>
-                <a href="mailto:alexander.mentzer@ndm.ox.ac.uk">Contact</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="team-card">
-            <div class="team-card__media">
               <img src="{{ '/assets/photos/Lourdes_Garcia.png' | relative_url }}"
                    alt="Maria de Lourdes Garcia-Garcia">
             </div>
@@ -107,6 +77,69 @@ permalink: /team/
           </article>
 
         </div>
+
+       <h3>Principal Investigators</h3>
+
+                 <article class="team-card">
+            <div class="team-card__media">
+              <img src="{{ '/assets/photos/Adrian_Hill.png' | relative_url }}"
+                   alt="Adrian Hill">
+            </div>
+            <div class="team-card__body">
+              <h3 class="team-card__name">Adrian VS Hill</h3>
+              <p class="team-card__meta">The Jenner Institute, University of Oxford, UK</p>
+              <div class="team-card__links">
+                <a href="https://www.ndm.ox.ac.uk/principal-investigators/researcher/adrian-hill" target="_blank" rel="noopener">Webpage</a>
+                <a href="mailto:adrian.hill@ndm.ox.ac.uk">Contact</a>
+              </div>
+            </div>
+          </article>
+          
+          <article class="team-card">
+            <div class="team-card__media">
+              <img src="{{ '/assets/photos/Alex_Mentzer.png' | relative_url }}"
+                   alt="Alexander J. Mentzer">
+            </div>
+            <div class="team-card__body">
+              <h3 class="team-card__name">Alexander J. Mentzer</h3>
+              <p class="team-card__meta">Wellcome Centre for Human Genetics/Li Ka Shing Big Data Institute, UK</p>
+              <div class="team-card__links">
+                <a href="http://www.well.ox.ac.uk/dr-alex-mentzer-clinical-research-fellow" target="_blank" rel="noopener">Webpage</a>
+                <a href="mailto:alexander.mentzer@ndm.ox.ac.uk">Contact</a>
+              </div>
+            </div>
+          </article>
+
+         <article class="team-card">
+            <div class="team-card__body">
+              <h3 class="team-card__name">Amanda Chong</h3>
+              <p class="team-card__meta">Wellcome Centre for Human Genetics and Li Ka Shing Big Data Institute, UK</p>
+              <div class="team-card__links">
+                <a href="mailto:amanda.chong@well.ox.ac.uk">Contact</a>
+              </div>
+            </div>
+          </article>
+
+        <article class="team-card">
+            <div class="team-card__body">
+              <h3 class="team-card__name">Tim Waterboer</h3>
+              <p class="team-card__meta">German Cancer Research Center (DKFZ)</p>
+              <div class="team-card__links">
+                <a href="mailto:T.Waterboer@dkfz-heidelberg.de">Contact</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="team-card">
+            <div class="team-card__body">
+              <h3 class="team-card__name">Alexander Ioannidis</h3>
+              <p class="team-card__meta">UC Santa Cruz</p>
+              <div class="team-card__links">
+                <a href="mailto:ioannidis@ucsc.edu">Contact</a>
+              </div>
+            </div>
+          </article>
+        
 
         <h3>Institutions</h3>
 
