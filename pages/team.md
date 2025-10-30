@@ -78,7 +78,7 @@ permalink: /team/
 
         </div>
 
-       <h3>Principal Investigators</h3>
+       <h3>International collaborators</h3>
 
        <article class="team-card">
             <div class="team-card__media">
@@ -143,7 +143,109 @@ permalink: /team/
               </div>
             </div>
           </article>
-        
+
+        <h3>Contributing Researchers</h3>
+
+
+          
+          <article class="team-card">
+            <div class="team-card__body">
+              <h3 class="team-card__name">Consuelo D. Quinto-Cortés</h3>
+              <p class="team-card__meta">Data Generation and Quality Control</p>
+              <p class="team-card__meta">CINVESTAV Sede Sur</p>
+            </div>
+          </article>
+          
+                    
+          <article class="team-card">
+            <div class="team-card__body">
+              <h3 class="team-card__name">Carmina Barberena-Jonas</h3>
+              <p class="team-card__meta">Medical Genomics</p>
+              <p class="team-card__meta">CINVESTAV Sede Sur</p>
+            </div>
+          </article>
+          
+        <article class="team-card">
+            <div class="team-card__body">
+              <h3 class="team-card__name">Santiago Medina-Muñoz</h3>
+              <p class="team-card__meta">Demographic inference</p>
+            </div>
+          </article>
+          
+        <article class="team-card">
+            <div class="team-card__body">
+              <h3 class="team-card__name">Ricardo Rodriguez</h3>
+              <p class="team-card__meta">Demographic inference</p>
+              <p class="team-card__meta">CINVESTAV Sede Sur</p>
+            </div>
+          </article>
+          
+        <article class="team-card">
+            <div class="team-card__body">
+              <h3 class="team-card__name">Ram Gonzalez</h3>
+              <p class="team-card__meta">Selection</p>
+              <p class="team-card__meta">CINVESTAV Sede Sur</p>
+            </div>
+          </article>
+          
+          
+        <article class="team-card">
+            <div class="team-card__body">
+              <h3 class="team-card__name">Daniela Orozco</h3>
+              <p class="team-card__meta">Ancient DNA</p>
+              <p class="team-card__meta">CINVESTAV Sede Sur</p>
+            </div>
+          </article>
+          
+          
+        <article class="team-card">
+            <div class="team-card__body">
+              <h3 class="team-card__name">Mashaal Sohail</h3>
+              <p class="team-card__meta">Population Genetics</p>
+              <p class="team-card__meta">CCG, UNAM</p>
+            </div>
+          </article>
+          
+        <article class="team-card">
+            <div class="team-card__body">
+              <h3 class="team-card__name">Maria José Palma</h3>
+              <p class="team-card__meta">Population Genetics</p>
+              <p class="team-card__meta">CCG, UNAM</p>
+            </div>
+          </article>
+          
+        <article class="team-card">
+            <div class="team-card__body">
+              <h3 class="team-card__name">Alicia Huerta Chagoya</h3>
+              <p class="team-card__meta">GWAS</p>
+              <p class="team-card__meta">Broad Institute</p>
+            </div>
+          </article>
+          
+        <article class="team-card">
+            <div class="team-card__body">
+              <h3 class="team-card__name">Josep Mercader</h3>
+              <p class="team-card__meta">GWAS</p>
+              <p class="team-card__meta">Broad Institute</p>
+            </div>
+          </article>
+          
+        <article class="team-card">
+            <div class="team-card__body">
+              <h3 class="team-card__name">Claudia Gonzaga Jauregui</h3>
+              <p class="team-card__meta">LIIGH, UNAM</p>
+              <p class="team-card__meta">Broad Institute</p>
+            </div>
+          </article>
+          
+        <article class="team-card">
+            <div class="team-card__body">
+              <h3 class="team-card__name">Maria Avila Arcos</h3>
+              <p class="team-card__meta">LIIGH, UNAM</p>
+              <p class="team-card__meta">Ancient DNA</p>
+            </div>
+          </article>
+
 
         <h3>Institutions</h3>
 
@@ -451,6 +553,7 @@ permalink: /team/
                 <p>This project is co-funded by Mexico’s National Council of Science and Technology (CONACYT) and The UK Research Councils (RCUK) through The Newton Fund.</p>
 
                 <p>FONCICYT - RCUK 2016-2019: The Mexican Biobank Project: Building Capacity for Big Data Science in Medical Genomics in Admixed Populations.</p>
+                <p>Chan Zuckerberg Initiative - CZI-2024-354605: AI modeling of genomic and single-cell transcriptomic datasets from underrepresented ancestries across Latin America.</p> 
                 </body>
 
 </section>
