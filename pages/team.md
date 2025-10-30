@@ -18,15 +18,15 @@ permalink: /team/
 
           <article class="team-card">
             <div class="team-card__media">
-              <img src="{{ '/assets/photos/IMG_4479.png' | relative_url }}"
+              <img src="{{ '/assets/photos/Andres_Moreno.png' | relative_url }}"
                    alt="Andrés Moreno Estrada">
             </div>
             <div class="team-card__body">
               <h3 class="team-card__name">Andrés Moreno Estrada</h3>
-              <p class="team-card__meta">CINVESTAV, México</p>
+              <p class="team-card__meta">CINVESTAV Sede Sur, Mexico City</p>
               <div class="team-card__links">
                 <a href="http://www.morenolab.org/" target="_blank" rel="noopener">Webpage</a>
-                <a href="mailto:andres.moreno@cinvestav.mx">Contact</a>
+                <a href="mailto:morenolab.contact@gmail.com">Contact</a>
               </div>
             </div>
           </article>
