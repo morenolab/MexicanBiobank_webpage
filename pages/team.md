@@ -80,7 +80,7 @@ permalink: /team/
 
        <h3>Principal Investigators</h3>
 
-                 <article class="team-card">
+       <article class="team-card">
             <div class="team-card__media">
               <img src="{{ '/assets/photos/Adrian_Hill.png' | relative_url }}"
                    alt="Adrian Hill">
@@ -131,6 +131,10 @@ permalink: /team/
           </article>
 
           <article class="team-card">
+              <div class="team-card__media">
+              <img src="{{ '/assets/photos/alexioannidis.jpeg' | relative_url }}"
+                   alt="Alexander G. Ioannidis">
+            </div>
             <div class="team-card__body">
               <h3 class="team-card__name">Alexander Ioannidis</h3>
               <p class="team-card__meta">UC Santa Cruz</p>
