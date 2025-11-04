@@ -46,21 +46,7 @@ permalink: /team/
             </div>
           </article>
 
-          <article class="team-card">
-            <div class="team-card__media">
-              <img src="{{ '/assets/photos/Carlos_Aguilar.jpg' | relative_url }}"
-                   alt="Carlos A. Aguilar Salinas">
-            </div>
-            <div class="team-card__body">
-              <h3 class="team-card__name">Carlos A. Aguilar Salinas</h3>
-              <p class="team-card__meta">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán, México</p>
-              <div class="team-card__links">
-                <a href="https://www.incmnsz.mx/opencms/contenido/investigacion/director.html" target="_blank" rel="noopener">Webpage</a>
-                <a href="mailto:carlos.aguilars@incmnsz.mx">Contact</a>
-              </div>
-            </div>
-          </article>
-
+          
           <article class="team-card">
             <div class="team-card__media">
               <img src="{{ '/assets/photos/Teresa_Tusie.png' | relative_url }}"
@@ -72,6 +58,21 @@ permalink: /team/
               <div class="team-card__links">
                 <a href="https://www.biomedicas.unam.mx/personal-academico/maria-teresa-tusie-luna/" target="_blank" rel="noopener">Webpage</a>
                 <a href="mailto:mttusie@gmail.com">Contact</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="team-card">
+            <div class="team-card__media">
+              <img src="{{ '/assets/photos/Carlos_Aguilar.jpg' | relative_url }}"
+                   alt="Carlos A. Aguilar Salinas">
+            </div>
+            <div class="team-card__body">
+              <h3 class="team-card__name">Carlos A. Aguilar Salinas</h3>
+              <p class="team-card__meta">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán, México</p>
+              <div class="team-card__links">
+                <a href="https://www.incmnsz.mx/opencms/contenido/investigacion/director.html" target="_blank" rel="noopener">Webpage</a>
+                <a href="mailto:carlos.aguilars@incmnsz.mx">Contact</a>
               </div>
             </div>
           </article>
@@ -261,6 +262,10 @@ permalink: /team/
                 
                 <div class="card">
                         <h3><a href="https://www.innsz.mx/" target="_blank">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán / National Institute of Medical Sciences &amp; Nutrition Salvador Zubirán</a></h3>
+                </div>
+
+                <div class="card">
+                        <h3><a href="https://www.ccg.unam.mx/" target="_blank">Centro de Ciencias Genómicas / Center for Genomics Sciences</a></h3>
                 </div>
 
                 <div class="card">
