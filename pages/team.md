@@ -289,7 +289,6 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Carlos Aguilar-Salinas</h3>
       <p class="team-card__meta">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> —</p>
     </div>
   </article>
 
@@ -297,7 +296,6 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Carmina Barberena-Jonás</h3>
       <p class="team-card__meta">Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> —</p>
     </div>
   </article>
 
@@ -305,7 +303,6 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Sergio Canizales-Quintero</h3>
       <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> —</p>
     </div>
   </article>
 
@@ -313,7 +310,6 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Vianka Cedillo-Castelán</h3>
       <p class="team-card__meta">Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> —</p>
     </div>
   </article>
 
@@ -321,7 +317,7 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Luis Pablo Cruz-Hervert</h3>
       <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> Universidad Nacional Autónoma de México</p>
+      <p class="team-card__meta"><strong>Current affiliation:</strong> Universidad Nacional Autónoma de México</p>
     </div>
   </article>
 
@@ -329,7 +325,6 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Guadalupe Delgado-Sánchez</h3>
       <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> —</p>
     </div>
   </article>
 
@@ -337,7 +332,6 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Elizabeth Ferreira-Guerrero</h3>
       <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> —</p>
     </div>
   </article>
 
@@ -345,7 +339,6 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Leticia Ferreyra-Reyes</h3>
       <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> —</p>
     </div>
   </article>
 
@@ -353,7 +346,6 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Lourdes García-García</h3>
       <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> —</p>
     </div>
   </article>
 
@@ -361,7 +353,6 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Cecilia Gutiérrez-López</h3>
       <p class="team-card__meta">Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> —</p>
     </div>
   </article>
 
@@ -369,7 +360,6 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Juan Eugenio Hernández-Avila</h3>
       <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> —</p>
     </div>
   </article>
 
@@ -377,7 +367,6 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Alicia Huerta-Chagoya</h3>
       <p class="team-card__meta">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> —</p>
     </div>
   </article>
 
@@ -385,7 +374,7 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Luis Juárez-Figueroa</h3>
       <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> <em>Deceased</em></p>
+      <p class="team-card__meta"><em>Deceased</em></p>
     </div>
   </article>
 
@@ -393,7 +382,7 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Pablo Kuri-Morales</h3>
       <p class="team-card__meta">Secretaría de Salud</p>
-      <p class="team-card__meta"><strong>Present address:</strong> Tecnológico de Monterrey</p>
+      <p class="team-card__meta"><strong>Current affiliation:</strong> Tecnológico de Monterrey</p>
     </div>
   </article>
 
@@ -401,7 +390,7 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Carlos Magis-Rodriguéz</h3>
       <p class="team-card__meta">Secretaría de Salud</p>
-      <p class="team-card__meta"><strong>Present address:</strong> Universidad Nacional Autónoma de México</p>
+      <p class="team-card__meta"><strong>Current affiliation:</strong> Universidad Nacional Autónoma de México</p>
     </div>
   </article>
 
@@ -409,7 +398,6 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Norma Mongua-Rodriguéz</h3>
       <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> —</p>
     </div>
   </article>
 
@@ -417,7 +405,6 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Andres Moreno-Estrada</h3>
       <p class="team-card__meta">Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> —</p>
     </div>
   </article>
 
@@ -425,7 +412,7 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Hortensia Moreno-Macias</h3>
       <p class="team-card__meta">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> Universidad Autónoma Metropolitana</p>
+      <p class="team-card__meta"><strong>Current affiliation:</strong> Universidad Autónoma Metropolitana</p>
     </div>
   </article>
 
@@ -433,7 +420,6 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Maria Luisa Ordóñez-Sánchez</h3>
       <p class="team-card__meta">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> —</p>
     </div>
   </article>
 
@@ -441,7 +427,6 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">María de Jesús Ortega-Estrada</h3>
       <p class="team-card__meta">Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> —</p>
     </div>
   </article>
 
@@ -449,7 +434,7 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">María José Palma-Martínez</h3>
       <p class="team-card__meta">Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> Universidad Nacional Autónoma de México</p>
+      <p class="team-card__meta"><strong>Current affiliation:</strong> Universidad Nacional Autónoma de México</p>
     </div>
   </article>
 
@@ -457,7 +442,6 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Consuelo D Quinto-Cortés</h3>
       <p class="team-card__meta">Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> —</p>
     </div>
   </article>
 
@@ -465,7 +449,6 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Rosario Rodríguez-Guillen</h3>
       <p class="team-card__meta">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> —</p>
     </div>
   </article>
 
@@ -473,7 +456,7 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Elsa Sarti-Gutíerrez</h3>
       <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> <em>Retired</em></p>
+      <p class="team-card__meta"><em>Retired</em></p>
     </div>
   </article>
 
@@ -481,7 +464,7 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Jaime Sepúlveda-Amor</h3>
       <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> University of California San Francisco (UCSF)</p>
+      <p class="team-card__meta"><strong>Current affiliation:</strong> University of California San Francisco (UCSF)</p>
     </div>
   </article>
 
@@ -489,7 +472,7 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Mashaal Sohail</h3>
       <p class="team-card__meta">Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> Universidad Nacional Autónoma de México</p>
+      <p class="team-card__meta"><strong>Current affiliation:</strong> Universidad Nacional Autónoma de México</p>
     </div>
   </article>
 
@@ -497,7 +480,7 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Roberto Tapia-Conyer</h3>
       <p class="team-card__meta">Secretaría de Salud</p>
-      <p class="team-card__meta"><strong>Present address:</strong> Fundación Carlos Slim</p>
+      <p class="team-card__meta"><strong>Current affiliation:</strong> Fundación Carlos Slim</p>
     </div>
   </article>
 
@@ -505,7 +488,6 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Maria Teresa Tusié-Luna</h3>
       <p class="team-card__meta">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> —</p>
     </div>
   </article>
 
@@ -513,7 +495,7 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">José Luis Valdespino-Gómez</h3>
       <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> <em>Deceased</em></p>
+      <p class="team-card__meta"><em>Deceased</em></p>
     </div>
   </article>
 
@@ -521,7 +503,6 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Norma Tellez-Vazquez</h3>
       <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> —</p>
     </div>
   </article>
 
@@ -529,7 +510,6 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Manuel Velázquez-Meza</h3>
       <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> —</p>
     </div>
   </article>
 
@@ -537,7 +517,7 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Oscar Velázquez-Monroy</h3>
       <p class="team-card__meta">Secretaría de Salud</p>
-      <p class="team-card__meta"><strong>Present address:</strong> <em>Deceased</em></p>
+      <p class="team-card__meta"><em>Deceased</em></p>
     </div>
   </article>
 
@@ -545,7 +525,6 @@ permalink: /team/
     <div class="team-card__body">
       <h3 class="team-card__name">Eduardo Lazcano-Ponce</h3>
       <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-      <p class="team-card__meta"><strong>Present address:</strong> —</p>
     </div>
   </article>
 
