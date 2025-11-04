@@ -199,7 +199,7 @@ permalink: /team/
           
         <article class="team-card">
                 <div class="team-card__media">
-              <img src="{{ '/assets/photos/Ram_Gonzalez.png' | relative_url }}"
+              <img src="{{ '/assets/photos/Ram_Gonzalez.jpeg' | relative_url }}"
                    alt="Ram">
             </div>
             <div class="team-card__body">
