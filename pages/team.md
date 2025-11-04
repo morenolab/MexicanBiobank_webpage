@@ -150,6 +150,10 @@ permalink: /team/
 
           
           <article class="team-card">
+              <div class="team-card__media">
+              <img src="{{ '/assets/photos/alexioannidis.jpeg' | relative_url }}"
+                   alt="Alexander G. Ioannidis">
+            </div>
             <div class="team-card__body">
               <h3 class="team-card__name">Consuelo D. Quinto-Cortés</h3>
               <p class="team-card__meta">Data Generation and Quality Control</p>
@@ -159,6 +163,10 @@ permalink: /team/
           
                     
           <article class="team-card">
+        <div class="team-card__media">
+              <img src="{{ '/assets/photos/Carmina_Barberena.png' | relative_url }}"
+                   alt="Carmina">
+            </div>
             <div class="team-card__body">
               <h3 class="team-card__name">Carmina Barberena-Jonas</h3>
               <p class="team-card__meta">Medical Genomics</p>
@@ -167,6 +175,10 @@ permalink: /team/
           </article>
           
         <article class="team-card">
+                <div class="team-card__media">
+              <img src="{{ '/assets/photos/Santiago_Medina.png' | relative_url }}"
+                   alt="Santiago">
+            </div>
             <div class="team-card__body">
               <h3 class="team-card__name">Santiago Medina-Muñoz</h3>
               <p class="team-card__meta">Demographic inference</p>
@@ -174,6 +186,10 @@ permalink: /team/
           </article>
           
         <article class="team-card">
+                <div class="team-card__media">
+              <img src="{{ '/assets/photos/Ricardo_Rodriguez.png' | relative_url }}"
+                   alt="Ricardo">
+            </div>
             <div class="team-card__body">
               <h3 class="team-card__name">Ricardo Rodriguez</h3>
               <p class="team-card__meta">Demographic inference</p>
@@ -182,6 +198,10 @@ permalink: /team/
           </article>
           
         <article class="team-card">
+                <div class="team-card__media">
+              <img src="{{ '/assets/photos/Ram_Gonzalez.png' | relative_url }}"
+                   alt="Ram">
+            </div>
             <div class="team-card__body">
               <h3 class="team-card__name">Ram Gonzalez</h3>
               <p class="team-card__meta">Selection</p>
@@ -191,6 +211,10 @@ permalink: /team/
           
           
         <article class="team-card">
+                <div class="team-card__media">
+              <img src="{{ '/assets/photos/Daniela_Orozco.png' | relative_url }}"
+                   alt="Daniela">
+            </div>
             <div class="team-card__body">
               <h3 class="team-card__name">Daniela Orozco</h3>
               <p class="team-card__meta">Ancient DNA</p>
