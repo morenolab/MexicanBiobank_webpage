@@ -176,7 +176,7 @@ permalink: /team/
           
         <article class="team-card">
                 <div class="team-card__media">
-              <img src="{{ '/assets/photos/Santiago_Medina.png' | relative_url }}"
+              <img src="{{ '/assets/photos/Santiago_Medina.jpg' | relative_url }}"
                    alt="Santiago">
             </div>
             <div class="team-card__body">
