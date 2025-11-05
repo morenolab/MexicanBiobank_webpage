@@ -92,7 +92,6 @@ permalink: /team/
               <p class="team-card__meta">The Jenner Institute, University of Oxford, UK</p>
               <div class="team-card__links">
                 <a href="https://www.ndm.ox.ac.uk/principal-investigators/researcher/adrian-hill" target="_blank" rel="noopener">Webpage</a>
-                <a href="mailto:adrian.hill@ndm.ox.ac.uk">Contact</a>
               </div>
             </div>
         </article>
@@ -107,7 +106,6 @@ permalink: /team/
               <p class="team-card__meta">Wellcome Centre for Human Genetics/Li Ka Shing Big Data Institute, UK</p>
               <div class="team-card__links">
                 <a href="http://www.well.ox.ac.uk/dr-alex-mentzer-clinical-research-fellow" target="_blank" rel="noopener">Webpage</a>
-                <a href="mailto:alexander.mentzer@ndm.ox.ac.uk">Contact</a>
               </div>
             </div>
         </article>
@@ -121,7 +119,6 @@ permalink: /team/
               <h3 class="team-card__name">Amanda Chong</h3>
               <p class="team-card__meta">Wellcome Centre for Human Genetics and Li Ka Shing Big Data Institute, UK</p>
               <div class="team-card__links">
-                <a href="mailto:amanda.chong@well.ox.ac.uk">Contact</a>
               </div>
             </div>
         </article>
@@ -135,7 +132,6 @@ permalink: /team/
               <h3 class="team-card__name">Tim Waterboer</h3>
               <p class="team-card__meta">German Cancer Research Center (DKFZ)</p>
               <div class="team-card__links">
-                <a href="mailto:T.Waterboer@dkfz-heidelberg.de">Contact</a>
               </div>
             </div>
         </article>
@@ -148,7 +144,6 @@ permalink: /team/
               <h3 class="team-card__name">Alexander Ioannidis</h3>
               <p class="team-card__meta">UC Santa Cruz</p>
               <div class="team-card__links">
-                <a href="mailto:ioannidis@ucsc.edu">Contact</a>
               </div>
             </div>
         </article>
@@ -161,7 +156,7 @@ permalink: /team/
 
                 <article class="team-card">
                     <div class="team-card__media">
-                      <img src="{{ '/assets/photos/alexioannidis.jpeg' | relative_url }}" alt="Alexander G. Ioannidis">
+                      <img src="{{ '/assets/photos/Consuelo_Quinto.png' | relative_url }}" alt="Consuelo">
                     </div>
                     <div class="team-card__body">
                       <h3 class="team-card__name">Consuelo D. Quinto-Cortés</h3>
@@ -187,7 +182,7 @@ permalink: /team/
 
                 <article class="team-card">
                     <div class="team-card__media">
-                      <img src="{{ '/assets/photos/Santiago_Medina.jpg' | relative_url }}" alt="Santiago">
+                      <img src="{{ '/assets/photos/Santiago_Medina.png' | relative_url }}" alt="Santiago">
                     </div>
                     <div class="team-card__body">
                       <h3 class="team-card__name">Santiago Medina-Muñoz</h3>
