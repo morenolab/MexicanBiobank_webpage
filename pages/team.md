@@ -33,7 +33,7 @@ permalink: /team/
 
           <article class="team-card">
             <div class="team-card__media">
-              <img src="{{ '/assets/photos/Lourdes_Garcia.png' | relative_url }}"
+              <img src="{{ '/assets/photos/Lourdes-Garcia-Garcia.png' | relative_url }}"
                    alt="Maria de Lourdes Garcia-Garcia">
             </div>
             <div class="team-card__body">
