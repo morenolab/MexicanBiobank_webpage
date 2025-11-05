@@ -144,7 +144,7 @@ permalink: /team/
 
         </div>
 
-       <h3>Contributing Researchers</h3>
+       <h3>MXB Researchers</h3>
 
         <div class="team-cards team-cards--others">
 
