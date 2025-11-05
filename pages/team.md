@@ -228,7 +228,7 @@ permalink: /team/
 
                 <article class="team-card">
                     <div class="team-card__media">
-                      <img src="{{ '/assets/photos/Mashaal_Sohail.png' | relative_url }}" alt="Daniela">
+                      <img src="{{ '/assets/photos/Mashaal_Sohail.png' | relative_url }}" alt="Mashaal">
                     </div>
                     <div class="team-card__body">
                       <h3 class="team-card__name">Mashaal Sohail</h3>
@@ -241,7 +241,7 @@ permalink: /team/
 
                 <article class="team-card">
                     <div class="team-card__media">
-                      <img src="{{ '/assets/photos/Majo_Palma.png' | relative_url }}" alt="Daniela">
+                      <img src="{{ '/assets/photos/Majo_Palma.png' | relative_url }}" alt="Majo">
                     </div>
                     <div class="team-card__body">
                       <h3 class="team-card__name">Maria José Palma</h3>
@@ -254,7 +254,7 @@ permalink: /team/
 
                 <article class="team-card">
                     <div class="team-card__media">
-                      <img src="{{ '/assets/photos/Alicia_Huerta.png' | relative_url }}" alt="Daniela">
+                      <img src="{{ '/assets/photos/Alicia_Huerta.png' | relative_url }}" alt="Alicia">
                     </div>
                     <div class="team-card__body">
                       <h3 class="team-card__name">Alicia Huerta Chagoya</h3>
@@ -267,7 +267,7 @@ permalink: /team/
 
                 <article class="team-card">
                     <div class="team-card__media">
-                      <img src="{{ '/assets/photos/Josep_Mercader.png' | relative_url }}" alt="Daniela">
+                      <img src="{{ '/assets/photos/Josep_Mercader.png' | relative_url }}" alt="Josep">
                     </div>
                     <div class="team-card__body">
                       <h3 class="team-card__name">Josep Mercader</h3>
@@ -280,7 +280,7 @@ permalink: /team/
 
                 <article class="team-card">
                     <div class="team-card__media">
-                      <img src="{{ '/assets/photos/Gonzaga.jpg' | relative_url }}" alt="Daniela">
+                      <img src="{{ '/assets/photos/Gonzaga.jpg' | relative_url }}" alt="Claudia">
                     </div>
                     <div class="team-card__body">
                       <h3 class="team-card__name">Claudia Gonzaga Jauregui</h3>
@@ -293,7 +293,7 @@ permalink: /team/
 
                 <article class="team-card">
                     <div class="team-card__media">
-                      <img src="{{ '/assets/photos/mariaavila.jpg' | relative_url }}" alt="Daniela">
+                      <img src="{{ '/assets/photos/mariaavila.jpg' | relative_url }}" alt="Maria">
                     </div>
                     <div class="team-card__body">
                       <h3 class="team-card__name">Maria Avila Arcos</h3>
@@ -303,6 +303,22 @@ permalink: /team/
                       </div>
                     </div>
                 </article>
+
+                <article class="team-card">
+                    <div class="team-card__media">
+                      <img src="{{ '/assets/photos/selene_fernandez_valverde.jpg' | relative_url }}" alt="Selene">
+                    </div>
+                    <div class="team-card__body">
+                      <h3 class="team-card__name">Selene Lizbeth Fernández Valverde</h3>
+                      <p class="team-card__meta">UNSW RNA Institute</p>
+                      <div class="team-card__links">
+                        <a href="https://www.mxbiobank.org/research/">Selection</a>
+                      </div>
+                    </div>
+                </article>
+
+
+                
 
         </div>
 
