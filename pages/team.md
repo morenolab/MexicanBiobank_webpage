@@ -90,9 +90,6 @@ permalink: /team/
             <div class="team-card__body">
               <h3 class="team-card__name">Adrian Hill</h3>
               <p class="team-card__meta">The Jenner Institute, University of Oxford, UK</p>
-              <div class="team-card__links">
-                <a href="https://www.ndm.ox.ac.uk/principal-investigators/researcher/adrian-hill" target="_blank" rel="noopener">Webpage</a>
-              </div>
             </div>
         </article>
 
@@ -104,9 +101,6 @@ permalink: /team/
             <div class="team-card__body">
               <h3 class="team-card__name">Alexander J. Mentzer</h3>
               <p class="team-card__meta">Wellcome Centre for Human Genetics/Li Ka Shing Big Data Institute, UK</p>
-              <div class="team-card__links">
-                <a href="http://www.well.ox.ac.uk/dr-alex-mentzer-clinical-research-fellow" target="_blank" rel="noopener">Webpage</a>
-              </div>
             </div>
         </article>
 
