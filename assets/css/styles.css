@@ -752,3 +752,87 @@ p a:hover{ color: var(--brand-700); }
 .team-card:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(0,0,0,.12)}
 .team-card__name{margin:0 0 .25rem;color:var(--brand-700);font-weight:700}
 .team-card__meta{margin:0;font-size:.95rem;color:var(--muted);line-height:1.4}
+
+
+
+/* Styles for alternating cards */
+
+/* Alternating org rows */
+.alt-orgs { margin-block: clamp(1.5rem, 2vw, 3rem); }
+.alt-orgs > h3 { margin-bottom: clamp(1rem, 1.5vw, 1.5rem); }
+
+.org-row {
+display: grid;
+grid-template-columns: minmax(260px, 420px) 1fr;
+gap: clamp(1rem, 2vw, 2rem);
+align-items: center;
+padding: clamp(1rem, 2vw, 1.5rem);
+border: 1px solid var(--border, #e5e5e5);
+border-radius: var(--radius, 12px);
+background: var(--card, #fff);
+box-shadow: var(--shadow, 0 2px 10px rgba(0,0,0,.04));
+}
+.org-row + .org-row { margin-top: clamp(1rem, 2vw, 1.5rem); }
+
+.org-row--reverse { grid-template-columns: 1fr minmax(260px, 420px); }
+.org-row--reverse .org-row__logo { order: 2; }
+.org-row--reverse .org-row__names { order: 1; }
+
+.org-row__logo figure { margin: 0; display: grid; place-items: center; }
+.org-row__logo img { max-width: 100%; height: auto; object-fit: contain; filter: saturate(1.05) contrast(1.05); }
+
+.org-row__heading { margin: 0 0 .5rem 0; font-size: clamp(1.05rem, 1.2vw, 1.25rem); color: var(--text, #222); }
+
+.org-row__list { margin: 0; padding: 0; list-style: none; columns: 1; column-gap: 2rem; }
+@media (min-width: 900px) { .org-row__list { columns: 2; } }
+
+.org-row__person { break-inside: avoid; padding: .15rem 0; }
+.org-row__person-name { font-weight: 500; }
+
+/* a11y utility */
+.sr-only {
+position: absolute !important;
+width: 1px; height: 1px; padding: 0; margin: -1px;
+overflow: hidden; clip: rect(0,0,0,0);
+white-space: nowrap; border: 0;
+}
+
+/* Optional entrance animation */
+@media (prefers-reduced-motion: no-preference) {
+.org-row { opacity: 0; transform: translateY(8px); animation: fadeInUp .5s ease forwards; }
+.org-row:nth-child(2) { animation-delay: .05s; }
+.org-row:nth-child(3) { animation-delay: .1s; }
+.org-row:nth-child(4) { animation-delay: .15s; }
+@keyframes fadeInUp { to { opacity: 1; transform: translateY(0); } }
+}
+
+
+/* ---------- Other Collaborators: smaller cards (~75%) ---------- */
+/* Shrink the grid's minimum card width a bit so more columns can fit */
+.team-cards.team-cards--others{
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: calc(clamp(1rem, 2vw, 1.25rem) * .9);
+}
+
+/* Tighter card paddings and a touch smaller type */
+.team-cards--others .team-card{
+  padding: .85rem;
+}
+
+/* Keep media box but slightly reduce its perceived size */
+.team-cards--others .team-card__media{
+  aspect-ratio: 4 / 3;         /* same ratio as your base */
+  /* reduce perceived image size a touch without cropping */
+}
+.team-cards--others .team-card__media img{
+  max-width: 90%;
+  max-height: 90%;
+}
+
+/* Slightly smaller heading and body text inside the card */
+.team-cards--others .team-card__name{
+  font-size: clamp(.92rem, .35vw + .9rem, 1.02rem);
+}
+.team-cards--others .team-card__body{
+  padding: .85rem .95rem .95rem;
+}

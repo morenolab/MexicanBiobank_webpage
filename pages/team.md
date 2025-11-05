@@ -45,7 +45,6 @@ permalink: /team/
               </div>
             </div>
           </article>
-
           
           <article class="team-card">
             <div class="team-card__media">
@@ -81,22 +80,24 @@ permalink: /team/
 
        <h3>International collaborators</h3>
 
-       <article class="team-card">
+        <div class="team-cards team-cards--others">
+
+        <article class="team-card">
             <div class="team-card__media">
               <img src="{{ '/assets/photos/Adrian_Hill.png' | relative_url }}"
                    alt="Adrian Hill">
             </div>
             <div class="team-card__body">
-              <h3 class="team-card__name">Adrian VS Hill</h3>
+              <h3 class="team-card__name">Adrian Hill</h3>
               <p class="team-card__meta">The Jenner Institute, University of Oxford, UK</p>
               <div class="team-card__links">
                 <a href="https://www.ndm.ox.ac.uk/principal-investigators/researcher/adrian-hill" target="_blank" rel="noopener">Webpage</a>
                 <a href="mailto:adrian.hill@ndm.ox.ac.uk">Contact</a>
               </div>
             </div>
-          </article>
-          
-          <article class="team-card">
+        </article>
+
+        <article class="team-card">
             <div class="team-card__media">
               <img src="{{ '/assets/photos/Alex_Mentzer.png' | relative_url }}"
                    alt="Alexander J. Mentzer">
@@ -109,9 +110,13 @@ permalink: /team/
                 <a href="mailto:alexander.mentzer@ndm.ox.ac.uk">Contact</a>
               </div>
             </div>
-          </article>
+        </article>
 
-         <article class="team-card">
+        <article class="team-card">
+            <div class="team-card__media">
+              <img src="{{ '/assets/photos/Alex_Mentzer.png' | relative_url }}"
+                   alt="Alexander J. Mentzer">
+            </div>
             <div class="team-card__body">
               <h3 class="team-card__name">Amanda Chong</h3>
               <p class="team-card__meta">Wellcome Centre for Human Genetics and Li Ka Shing Big Data Institute, UK</p>
@@ -119,9 +124,13 @@ permalink: /team/
                 <a href="mailto:amanda.chong@well.ox.ac.uk">Contact</a>
               </div>
             </div>
-          </article>
+        </article>
 
         <article class="team-card">
+            <div class="team-card__media">
+              <img src="{{ '/assets/photos/Alex_Mentzer.png' | relative_url }}"
+                   alt="Alexander J. Mentzer">
+            </div>
             <div class="team-card__body">
               <h3 class="team-card__name">Tim Waterboer</h3>
               <p class="team-card__meta">German Cancer Research Center (DKFZ)</p>
@@ -129,12 +138,11 @@ permalink: /team/
                 <a href="mailto:T.Waterboer@dkfz-heidelberg.de">Contact</a>
               </div>
             </div>
-          </article>
+        </article>
 
-          <article class="team-card">
-              <div class="team-card__media">
-              <img src="{{ '/assets/photos/alexioannidis.jpeg' | relative_url }}"
-                   alt="Alexander G. Ioannidis">
+        <article class="team-card">
+            <div class="team-card__media">
+              <img src="{{ '/assets/photos/alexioannidis.jpeg' | relative_url }}" alt="Alexander G. Ioannidis">
             </div>
             <div class="team-card__body">
               <h3 class="team-card__name">Alexander Ioannidis</h3>
@@ -143,425 +151,181 @@ permalink: /team/
                 <a href="mailto:ioannidis@ucsc.edu">Contact</a>
               </div>
             </div>
-          </article>
+        </article>
 
-        <h3>Contributing Researchers</h3>
+        </div>
 
+       <h3>Contributing Researchers</h3>
 
-          
-          <article class="team-card">
-              <div class="team-card__media">
-              <img src="{{ '/assets/photos/alexioannidis.jpeg' | relative_url }}"
-                   alt="Alexander G. Ioannidis">
-            </div>
-            <div class="team-card__body">
-              <h3 class="team-card__name">Consuelo D. Quinto-Cortés</h3>
-              <p class="team-card__meta">Data Generation and Quality Control</p>
-              <p class="team-card__meta">CINVESTAV Sede Sur</p>
-            </div>
-          </article>
-          
-                    
-          <article class="team-card">
-        <div class="team-card__media">
-              <img src="{{ '/assets/photos/Carmina_Barberena.png' | relative_url }}"
-                   alt="Carmina">
-            </div>
-            <div class="team-card__body">
-              <h3 class="team-card__name">Carmina Barberena-Jonas</h3>
-              <p class="team-card__meta">Medical Genomics</p>
-              <p class="team-card__meta">CINVESTAV Sede Sur</p>
-            </div>
-          </article>
-          
-        <article class="team-card">
-                <div class="team-card__media">
-              <img src="{{ '/assets/photos/Santiago_Medina.jpg' | relative_url }}"
-                   alt="Santiago">
-            </div>
-            <div class="team-card__body">
-              <h3 class="team-card__name">Santiago Medina-Muñoz</h3>
-              <p class="team-card__meta">Demographic inference</p>
-            </div>
-          </article>
-          
-        <article class="team-card">
-                <div class="team-card__media">
-              <img src="{{ '/assets/photos/Ricardo_Rodriguez.png' | relative_url }}"
-                   alt="Ricardo">
-            </div>
-            <div class="team-card__body">
-              <h3 class="team-card__name">Ricardo Rodriguez</h3>
-              <p class="team-card__meta">Demographic inference</p>
-              <p class="team-card__meta">CINVESTAV Sede Sur</p>
-            </div>
-          </article>
-          
-        <article class="team-card">
-                <div class="team-card__media">
-              <img src="{{ '/assets/photos/Ram_Gonzalez.jpeg' | relative_url }}"
-                   alt="Ram">
-            </div>
-            <div class="team-card__body">
-              <h3 class="team-card__name">Ram Gonzalez</h3>
-              <p class="team-card__meta">Selection</p>
-              <p class="team-card__meta">CINVESTAV Sede Sur</p>
-            </div>
-          </article>
-          
-          
-        <article class="team-card">
-                <div class="team-card__media">
-              <img src="{{ '/assets/photos/Daniela_Orozco.png' | relative_url }}"
-                   alt="Daniela">
-            </div>
-            <div class="team-card__body">
-              <h3 class="team-card__name">Daniela Orozco</h3>
-              <p class="team-card__meta">Ancient DNA</p>
-              <p class="team-card__meta">CINVESTAV Sede Sur</p>
-            </div>
-          </article>
-          
-          
-        <article class="team-card">
-            <div class="team-card__body">
-              <h3 class="team-card__name">Mashaal Sohail</h3>
-              <p class="team-card__meta">Population Genetics</p>
-              <p class="team-card__meta">CCG, UNAM</p>
-            </div>
-          </article>
-          
-        <article class="team-card">
-            <div class="team-card__body">
-              <h3 class="team-card__name">Maria José Palma</h3>
-              <p class="team-card__meta">Population Genetics</p>
-              <p class="team-card__meta">CCG, UNAM</p>
-            </div>
-          </article>
-          
-        <article class="team-card">
-            <div class="team-card__body">
-              <h3 class="team-card__name">Alicia Huerta Chagoya</h3>
-              <p class="team-card__meta">GWAS</p>
-              <p class="team-card__meta">Broad Institute</p>
-            </div>
-          </article>
-          
-        <article class="team-card">
-            <div class="team-card__body">
-              <h3 class="team-card__name">Josep Mercader</h3>
-              <p class="team-card__meta">GWAS</p>
-              <p class="team-card__meta">Broad Institute</p>
-            </div>
-          </article>
-          
-        <article class="team-card">
-            <div class="team-card__body">
-              <h3 class="team-card__name">Claudia Gonzaga Jauregui</h3>
-              <p class="team-card__meta">LIIGH, UNAM</p>
-              <p class="team-card__meta">Broad Institute</p>
-            </div>
-          </article>
-          
-        <article class="team-card">
-            <div class="team-card__body">
-              <h3 class="team-card__name">Maria Avila Arcos</h3>
-              <p class="team-card__meta">LIIGH, UNAM</p>
-              <p class="team-card__meta">Ancient DNA</p>
-            </div>
-          </article>
+        <div class="team-cards team-cards--others">
 
+                <article class="team-card">
+                    <div class="team-card__media">
+                      <img src="{{ '/assets/photos/alexioannidis.jpeg' | relative_url }}" alt="Alexander G. Ioannidis">
+                    </div>
+                    <div class="team-card__body">
+                      <h3 class="team-card__name">Consuelo D. Quinto-Cortés</h3>
+                      <p class="team-card__meta">CINVESTAV Sede Sur</p>
+                      <div class="team-card__links">
+                        <a href="https://www.mxbiobank.org/research/">Data Generation and Quality Control</a>
+                      </div>
+                    </div>
+                </article>
 
-        <h3>Institutions</h3>
+                <article class="team-card">
+                    <div class="team-card__media">
+                      <img src="{{ '/assets/photos/Carmina_Barberena.png' | relative_url }}" alt="Carmina">
+                    </div>
+                    <div class="team-card__body">
+                      <h3 class="team-card__name">Carmina Barberena-Jonas</h3>
+                      <p class="team-card__meta">CINVESTAV Sede Sur</p>
+                      <div class="team-card__links">
+                        <a href="https://www.mxbiobank.org/research/">Medical Genomics</a>
+                      </div>
+                    </div>
+                </article>
 
-        <section class="institutions">
+                <article class="team-card">
+                    <div class="team-card__media">
+                      <img src="{{ '/assets/photos/Santiago_Medina.jpg' | relative_url }}" alt="Santiago">
+                    </div>
+                    <div class="team-card__body">
+                      <h3 class="team-card__name">Santiago Medina-Muñoz</h3>
+                      <p class="team-card__meta">CINVESTAV Sede Sur</p>
+                      <div class="team-card__links">
+                        <a href="https://www.mxbiobank.org/research/">Demographic inference</a>
+                      </div>
+                    </div>
+                </article>
 
-                <div class="card">
-                        <h3><a href="https://cinvestav.mx/" target="_blank">Centro de Investigación y de Estudios Avanzados / Center for Research and Advanced Studies (CINVESTAV)</a></h3>
-                </div>
+                <article class="team-card">
+                    <div class="team-card__media">
+                      <img src="{{ '/assets/photos/Ricardo_Rodriguez.png' | relative_url }}" alt="Ricardo">
+                    </div>
+                    <div class="team-card__body">
+                      <h3 class="team-card__name">Ricardo Rodriguez</h3>
+                      <p class="team-card__meta">CINVESTAV Sede Sur</p>
+                      <div class="team-card__links">
+                        <a href="https://www.mxbiobank.org/research/">Demographic inference</a>
+                      </div>
+                    </div>
+                </article>
 
-                <div class="card">
-                        <h3><a href="https://www.insp.mx/" target="_blank">Instituto Nacional de Salud Pública / National Institute of Public Health</a></h3>
-                </div>
-                
-                <div class="card">
-                        <h3><a href="https://www.innsz.mx/" target="_blank">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán / National Institute of Medical Sciences &amp; Nutrition Salvador Zubirán</a></h3>
-                </div>
+                <article class="team-card">
+                    <div class="team-card__media">
+                      <img src="{{ '/assets/photos/Ram_Gonzalez.jpeg' | relative_url }}" alt="Ram">
+                    </div>
+                    <div class="team-card__body">
+                      <h3 class="team-card__name">Ram Gonzalez</h3>
+                      <p class="team-card__meta">CINVESTAV Sede Sur</p>
+                      <div class="team-card__links">
+                        <a href="https://www.mxbiobank.org/research/">Selection</a>
+                      </div>
+                    </div>
+                </article>
 
-                <div class="card">
-                        <h3><a href="https://www.ccg.unam.mx/" target="_blank">Centro de Ciencias Genómicas / Center for Genomics Sciences</a></h3>
-                </div>
+                <article class="team-card">
+                    <div class="team-card__media">
+                      <img src="{{ '/assets/photos/Daniela_Orozco.png' | relative_url }}" alt="Daniela">
+                    </div>
+                    <div class="team-card__body">
+                      <h3 class="team-card__name">Daniela Orozco</h3>
+                      <p class="team-card__meta">CINVESTAV Sede Sur</p>
+                      <div class="team-card__links">
+                        <a href="https://www.mxbiobank.org/research/">Ancient DNA</a>
+                      </div>
+                    </div>
+                </article>
 
-                <div class="card">
-                        <h3><a href="http://www.ox.ac.uk/" target="_blank">University of Oxford</a></h3>
-                </div>
+                <article class="team-card">
+                    <div class="team-card__media">
+                      <img src="{{ '/assets/photos/Daniela_Orozco.png' | relative_url }}" alt="Daniela">
+                    </div>
+                    <div class="team-card__body">
+                      <h3 class="team-card__name">Mashaal Sohail</h3>
+                      <p class="team-card__meta">CCG-UNAM</p>
+                      <div class="team-card__links">
+                        <a href="https://www.mxbiobank.org/research/">Population Genetics</a>
+                      </div>
+                    </div>
+                </article>
 
-                <div class="card">
-                        <h3><a href="http://www.well.ox.ac.uk/home" target="_blank">Wellcome Trust Centre for Human Genetics</a></h3>
-                </div>
-                
-                <div class="card">
-                        <h3><a href="https://www.jenner.ac.uk/home" target="_blank">Jenner Institute</a></h3>
-                </div>
+                <article class="team-card">
+                    <div class="team-card__media">
+                      <img src="{{ '/assets/photos/Daniela_Orozco.png' | relative_url }}" alt="Daniela">
+                    </div>
+                    <div class="team-card__body">
+                      <h3 class="team-card__name">Maria José Palma</h3>
+                      <p class="team-card__meta">CCG-UNAM</p>
+                      <div class="team-card__links">
+                        <a href="https://www.mxbiobank.org/research/">Population Genetics</a>
+                      </div>
+                    </div>
+                </article>
 
-        </section>
-        
-        <h3>ENSA Genomics Consortium</h3>
-<section class="team-grid">
+                <article class="team-card">
+                    <div class="team-card__media">
+                      <img src="{{ '/assets/photos/Daniela_Orozco.png' | relative_url }}" alt="Daniela">
+                    </div>
+                    <div class="team-card__body">
+                      <h3 class="team-card__name">Alicia Huerta Chagoya</h3>
+                      <p class="team-card__meta">Broad Institute</p>
+                      <div class="team-card__links">
+                        <a href="https://www.mxbiobank.org/research/">GWAS</a>
+                      </div>
+                    </div>
+                </article>
 
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Carlos Aguilar-Salinas</h3>
-      <p class="team-card__meta">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</p>
-    </div>
-  </article>
+                <article class="team-card">
+                    <div class="team-card__media">
+                      <img src="{{ '/assets/photos/Daniela_Orozco.png' | relative_url }}" alt="Daniela">
+                    </div>
+                    <div class="team-card__body">
+                      <h3 class="team-card__name">Josep Mercader</h3>
+                      <p class="team-card__meta">Broad Institute</p>
+                      <div class="team-card__links">
+                        <a href="https://www.mxbiobank.org/research/">GWAS</a>
+                      </div>
+                    </div>
+                </article>
 
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Carmina Barberena-Jonás</h3>
-      <p class="team-card__meta">Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</p>
-    </div>
-  </article>
+                <article class="team-card">
+                    <div class="team-card__media">
+                      <img src="{{ '/assets/photos/Daniela_Orozco.png' | relative_url }}" alt="Daniela">
+                    </div>
+                    <div class="team-card__body">
+                      <h3 class="team-card__name">Claudia Gonzaga Jauregui</h3>
+                      <p class="team-card__meta">LIIGH-UNAM</p>
+                      <div class="team-card__links">
+                        <a href="https://www.mxbiobank.org/research/">Ancient DNA</a>
+                      </div>
+                    </div>
+                </article>
 
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Sergio Canizales-Quintero</h3>
-      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-    </div>
-  </article>
+                <article class="team-card">
+                    <div class="team-card__media">
+                      <img src="{{ '/assets/photos/Daniela_Orozco.png' | relative_url }}" alt="Daniela">
+                    </div>
+                    <div class="team-card__body">
+                      <h3 class="team-card__name">Maria Avila Arcos</h3>
+                      <p class="team-card__meta">LIIGH-UNAM</p>
+                      <div class="team-card__links">
+                        <a href="https://www.mxbiobank.org/research/">Ancient DNA</a>
+                      </div>
+                    </div>
+                </article>
 
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Vianka Cedillo-Castelán</h3>
-      <p class="team-card__meta">Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</p>
-    </div>
-  </article>
+        </div>
 
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Luis Pablo Cruz-Hervert</h3>
-      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-      <p class="team-card__meta"><strong>Current affiliation:</strong> Universidad Nacional Autónoma de México</p>
-    </div>
-  </article>
-
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Guadalupe Delgado-Sánchez</h3>
-      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-    </div>
-  </article>
-
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Elizabeth Ferreira-Guerrero</h3>
-      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-    </div>
-  </article>
-
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Leticia Ferreyra-Reyes</h3>
-      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-    </div>
-  </article>
-
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Lourdes García-García</h3>
-      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-    </div>
-  </article>
-
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Cecilia Gutiérrez-López</h3>
-      <p class="team-card__meta">Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</p>
-    </div>
-  </article>
-
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Juan Eugenio Hernández-Avila</h3>
-      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-    </div>
-  </article>
-
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Alicia Huerta-Chagoya</h3>
-      <p class="team-card__meta">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</p>
-    </div>
-  </article>
-
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Luis Juárez-Figueroa</h3>
-      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-      <p class="team-card__meta"><em>Deceased</em></p>
-    </div>
-  </article>
-
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Pablo Kuri-Morales</h3>
-      <p class="team-card__meta">Secretaría de Salud</p>
-      <p class="team-card__meta"><strong>Current affiliation:</strong> Tecnológico de Monterrey</p>
-    </div>
-  </article>
-
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Carlos Magis-Rodriguéz</h3>
-      <p class="team-card__meta">Secretaría de Salud</p>
-      <p class="team-card__meta"><strong>Current affiliation:</strong> Universidad Nacional Autónoma de México</p>
-    </div>
-  </article>
-
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Norma Mongua-Rodriguéz</h3>
-      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-    </div>
-  </article>
-
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Andres Moreno-Estrada</h3>
-      <p class="team-card__meta">Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</p>
-    </div>
-  </article>
-
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Hortensia Moreno-Macias</h3>
-      <p class="team-card__meta">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</p>
-      <p class="team-card__meta"><strong>Current affiliation:</strong> Universidad Autónoma Metropolitana</p>
-    </div>
-  </article>
-
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Maria Luisa Ordóñez-Sánchez</h3>
-      <p class="team-card__meta">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</p>
-    </div>
-  </article>
-
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">María de Jesús Ortega-Estrada</h3>
-      <p class="team-card__meta">Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</p>
-    </div>
-  </article>
-
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">María José Palma-Martínez</h3>
-      <p class="team-card__meta">Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</p>
-      <p class="team-card__meta"><strong>Current affiliation:</strong> Universidad Nacional Autónoma de México</p>
-    </div>
-  </article>
-
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Consuelo D Quinto-Cortés</h3>
-      <p class="team-card__meta">Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</p>
-    </div>
-  </article>
-
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Rosario Rodríguez-Guillen</h3>
-      <p class="team-card__meta">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</p>
-    </div>
-  </article>
-
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Elsa Sarti-Gutíerrez</h3>
-      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-      <p class="team-card__meta"><em>Retired</em></p>
-    </div>
-  </article>
-
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Jaime Sepúlveda-Amor</h3>
-      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-      <p class="team-card__meta"><strong>Current affiliation:</strong> University of California San Francisco (UCSF)</p>
-    </div>
-  </article>
-
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Mashaal Sohail</h3>
-      <p class="team-card__meta">Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)</p>
-      <p class="team-card__meta"><strong>Current affiliation:</strong> Universidad Nacional Autónoma de México</p>
-    </div>
-  </article>
-
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Roberto Tapia-Conyer</h3>
-      <p class="team-card__meta">Secretaría de Salud</p>
-      <p class="team-card__meta"><strong>Current affiliation:</strong> Fundación Carlos Slim</p>
-    </div>
-  </article>
-
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Maria Teresa Tusié-Luna</h3>
-      <p class="team-card__meta">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</p>
-    </div>
-  </article>
-
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">José Luis Valdespino-Gómez</h3>
-      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-      <p class="team-card__meta"><em>Deceased</em></p>
-    </div>
-  </article>
-
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Norma Tellez-Vazquez</h3>
-      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-    </div>
-  </article>
-
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Manuel Velázquez-Meza</h3>
-      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-    </div>
-  </article>
-
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Oscar Velázquez-Monroy</h3>
-      <p class="team-card__meta">Secretaría de Salud</p>
-      <p class="team-card__meta"><em>Deceased</em></p>
-    </div>
-  </article>
-
-  <article class="team-card">
-    <div class="team-card__body">
-      <h3 class="team-card__name">Eduardo Lazcano-Ponce</h3>
-      <p class="team-card__meta">Instituto Nacional de Salud Pública (INSP)</p>
-    </div>
-  </article>
-
-</section>
-
+        {% include alternating-logos.html title="ENSA Genomics Consortium" %}
 
         <h3>Funding</h3>
-
-                <body>
+  
                 <p>This project is co-funded by Mexico’s National Council of Science and Technology (CONACYT) and The UK Research Councils (RCUK) through The Newton Fund.</p>
 
                 <p>FONCICYT - RCUK 2016-2019: The Mexican Biobank Project: Building Capacity for Big Data Science in Medical Genomics in Admixed Populations.</p>
+  
                 <p>Chan Zuckerberg Initiative - CZI-2024-354605: AI modeling of genomic and single-cell transcriptomic datasets from underrepresented ancestries across Latin America.</p> 
-                </body>
+  
 
 </section>
