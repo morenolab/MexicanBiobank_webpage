@@ -14,7 +14,7 @@ institutions:
 
 - id: cinvestav
   name: "Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)"
-  logo: "/assets/images/images.png"
+  logo: "/assets/logos/SEDE5.png"
   members:
     - name: "Carmina Barberena-Jonás"
     - name: "Vianka Cedillo-Castelán"
@@ -47,7 +47,7 @@ institutions:
 
 - id: ssa
   name: "Secretaría de Salud"
-  logo: "/assets/images/University_of_Oxford.svg"
+  logo: "/assets/logos/SALUD_Logo.png"
   members:
     - name: "Pablo Kuri-Morales"
     - name: "Carlos Magis-Rodriguéz"
