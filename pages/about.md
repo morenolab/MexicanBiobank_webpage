@@ -7,7 +7,7 @@ permalink: /about/
 <section id="about">
         <h2>About</h2>
 
-        <p>The Mexican Biobank (MXB) is establishing the first large-scale genetic resource with nationwide coverage outside Europe and North America, with over 6,000 samples processed in the current phase. The knowledge generated through this initiative will enhance public health in Mexico, advance global human genetics research, and deepen our understanding of human evolution.</p>
+        <p>The Mexican Biobank (MXB) is establishing the first large-scale genomic resource with nationwide coverage outside Europe and North America, with over 6,000 samples processed in the current phase. The knowledge generated through this initiative will enhance public health in Mexico, advance global human genetics research, and deepen our understanding of human evolution.</p>
 
         <p>Developed and analyzed entirely in Mexico, the MXB is part of a broader effort to uncover the biological and cultural layers that define Mexican identity. Insights from this project will open new avenues for local research and training, fostering a more inclusive and global view of human health and evolution.</p>
 
@@ -17,11 +17,11 @@ permalink: /about/
 
         <p>Through large-scale genome-wide association studies (GWAS), the MXB project is identifying genetic factors that influence how different Mexican subpopulations respond to local infectious agents. These studies are uncovering genetic variants unique to specific ancestries, which may protect against or predispose to certain diseases. The discoveries emerging from this work will inform targeted biomedical research, including the development of population-specific drugs and vaccines.</p>
 
-        <p>The resulting genetic catalog—the first comprehensive one in Mexico—will also guide more accurate genetic counseling and support personalized medicine initiatives. By revealing the country’s intricate genetic landscape, the MXB ensures that the diverse health needs of Mexico’s populations are understood and addressed.</p>
+        <p>The resulting genetic catalog—the first comprehensive one in Mexico—will also guide more accurate genetic testing and support personalized medicine initiatives. By revealing the country’s intricate genetic landscape, the MXB ensures that the diverse health needs of Mexico’s populations are understood and addressed.</p>
 
-        <h3>Building Capacity and Accelerating Research</h3>
+        <h3>Building Local Capacity and Accelerating Research</h3>
 
-        <p>Beyond its scientific goals, the MXB is committed to building national capacity in genomics and data science. Through specialized workshops and collaborative training programs, local researchers are being equipped with the skills to analyze and interpret genomic data.</p>
+        <p>Beyond its scientific goals, the MXB is committed to building in-country research capacity in genomics and data science. By locally performing all research phases of the project, from sampling and processing, to genotyping, sequencing, and bioinformatic analyses, the MXB is strengthening the local leadership and international competitiveness of Mexico in large-scale genomics initiatives globally. Moreover, through specialized workshops and collaborative training programs, local researchers are being equipped with the skills to analyze and interpret genomic data. This includes the development of MexVar, a user-friendly platform designed to explore clinically relevant variation in the MXB taking ancestry and geography into account.</p>
 
         <p>This initiative is already accelerating genomic research and health-related data science within Mexico, fostering a new generation of experts capable of leading large-scale projects in human genetics, bioinformatics, and computational biology.</p>
 

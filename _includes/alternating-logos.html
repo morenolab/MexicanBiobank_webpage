@@ -1,0 +1,36 @@
+<section class="alt-orgs" aria-labelledby="ensa-title">
+  <h3 id="ensa-title">{{ include.title | default: site.data.ensa_consortium.title }}</h3>
+
+  {% assign orgs = site.data.ensa_consortium.institutions %}
+  {% for org in orgs %}
+    {% assign odd = forloop.index0 | modulo: 2 %}
+    <article class="org-row{% if odd == 1 %} org-row--reverse{% endif %}">
+      <div class="org-row__logo">
+        <figure>
+          <img
+            src="{{ org.logo | relative_url }}"
+            alt="Logo: {{ org.name }}"
+            loading="lazy"
+            decoding="async"
+            width="420"
+            height="420"
+          />
+          <figcaption class="sr-only">{{ org.name }}</figcaption>
+        </figure>
+      </div>
+
+      <div class="org-row__names">
+        <h4 class="org-row__heading">{{ org.name }}</h4>
+        <ul class="org-row__list">
+
+          {% for person in org.members %}
+            <li class="org-row__person">
+              <span class="org-row__person-name">{{ person.name }}</span>
+            </li>
+          {% endfor %}
+
+        </ul>
+      </div>
+    </article>
+  {% endfor %}
+</section>

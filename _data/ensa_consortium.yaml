@@ -1,0 +1,55 @@
+title: "ENSA Genomics Consortium"
+
+institutions:
+- id: incmnsz
+  name: "Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)"
+  logo: "/assets/images/Escudo_del_Instituto_Nacional_de_Ciencias_Médicas_y_Nutrición_Salvador_Zubirán.png"
+  members:
+    - name: "Carlos Aguilar-Salinas"
+    - name: "Alicia Huerta-Chagoya"
+    - name: "Hortensia Moreno-Macias"
+    - name: "Maria Luisa Ordóñez-Sánchez"
+    - name: "Rosario Rodríguez-Guillen"
+    - name: "Maria Teresa Tusié-Luna"
+
+- id: cinvestav
+  name: "Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)"
+  logo: "/assets/logos/logo2.jpg"
+  members:
+    - name: "Carmina Barberena-Jonás"
+    - name: "Vianka Cedillo-Castelán"
+    - name: "Cecilia Gutiérrez-López"
+    - name: "Andres Moreno-Estrada"
+    - name: "María de Jesús Ortega-Estrada"
+    - name: "María José Palma-Martínez"
+    - name: "Consuelo D Quinto-Cortés"
+    - name: "Mashaal Sohail"
+
+- id: insp
+  name: "Instituto Nacional de Salud Pública (INSP)"
+  logo: "/assets/images/logo_insp_principal_dark.png"
+  members:
+    - name: "Sergio Canizales-Quintero"
+    - name: "Luis Pablo Cruz-Hervert"
+    - name: "Guadalupe Delgado-Sánchez"
+    - name: "Elizabeth Ferreira-Guerrero"
+    - name: "Leticia Ferreyra-Reyes"
+    - name: "Lourdes García-García"
+    - name: "Juan Eugenio Hernández-Avila"
+    - name: "Norma Mongua-Rodriguéz"
+    - name: "Luis Juárez-Figueroa"
+    - name: "Elsa Sarti-Gutíerrez"
+    - name: "Jaime Sepúlveda-Amor"
+    - name: "José Luis Valdespino-Gómez"
+    - name: "Norma Tellez-Vazquez"
+    - name: "Manuel Velázquez-Meza"
+    - name: "Eduardo Lazcano-Ponce"
+
+- id: ssa
+  name: "Secretaría de Salud"
+  logo: "/assets/logos/SALUD_Logo.png"
+  members:
+    - name: "Pablo Kuri-Morales"
+    - name: "Carlos Magis-Rodriguéz"
+    - name: "Roberto Tapia-Conyer"
+    - name: "Oscar Velázquez-Monroy"

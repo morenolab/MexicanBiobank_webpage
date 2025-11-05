@@ -51,6 +51,16 @@ permalink: /news_publications/
         <p class="news-body"><em></em></p>
     </article>
 
+
+      <!-- August 2025 -->
+   
+      <article class="news-card">
+        <span class="news-badge"><time datetime="Aug 25">Aug 2025</time></span>
+        <h4 class="news-title"><a href="https://open.spotify.com/episode/4r4JpGUtl92S4N0mAdOsyt?si=kWlgL67jRV6kbTWg8VeMdw&context=spotify%3Ashow%3A4loKt8BLA058IoA1mXaDKK" target="_blank" rel="noopener">Interview about MerVar in &quot;De chicharos y habas&quot; podcast</a></h4>
+        <p class="news-meta">Carmina Barberena-Jonas, CINVESTAV, Mexico</p>
+        <p class="news-body"><em></em></p>
+    </article>
+
       <!-- Jul 2025 -->
    
       <article class="news-card">
