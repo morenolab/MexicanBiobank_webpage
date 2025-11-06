@@ -286,7 +286,7 @@ permalink: /team/
                       <h3 class="team-card__name">Claudia Gonzaga Jauregui</h3>
                       <p class="team-card__meta">LIIGH-UNAM</p>
                       <div class="team-card__links">
-                        <a href="https://www.mxbiobank.org/research/">Ancient DNA</a>
+                        <a href="https://www.mxbiobank.org/research/">Medical Genomics</a>
                       </div>
                     </div>
                 </article>
