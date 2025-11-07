@@ -63,7 +63,7 @@ permalink: /team/
 
           <article class="team-card">
             <div class="team-card__media">
-              <img src="{{ '/assets/photos/Carlos_Aguilar.jpg' | relative_url }}"
+              <img src="{{ '/assets/photos/Carlos_Aguilar.png' | relative_url }}"
                    alt="Carlos A. Aguilar Salinas">
             </div>
             <div class="team-card__body">
@@ -106,7 +106,7 @@ permalink: /team/
 
         <article class="team-card">
             <div class="team-card__media">
-              <img src="{{ '/assets/photos/woman.png' | relative_url }}"
+              <img src="{{ '/assets/photos/Amanda.JPG' | relative_url }}"
                    alt="Alexander J. Mentzer">
             </div>
             <div class="team-card__body">
