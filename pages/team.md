@@ -119,7 +119,7 @@ permalink: /team/
 
         <article class="team-card">
             <div class="team-card__media">
-              <img src="{{ '/assets/photos/dr-tim-waterboer.jpeg' | relative_url }}"
+              <img src="{{ '/assets/photos/dr-tim-waterboer.png' | relative_url }}"
                    alt="Alexander J. Mentzer">
             </div>
             <div class="team-card__body">
