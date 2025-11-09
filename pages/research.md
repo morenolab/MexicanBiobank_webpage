@@ -117,7 +117,7 @@ permalink: /research/
 
             <article class="cr-panel"
                 style="--bg-image: url('{{ "/assets/icons/health.png" | relative_url }}'); --bg-size: contain; --bg-position: center;">
-                <h3 class="cr-title">Pharmacogenomics</h3>
+                <h3 class="cr-title">Medical Genomics</h3>
             </article>
         </div>
 </section>
