@@ -208,7 +208,7 @@ permalink: /team/
                       <h3 class="team-card__name">Ram Gonzalez</h3>
                       <p class="team-card__meta">CINVESTAV Sede Sur</p>
                       <div class="team-card__links">
-                        <a href="https://www.mxbiobank.org/research/">Selection</a>
+                        <a href="https://www.mxbiobank.org/research/">Human Adaptation</a>
                       </div>
                     </div>
                 </article>
@@ -312,7 +312,7 @@ permalink: /team/
                       <h3 class="team-card__name">Selene Lizbeth Fernández Valverde</h3>
                       <p class="team-card__meta">UNSW RNA Institute</p>
                       <div class="team-card__links">
-                        <a href="https://www.mxbiobank.org/research/">Selection</a>
+                        <a href="https://www.mxbiobank.org/research/">Human Adaptation</a>
                       </div>
                     </div>
                 </article>
