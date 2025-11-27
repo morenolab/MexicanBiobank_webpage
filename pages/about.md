@@ -9,7 +9,7 @@ permalink: /about/
 
         <p>The Mexican Biobank (MXB) is establishing the first large-scale genomic resource with nationwide coverage outside Europe and North America, with over 6,000 samples processed in the current phase. The knowledge generated through this initiative will enhance public health in Mexico, advance global human genetics research, and deepen our understanding of human evolution.</p>
 
-        <p>Developed and analyzed entirely in Mexico, the MXB is part of a broader effort to uncover the biological and cultural layers that define Mexican identity. Insights from this project will open new avenues for local research and training, fostering a more inclusive and global view of human health and evolution.</p>
+        <p>Developed and analyzed entirely in Mexico, the MXB is a multi-institutional effort that builds upon the National Health Survey conducted in 2000 by the National Institute of Public Health (INSP), joining forces with the National Institute of Medical Sciences and Nutrition (INCMNSZ) to process DNA and serum samples for biochemical profiling, and with the Cinvestav Research Center to generate genome-wide data for population genetic analyses. Insights from this project will open new avenues for local research and training, fostering a more inclusive and global view of human health and evolution.</p>
 
         <h3>Understanding Mexico’s Genetic Diversity</h3>
 
