@@ -5,6 +5,7 @@ institutions:
 - id: insp
   name: "Instituto Nacional de Salud Pública (INSP)"
   logo: "/assets/images/logo_insp_principal_dark.png"
+  logo_size: 70
   members:
     - name: "Sergio Canizales-Quintero"
     - name: "Luis Pablo Cruz-Hervert"
@@ -25,6 +26,7 @@ institutions:
 - id: cinvestav
   name: "Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav)"
   logo: "/assets/logos/logo2.jpg"
+  logo_size: 70
   members:
     - name: "Carmina Barberena-Jonás"
     - name: "Vianka Cedillo-Castelán"
@@ -38,6 +40,7 @@ institutions:
 - id: incmnsz
   name: "Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)"
   logo: "/assets/images/Escudo_del_Instituto_Nacional_de_Ciencias_Médicas_y_Nutrición_Salvador_Zubirán.png"
+  logo_size: 70
   members:
     - name: "Carlos Aguilar-Salinas"
     - name: "Alicia Huerta-Chagoya"
@@ -49,6 +52,7 @@ institutions:
 - id: ssa
   name: "Secretaría de Salud"
   logo: "/assets/logos/SALUD_Logo.png"
+  logo_size: 70
   members:
     - name: "Pablo Kuri-Morales"
     - name: "Carlos Magis-Rodriguéz"
