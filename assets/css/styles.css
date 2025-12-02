@@ -836,3 +836,13 @@ white-space: nowrap; border: 0;
 .team-cards--others .team-card__body{
   padding: .85rem .95rem .95rem;
 }
+
+
+/* Tamaño global más pequeño para logos dentro de alternating-logos */
+.alternating-logos img {
+  height: 40px;     /* Ajusta según tu gusto: 30–60px */
+  width: auto;
+  object-fit: contain;
+  margin: 0.5rem 1rem;
+}
+
