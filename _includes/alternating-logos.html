@@ -5,7 +5,7 @@
   {% for org in orgs %}
     {% assign odd = forloop.index0 | modulo: 2 %}
     <article class="org-row{% if odd == 1 %} org-row--reverse{% endif %}">
-      
+
       <div class="org-row__logo">
         <figure>
           <img
@@ -13,11 +13,8 @@
             alt="Logo: {{ org.name }}"
             loading="lazy"
             decoding="async"
-
-            <!-- ⭐ AQUÍ SE APLICA EL TAMAÑO DINÁMICO -->
             style="height: {{ org.logo_size | default: 32 }}px; width: auto; object-fit: contain;"
-
-          />
+          >
           <figcaption class="sr-only">{{ org.name }}</figcaption>
         </figure>
       </div>
