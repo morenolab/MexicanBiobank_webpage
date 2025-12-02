@@ -5,6 +5,7 @@
   {% for org in orgs %}
     {% assign odd = forloop.index0 | modulo: 2 %}
     <article class="org-row{% if odd == 1 %} org-row--reverse{% endif %}">
+      
       <div class="org-row__logo">
         <figure>
           <img
@@ -12,8 +13,10 @@
             alt="Logo: {{ org.name }}"
             loading="lazy"
             decoding="async"
-            width="420"
-            height="420"
+
+            <!-- ⭐ AQUÍ SE APLICA EL TAMAÑO DINÁMICO -->
+            style="height: {{ org.logo_size | default: 50 }}px; width: auto; object-fit: contain;"
+
           />
           <figcaption class="sr-only">{{ org.name }}</figcaption>
         </figure>
@@ -22,15 +25,14 @@
       <div class="org-row__names">
         <h4 class="org-row__heading">{{ org.name }}</h4>
         <ul class="org-row__list">
-
           {% for person in org.members %}
             <li class="org-row__person">
               <span class="org-row__person-name">{{ person.name }}</span>
             </li>
           {% endfor %}
-
         </ul>
       </div>
+
     </article>
   {% endfor %}
 </section>
