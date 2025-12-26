@@ -38,7 +38,7 @@ permalink: /team/
             </div>
             <div class="team-card__body">
               <h3 class="team-card__name">Maria de Lourdes Garcia-Garcia</h3>
-              <p class="team-card__meta">Instituto Nacional de Salud Pública Nacional, México</p>
+              <p class="team-card__meta">Instituto Nacional de Salud Pública, México</p>
               <div class="team-card__links">
                 <a href="https://www.insp.mx" target="_blank" rel="noopener">Webpage</a>
                 <a href="mailto:garcigar@insp.mx">Contact</a>
