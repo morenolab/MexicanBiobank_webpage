@@ -38,7 +38,7 @@ permalink: /team/
             </div>
             <div class="team-card__body">
               <h3 class="team-card__name">Maria de Lourdes Garcia-Garcia</h3>
-              <p class="team-card__meta">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán / Instituto de Investigaciones Biomédicas UNAM, México</p>
+              <p class="team-card__meta">Instituto Nacional de Salud Pública Nacional, México</p>
               <div class="team-card__links">
                 <a href="https://www.insp.mx" target="_blank" rel="noopener">Webpage</a>
                 <a href="mailto:garcigar@insp.mx">Contact</a>
@@ -53,7 +53,7 @@ permalink: /team/
             </div>
             <div class="team-card__body">
               <h3 class="team-card__name">María Teresa Tusié Luna</h3>
-              <p class="team-card__meta">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán, México</p>
+              <p class="team-card__meta">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán / Instituto de Investigaciones Biomédicas UNAM, México</p>
               <div class="team-card__links">
                 <a href="https://www.biomedicas.unam.mx/personal-academico/maria-teresa-tusie-luna/" target="_blank" rel="noopener">Webpage</a>
                 <a href="mailto:mttusie@gmail.com">Contact</a>
