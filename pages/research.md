@@ -100,10 +100,7 @@ permalink: /research/
             </summary>
             <div class="cr-content">
                 <p>
-                    We characterize fine-scale population structure and demographic history across Mexico using genome-wide genetic variation from nationally representative cohorts.
-                </p>
-                <p>
-                    Our analyses focus on Indigenous ancestry, historical admixture, and regional differentiation, providing a critical framework for genetic association studies in diverse populations.
+                    This research branch investigates the genetic basis of human adaptation within the Mexican Biobank, focusing on how evolutionary forces have shaped the genomes of present-day Mexicans across both pre- and post-colonial periods. By combining genetic and phenotypic data with ancestry-specific and haplotype-based analyses, we identify signals of natural selection that emerged before and after admixture between Indigenous, European,  African and Asian ancestries. Through this approach, we aim to disentangle the evolutionary processes that contributed to Mexico’s complex genetic landscape and to explore their relevance for health and disease.
                 </p>
             </div>
         </details>
