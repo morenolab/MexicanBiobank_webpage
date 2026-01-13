@@ -20,104 +20,82 @@ permalink: /research/
     
     <h3>Why ENSA 2000 Matters</h3>
 
-    <p>Working with Mexico’s National Health Surveys provides exceptional advantages:</p>
-    
     <ul class="list-tight">
-        <li>Comprehensive health coverage: ENSA datasets capture numerous traits relevant to cardiovascular and metabolic diseases, along with seroprevalence data for various infectious diseases. These insights have directly informed public health interventions, including vaccination strategies for hepatitis A and varicella-zoster virus (VZV) [3–6].</li>
+        <li><strong>Comprehensive health coverage:</strong> ENSA datasets capture numerous traits relevant to cardiovascular and metabolic diseases, along with seroprevalence data for various infectious diseases. These insights have directly informed public health interventions.</li>
 
-        <li>Unprecedented population diversity: Recent advances in Mexican genomics include the development of a fine-scale genetic map of ethnic variation [7], revealing extraordinary levels of genetic differentiation, especially among individuals of Indigenous ancestry. This diversity has been linked to physiological traits, such as lung function, underscoring the importance of studying population substructure in relation to health and disease.</li>
+        <li><strong>Unprecedented population diversity:</strong> Recent advances in Mexican genomics reveal extraordinary levels of genetic differentiation, particularly among individuals of Indigenous ancestry, underscoring the importance of population structure for biomedical research.</li>
 
-        <li>Unique opportunity for discovery: The combination of detailed phenotypic data and deep genetic variation makes Mexico an unparalleled setting for exploring highly heritable traits and genetic risk factors with large effects. The Mexican Biobank project leverages this foundation to perform genome-wide association studies (GWAS) across diverse biomedical traits, using population substructure maps to refine and interpret genetic associations.</li>
-
+        <li><strong>Unique opportunity for discovery:</strong> The combination of detailed phenotypic data and deep genetic variation makes Mexico an unparalleled setting for exploring highly heritable traits and genetic risk factors with large effects.</li>
     </ul>
 
-    <div class="refs.refs-compact" id="citations">
-
-        <ol>
-            <li>
-                <span class="ref-authors">Sepúlveda, J., et al.</span>
-                <span class="ref-year"> (2007).</span>
-                <span class="ref-title">Diseño y metodología de la Encuesta Nacional de Salud 2000.</span>
-                <span class="ref-source">Salud Pública de México</span>,
-                <span class="ref-ids">49, s427–s432.</span>
-            </li>
-            
-            <li>
-                <span class="ref-authors">Gamboa-Melendez, M. A., et al.</span>
-                <span class="ref-year"> (2012).</span>
-                <span class="ref-title">Contribution of common genetic variation to the risk of type 2 diabetes in the Mexican Mestizo population.</span>
-                <span class="ref-source">Diabetes</span>,
-                <span class="ref-ids">61(12), 3314–21.</span>
-            </li>
-
-            <li>
-                <span class="ref-authors">Gutiérrez, J. P., et al.</span>
-                <span class="ref-year"> (2014).</span>
-                <span class="ref-title">[HIV seroprevalence among Mexicans age 15 to 49: results from the National Health &amp; Nutrition Survey 2012].</span>
-                <span class="ref-source">Salud Publica Mex</span>,
-                <span class="ref-ids">56(4), 323–32.</span>
-            </li>
-            
-            <li>
-                <span class="ref-authors">Lazcano-Ponce, E., et al.</span>
-                <span class="ref-year"> (2013).</span>
-                <span class="ref-title">Seroprevalence of hepatitis A virus in a cross-sectional study in Mexico: Implications for hepatitis A vaccination.</span>
-                <span class="ref-source">Hum Vaccin Immunother</span>,
-                <span class="ref-ids">9(2), 375–81.</span>
-            </li>
-            
-            <li>
-                <span class="ref-authors">Conde-Glez, C., et al.</span>
-                <span class="ref-year"> (2013).</span>
-                <span class="ref-title">Seroprevalences of varicella-zoster virus, herpes simplex virus and cytomegalovirus in a cross-sectional study in Mexico.</span>
-                <span class="ref-source">Vaccine</span>,
-                <span class="ref-ids">31(44), 5067–74.</span>
-            </li>
-            
-            <li>
-                <span class="ref-authors">Caballero-Ortega, H., et al.</span>
-                <span class="ref-year"> (2012).</span>
-                <span class="ref-title">Seroprevalence and national distribution of human toxoplasmosis in Mexico: analysis of the 2000 and 2006 National Health Surveys.</span>
-                <span class="ref-source">Trans R Soc Trop Med Hyg</span>,
-                <span class="ref-ids">106(11), 653–59.</span>
-            </li>
-    
-            <li>
-                <span class="ref-authors">Moreno-Estrada, A., et al.</span>
-                <span class="ref-year"> (2014).</span>
-                <span class="ref-title">The genetics of Mexico recapitulates Native American substructure and affects biomedical traits.</span>
-                <span class="ref-source">Science</span>,
-                <span class="ref-ids">344(6189), 1280–85.</span>
-            </li>
-        </ol>
-    </div>
 </section>
 
 <section class="container" id="current-research">
 
-        <h2>Current research</h2>
+    <h2>Current research</h2>
 
-        <div class="cr-grid">
+    <div class="cr-grid">
 
-            <article class="cr-panel"
-                style="--bg-image: url('{{ "/assets/icons/popgen.png" | relative_url }}'); --bg-size: contain; --bg-position: center;">
+        <details class="cr-panel cr-expand"
+            style="--bg-image: url('{{ "/assets/icons/popgen.png" | relative_url }}'); --bg-size: contain; --bg-position: center;">
+            <summary>
                 <h3 class="cr-title">Population genomics</h3>
-            </article>
+            </summary>
+            <div class="cr-content">
+                <p>
+                    We characterize fine-scale population structure and demographic history across Mexico using genome-wide genetic variation from nationally representative cohorts.
+                </p>
+                <p>
+                    Our analyses focus on Indigenous ancestry, historical admixture, and regional differentiation, providing a critical framework for genetic association studies in diverse populations.
+                </p>
+            </div>
+        </details>
 
-
-            <article class="cr-panel"
-                style="--bg-image: url('{{ "/assets/icons/gwas.svg" | relative_url }}'); --bg-size: contain; --bg-position: center;">
+        <details class="cr-panel cr-expand"
+            style="--bg-image: url('{{ "/assets/icons/gwas.svg" | relative_url }}'); --bg-size: contain; --bg-position: center;">
+            <summary>
                 <h3 class="cr-title">GWAS</h3>
-            </article>
+            </summary>
+            <div class="cr-content">
+                <p>
+                    We conduct genome-wide association studies across cardiometabolic, infectious, and immunological traits using deeply phenotyped national health survey data.
+                </p>
+                <p>
+                    Population structure inferred from our genomics analyses is incorporated directly into association models to improve power and interpretability.
+                </p>
+            </div>
+        </details>
 
-            <article class="cr-panel"
-                style="--bg-image: url('{{ "/assets/icons/serology.png" | relative_url }}'); --bg-size: contain; --bg-position: center;">
+        <details class="cr-panel cr-expand"
+            style="--bg-image: url('{{ "/assets/icons/serology.png" | relative_url }}'); --bg-size: contain; --bg-position: center;">
+            <summary>
                 <h3 class="cr-title">Serology</h3>
-            </article>
+            </summary>
+            <div class="cr-content">
+                <p>
+                    Using stored serum samples, we investigate population-level exposure to viral, bacterial, and parasitic pathogens across Mexico.
+                </p>
+                <p>
+                    These data provide unique insights into infectious disease burden, immunity, and host genetic susceptibility at a national scale.
+                </p>
+            </div>
+        </details>
 
-            <article class="cr-panel"
-                style="--bg-image: url('{{ "/assets/icons/health.png" | relative_url }}'); --bg-size: contain; --bg-position: center;">
+        <details class="cr-panel cr-expand"
+            style="--bg-image: url('{{ "/assets/icons/health.png" | relative_url }}'); --bg-size: contain; --bg-position: center;">
+            <summary>
                 <h3 class="cr-title">Medical Genomics</h3>
-            </article>
-        </div>
+            </summary>
+            <div class="cr-content">
+                <p>
+                    We integrate genomic data with clinical and epidemiological information to study the genetic architecture of complex diseases.
+                </p>
+                <p>
+                    Our work emphasizes translational relevance, enabling more equitable precision medicine through the inclusion of historically underrepresented populations.
+                </p>
+            </div>
+        </details>
+
+    </div>
 </section>
+
