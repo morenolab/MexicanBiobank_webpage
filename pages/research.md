@@ -44,9 +44,8 @@ permalink: /research/
             <div class="cr-content">
                 <p>
                     We characterize fine-scale population structure and demographic history across Mexico using genome-wide genetic variation from nationally representative cohorts.
-                </p>
-                <p>
                     Our analyses focus on Indigenous ancestry, historical admixture, and regional differentiation, providing a critical framework for genetic association studies in diverse populations.
+                    focuses on characterizing the fine-scale genomic structure of admixture in Mexico, dissecting the interactions between Indigenous, European, and African ancestries. Using high-resolution data from the Mexican Biobank, this research moves beyond broad admixture estimates to reconstruct the timing of specific migration pulses. A key focus is to disentangle the 'Third Root' of mestizaje, contrasting the genetic legacies of Transatlantic and Transpacific trade routes to provide a comprehensive map of Mexico’s demographic history.
                 </p>
             </div>
         </details>
