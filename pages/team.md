@@ -176,13 +176,26 @@ permalink: /team/
 
                 <article class="team-card">
                     <div class="team-card__media">
+                      <img src="{{ '/assets/photos/Gonzaga.jpg' | relative_url }}" alt="Claudia">
+                    </div>
+                    <div class="team-card__body">
+                      <h3 class="team-card__name">Claudia Gonzaga Jauregui</h3>
+                      <p class="team-card__meta">LIIGH-UNAM</p>
+                      <div class="team-card__links">
+                        <a href="https://www.mxbiobank.org/research/">Medical Genomics</a>
+                      </div>
+                    </div>
+                </article>
+
+                <article class="team-card">
+                    <div class="team-card__media">
                       <img src="{{ '/assets/photos/Santiago_Medina.png' | relative_url }}" alt="Santiago">
                     </div>
                     <div class="team-card__body">
                       <h3 class="team-card__name">Santiago Medina-Muñoz</h3>
                       <p class="team-card__meta">CINVESTAV Sede Sur</p>
                       <div class="team-card__links">
-                        <a href="https://www.mxbiobank.org/research/">Demographic inference</a>
+                        <a href="https://www.mxbiobank.org/research/">Population Genomics</a>
                       </div>
                     </div>
                 </article>
@@ -195,7 +208,33 @@ permalink: /team/
                       <h3 class="team-card__name">Ricardo Rodriguez</h3>
                       <p class="team-card__meta">CINVESTAV Sede Sur</p>
                       <div class="team-card__links">
-                        <a href="https://www.mxbiobank.org/research/">Demographic inference</a>
+                        <a href="https://www.mxbiobank.org/research/">Population Genomics</a>
+                      </div>
+                    </div>
+                </article>
+
+                <article class="team-card">
+                    <div class="team-card__media">
+                      <img src="{{ '/assets/photos/Mashaal_Sohail.png' | relative_url }}" alt="Mashaal">
+                    </div>
+                    <div class="team-card__body">
+                      <h3 class="team-card__name">Mashaal Sohail</h3>
+                      <p class="team-card__meta">CCG-UNAM</p>
+                      <div class="team-card__links">
+                        <a href="https://www.mxbiobank.org/research/">Population Genomics</a>
+                      </div>
+                    </div>
+                </article>
+
+                <article class="team-card">
+                    <div class="team-card__media">
+                      <img src="{{ '/assets/photos/Majo_Palma.png' | relative_url }}" alt="Majo">
+                    </div>
+                    <div class="team-card__body">
+                      <h3 class="team-card__name">Maria José Palma</h3>
+                      <p class="team-card__meta">CCG-UNAM</p>
+                      <div class="team-card__links">
+                        <a href="https://www.mxbiobank.org/research/">Population Genomics</a>
                       </div>
                     </div>
                 </article>
@@ -207,6 +246,34 @@ permalink: /team/
                     <div class="team-card__body">
                       <h3 class="team-card__name">Ram Gonzalez</h3>
                       <p class="team-card__meta">CINVESTAV Sede Sur</p>
+                      <div class="team-card__links">
+                        <a href="https://www.mxbiobank.org/research/">Human Adaptation</a>
+                      </div>
+                    </div>
+                </article>
+
+
+                <article class="team-card">
+                    <div class="team-card__media">
+                      <img src="{{ '/assets/photos/ReynoldsAW_headshot.png' | relative_url }}" alt="Austin">
+                    </div>
+                    <div class="team-card__body">
+                      <h3 class="team-card__name">Austin W. Reynolds</h3>
+                      <p class="team-card__meta">University of North Texas Health Science Center at Fort Worth</p>
+                      <div class="team-card__links">
+                        <a href="https://www.mxbiobank.org/research/">Human Adaptation</a>
+                      </div>
+                    </div>
+                </article>
+
+
+                <article class="team-card">
+                    <div class="team-card__media">
+                      <img src="{{ '/assets/photos/selene_fernandez_valverde.jpg' | relative_url }}" alt="Selene">
+                    </div>
+                    <div class="team-card__body">
+                      <h3 class="team-card__name">Selene Lizbeth Fernández Valverde</h3>
+                      <p class="team-card__meta">UNSW RNA Institute</p>
                       <div class="team-card__links">
                         <a href="https://www.mxbiobank.org/research/">Human Adaptation</a>
                       </div>
@@ -228,29 +295,17 @@ permalink: /team/
 
                 <article class="team-card">
                     <div class="team-card__media">
-                      <img src="{{ '/assets/photos/Mashaal_Sohail.png' | relative_url }}" alt="Mashaal">
+                      <img src="{{ '/assets/photos/mariaavila.jpg' | relative_url }}" alt="Maria">
                     </div>
                     <div class="team-card__body">
-                      <h3 class="team-card__name">Mashaal Sohail</h3>
-                      <p class="team-card__meta">CCG-UNAM</p>
+                      <h3 class="team-card__name">Maria Avila Arcos</h3>
+                      <p class="team-card__meta">LIIGH-UNAM</p>
                       <div class="team-card__links">
-                        <a href="https://www.mxbiobank.org/research/">Population Genetics</a>
+                        <a href="https://www.mxbiobank.org/research/">Ancient DNA</a>
                       </div>
                     </div>
                 </article>
 
-                <article class="team-card">
-                    <div class="team-card__media">
-                      <img src="{{ '/assets/photos/Majo_Palma.png' | relative_url }}" alt="Majo">
-                    </div>
-                    <div class="team-card__body">
-                      <h3 class="team-card__name">Maria José Palma</h3>
-                      <p class="team-card__meta">CCG-UNAM</p>
-                      <div class="team-card__links">
-                        <a href="https://www.mxbiobank.org/research/">Population Genetics</a>
-                      </div>
-                    </div>
-                </article>
 
                 <article class="team-card">
                     <div class="team-card__media">
@@ -276,49 +331,7 @@ permalink: /team/
                         <a href="https://www.mxbiobank.org/research/">GWAS</a>
                       </div>
                     </div>
-                </article>
-
-                <article class="team-card">
-                    <div class="team-card__media">
-                      <img src="{{ '/assets/photos/Gonzaga.jpg' | relative_url }}" alt="Claudia">
-                    </div>
-                    <div class="team-card__body">
-                      <h3 class="team-card__name">Claudia Gonzaga Jauregui</h3>
-                      <p class="team-card__meta">LIIGH-UNAM</p>
-                      <div class="team-card__links">
-                        <a href="https://www.mxbiobank.org/research/">Medical Genomics</a>
-                      </div>
-                    </div>
-                </article>
-
-                <article class="team-card">
-                    <div class="team-card__media">
-                      <img src="{{ '/assets/photos/mariaavila.jpg' | relative_url }}" alt="Maria">
-                    </div>
-                    <div class="team-card__body">
-                      <h3 class="team-card__name">Maria Avila Arcos</h3>
-                      <p class="team-card__meta">LIIGH-UNAM</p>
-                      <div class="team-card__links">
-                        <a href="https://www.mxbiobank.org/research/">Ancient DNA</a>
-                      </div>
-                    </div>
-                </article>
-
-                <article class="team-card">
-                    <div class="team-card__media">
-                      <img src="{{ '/assets/photos/selene_fernandez_valverde.jpg' | relative_url }}" alt="Selene">
-                    </div>
-                    <div class="team-card__body">
-                      <h3 class="team-card__name">Selene Lizbeth Fernández Valverde</h3>
-                      <p class="team-card__meta">UNSW RNA Institute</p>
-                      <div class="team-card__links">
-                        <a href="https://www.mxbiobank.org/research/">Human Adaptation</a>
-                      </div>
-                    </div>
-                </article>
-
-
-                
+                </article>      
 
         </div>
 
