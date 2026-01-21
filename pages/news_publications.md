@@ -141,7 +141,7 @@ permalink: /news_publications/
           <div class="pub-ids">
             PMID: <a href="">N/A</a> ·
             PMCID: <a href="">N/A</a> ·
-            DOI: <a href="">N/A</a>
+            DOI: <a href="https://doi.org/10.1038/s41591-025-04100-z">N/A</a>
           </div>
         </article>
 
