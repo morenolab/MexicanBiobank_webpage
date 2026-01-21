@@ -131,7 +131,7 @@ permalink: /news_publications/
 
         <!-- 1 -->
         <article class="pub-card">
-          <div class="pub-journal"><em>Nature Medicine (in press)</em> • 2025</div>
+          <div class="pub-journal"><em>Nature Medicine </em> • 2026</div>
           <h3 class="pub-title">
             <a href="https://www.nature.com/articles/s41591-025-04100-z" target="_blank" rel="noopener">
               Clinical genetic variation across Hispanic populations in the Mexican Biobank
@@ -141,7 +141,7 @@ permalink: /news_publications/
           <div class="pub-ids">
             PMID: <a href="">N/A</a> ·
             PMCID: <a href="">N/A</a> ·
-            DOI: <a href="https://doi.org/10.1038/s41591-025-04100-z">N/A</a>
+            DOI: <a href="https://doi.org/10.1038/s41591-025-04100-z">10.1038/s41591-025-04100-z</a>
           </div>
         </article>
 
