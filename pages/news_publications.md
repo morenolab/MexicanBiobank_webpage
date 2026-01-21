@@ -133,7 +133,7 @@ permalink: /news_publications/
         <article class="pub-card">
           <div class="pub-journal"><em>Nature Medicine (in press)</em> • 2025</div>
           <h3 class="pub-title">
-            <a href="" target="_blank" rel="noopener">
+            <a href="https://www.nature.com/articles/s41591-025-04100-z" target="_blank" rel="noopener">
               Clinical genetic variation across Hispanic populations in the Mexican Biobank
             </a>
           </h3>
