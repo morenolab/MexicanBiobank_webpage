@@ -26,6 +26,15 @@ permalink: /news_publications/
 
     <div class="news-track" id="carousel-all-news" tabindex="0">
 
+          <!-- Jan 2026 -->
+
+      <article class="news-card">
+        <span class="news-badge"><time datetime="Jan 26">Jan 26</time></span>
+        <h4 class="news-title"><a href="https://www.nature.com/articles/s41591-025-04129-0" target="_blank" rel="noopener">Research Briefing in Nature Medicine - Clinically relevant variants from the Mexican biobank show striking diversity across Hispanic people</a></h4>
+        <p class="news-meta">Andrés Moreno-Estrada & Carmina Barberena-Jonas, CINVESTAV, Mexico</p>
+        <p class="news-body"><em></em></p>
+    </article>
+
       <!-- Dec 2025 -->
 
       <article class="news-card">
