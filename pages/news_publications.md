@@ -6,14 +6,14 @@ permalink: /news_publications/
 
 <section id="news_publications">
 
-  <h2>News</h2>
-
   <p>Stay up to date with the latest discoveries, collaborations, and scientific achievements from the MXB.</p>
 
   <p>This section highlights our ongoing progress in building one of the largest genomic resources in Latin America, along with key milestones in data generation, analysis, and international collaboration.</p>
   
   <p>Here you will find news, publications, and announcements related to our research, training activities, and partnerships. Together, these updates reflect the MXB’s mission to advance genomic science, strengthen local research capacity, and contribute to a more inclusive understanding of human diversity and health.</p>
 </section>
+
+ <h2>News</h2>
 
 <section id="news">
 
