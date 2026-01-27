@@ -147,8 +147,8 @@ permalink: /news_publications/
           </h3>
           <div class="pub-authors">Barberena-Jonás C <span aria-hidden="true" style="opacity:.7">et&nbsp;al.</span></div>
           <div class="pub-ids">
-            PMID: <a href="">N/A</a> ·
-            PMCID: <a href="">N/A</a> ·
+            PMID: <a href="">https://pubmed.ncbi.nlm.nih.gov/41566040/</a> ·
+            PMCID: <a href=""></a> ·
             DOI: <a href="https://doi.org/10.1038/s41591-025-04100-z">10.1038/s41591-025-04100-z</a>
           </div>
         </article>
