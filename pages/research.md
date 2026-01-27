@@ -96,6 +96,26 @@ permalink: /research/
                 </p>
             </div>
         </details>
+
+               </details>
+    </div>
+
+            <details class="cr-panel cr-expand"
+            style="--bg-image: url('{{ "/assets/icons/serology.png" | relative_url }}'); --bg-size: contain; --bg-position: center;">
+            <summary>
+                <h3 class="cr-title">Serology</h3>
+            </summary>
+            <div class="cr-content">
+                <p>
+                  Serological data in the Mexico Biobank capture population-wide exposure to infectious diseases, vaccine coverage, and immune responses over time. Analyses of preserved serum samples provide insight into infection history across regions, age groups, and demographic backgrounds. </p>
+<p>
+National surveys show widespread exposure to SARS-CoV-2, with many infections undetected by clinical surveillance and high antibody levels following vaccination. Hepatitis B serology reflects low natural infection and strong vaccine-derived immunity, while hepatitis C prevalence remains low and has declined over time. HIV seroprevalence is low in the general population but concentrated in specific groups.
+</p>
+<p>
+By integrating serology with genomic and health data, the Mexico Biobank enables studies of immunity, disease risk, and the population-level impact of public health interventions. 
+                </p>
+            </div>
+        </details>
      </div>   
 </section>
 
