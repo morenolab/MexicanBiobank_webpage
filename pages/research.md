@@ -6,9 +6,9 @@ permalink: /research/
 
 <section id="research">
 
-## Prior research
+<h2>Prior research</h2>
 
-### The ENSA 2000 Cohort: A National Resource for Genomic Discovery
+<h3>The ENSA 2000 Cohort: A National Resource for Genomic Discovery</h3>
 
 Since 1987, Mexico has conducted periodic National Health Surveys (ENSA) to monitor the country’s health status through population-based data. For this study, we use samples and data collected during the ENSA 2000, a nationwide health survey carried out by the Mexican Secretariat of Health between November 1999 and June 2000.
 
@@ -18,7 +18,7 @@ To date, over 50 scientific publications have been derived from this survey, pro
 
 Given its large scale, sophisticated sampling design, and rich phenotypic data, the ENSA 2000 represents a valuable untapped genetic resource to link genetic markers with health outcomes. Its effective genetic characterization has now become feasible through the combined expertise of a multidisciplinary team spanning Public Health, Epidemiology, Immunology, Pediatrics, Population Genetics, and Computational Genomics.
 
-### Why ENSA 2000 Matters
+<h3>Why ENSA 2000 Matters</h3>
 
 <ul class="list-tight">
   <li>
@@ -39,7 +39,7 @@ Given its large scale, sophisticated sampling design, and rich phenotypic data, 
 
 <section class="container" id="current-research">
 
-## Current research
+<h2>Current research</h2>
 
 <div class="cr-grid">
 
