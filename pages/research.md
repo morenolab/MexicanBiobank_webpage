@@ -22,7 +22,7 @@ permalink: /research/
 
 <ul class="list-tight">
   <li>
-    <strong>Comprehensive health coverage</strong>: ENSA datasets capture numerous traits relevant to cardiovascular and metabolic diseases, along with seroprevalence data for various infectious diseases. These insights have directly informed public health interventions, including vaccination strategies for hepatitis A and varicella-zoster virus (VZV) [3–6]
+    <strong>Comprehensive health coverage</strong>: ENSA datasets capture numerous traits relevant to cardiovascular and metabolic diseases, along with seroprevalence data for various infectious diseases. These insights have directly informed public health interventions, including vaccination strategies for hepatitis A and varicella-zoster virus (VZV).
   </li>
   <li>
     <strong>Unprecedented population diversity</strong>: Recent advances in Mexican genomics include the development of a fine-scale genetic map of ethnic variation [7], revealing extraordinary levels of genetic differentiation, especially among individuals of Indigenous ancestry. This diversity has been linked to physiological traits, such as lung function, underscoring the importance of studying population substructure in relation to health and disease.
@@ -54,7 +54,7 @@ permalink: /research/
         <li>
             <span class="ref-authors">Gutiérrez, J. P., et al.</span>
             <span class="ref-year"> (2014).</span>
-            <span class="ref-title">[HIV seroprevalence among Mexicans age 15 to 49: results from the National Health &amp; Nutrition Survey 2012].</span>
+            <span class="ref-title">HIV seroprevalence among Mexicans age 15 to 49: results from the National Health &amp; Nutrition Survey 2012.</span>
             <span class="ref-source">Salud Publica Mex</span>,
             <span class="ref-ids">56(4), 323–32.</span>
         </li>
