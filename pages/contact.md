@@ -18,7 +18,7 @@ permalink: /contact/
       <strong><a href="mailto:morenolab.contact@gmail.com">morenolab.contact@gmail.com</a></strong></p>
 
       <h3>Data Access</h3>
-      <p>Researchers seeking access to genetic data should submit a formal request through the <strong>European Genome-Phenome Archive (EGA)</strong>.</p>
+      <p>Researchers seeking access to genetic data must submit a formal request through the <strong><a href="https://ega-archive.org/dacs/EGAC00001002413" target="_blank" rel="noopener">European Genome-Phenome Archive (EGA)</a></strong>.</p>
     </div>
 
     <div style="background: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #ddd;">
