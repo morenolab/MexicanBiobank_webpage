@@ -13,11 +13,11 @@ permalink: /contact/
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 30px;">
     
     <div>
-      ### Research & Partnerships
+      <h3>Research & Partnerships</h3>
       <p>For general questions or media inquiries, reach out to: <br>
       <strong><a href="mailto:morenolab.contact@gmail.com">morenolab.contact@gmail.com</a></strong></p>
 
-      ### Data Access
+      <h3>Data Access</h3>
       <p>Researchers seeking access to genetic data should submit a formal request through the <strong>European Genome-Phenome Archive (EGA)</strong>.</p>
     </div>
 
