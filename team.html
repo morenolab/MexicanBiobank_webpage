@@ -9,8 +9,8 @@
     <style>
         :root { --primary-navy: #002147; --accent-teal: #008080; --light-bg: #fdfdfd; }
         body { font-family: 'Roboto', sans-serif; background-color: var(--light-bg); color: #333; }
-        
-        h2, h3 { font-family: 'Playfair Display', serif; color: var(--primary-navy); font-weight: 700; }
+
+        h1, h2, h3 { font-family: 'Playfair Display', serif; color: var(--primary-navy); font-weight: 700; }
         h3 { margin-top: 50px; margin-bottom: 20px; text-align: left; }
         
         .navbar { background-color: var(--primary-navy); border-bottom: 4px solid var(--accent-teal); }
@@ -38,6 +38,13 @@
         
         footer { background: var(--primary-navy); color: white; padding: 40px 0; margin-top: 80px; }
         @media (max-width: 768px) { .members-list { grid-template-columns: 1fr; } }
+        
+        /* Estilos para textos destacados (usados en About y Mission) */
+        .lead-text { 
+            font-size: 1.15rem; 
+            color: #555; 
+            margin-bottom: 30px; 
+        }
     </style>
 </head>
 <body>
@@ -65,7 +72,7 @@
 
     <div class="container py-5"> 
         <div class="text-center mb-5">
-            <h1 class="display-4 fw-bold mb-3">Research Team</h1>
+            <h1 class="display-4 fw-bold mb-3">Team</h1>
             <p class="lead text-muted mx-auto" style="max-width: 700px;">
                 The scientists and collaborators behind the Mexican Biobank Project.
             </p>
