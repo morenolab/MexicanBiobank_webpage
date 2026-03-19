@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research | Mexican Biobank Project</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-navy: #002147;
+            --accent-teal: #008080;
+            --light-bg: #fdfdfd;
+        }
+
+        body { 
+            font-family: 'Roboto', sans-serif; 
+            background-color: var(--light-bg); 
+            color: #333; 
+            line-height: 1.7; 
+        }
+
+        h1, h2, h3 { 
+            font-family: 'Playfair Display', serif; 
+            color: var(--primary-navy); 
+            font-weight: 700; 
+        }
+
+        .navbar { 
+            background-color: var(--primary-navy); 
+            border-bottom: 4px solid var(--accent-teal); 
+        }
+
+        .section-divider { 
+            border-bottom: 3px solid var(--accent-teal); 
+            width: 50px; 
+            margin: 10px 0 30px; 
+        }
+
+        /* Estilos específicos para las áreas de investigación */
+        .research-card {
+            background: white;
+            border: 1px solid #eee;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 25px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 100%;
+        }
+
+        .research-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+            border-color: var(--accent-teal);
+        }
+
+        .icon-box {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 20px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        footer { 
+            background: var(--primary-navy); 
+            color: white; 
+            padding: 40px 0; 
+            margin-top: 80px; 
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">MX <span class="fw-light">Biobank</span> Project</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="mission.html">Mission</a></li>
+                    <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="research.html">Research</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#data-access.html">Data Access & Tools</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#news.html">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-5"> 
+        <div class="text-center mb-5">
+            <h1 class="display-4 fw-bold mb-3">Research</h1>
+    </div>
+
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                
+                <h2 class="mt-5"></h2>The ENSA 2000 Cohort</h2>
+                <div class="section-divider"></div>
+
+                <p class="lead-text">
+                Since 1987, Mexico has conducted periodic National Health Surveys (ENSA) to monitor the country’s health status through population-based data. For this study, we use samples and data collected during the ENSA 2000, a nationwide health survey carried out by the Mexican Secretariat of Health between November 1999 and June 2000.
+                </p>
+                <p class="lead-text">
+                ENSA 2000 was a probabilistic, multi-stage, stratified, cluster household survey designed to be representative of the civilian population at both state and national levels. Sera and buffy coat samples were obtained from 43,085 individuals aged 20 years or older. To date, over 50 scientific publications have been derived from this survey, making it one of the most demographically inclusive health studies ever conducted in Mexico.
+                </p>
+
+                <h2 class="mt-5">Research Areas</h2>
+                <div class="section-divider"></div>
+
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="research-card">
+                            <div class="icon-box" style="background-image: url('assets/icons/population_genomics.png');"></div>
+                            <h3>Population Genomics</h3>
+                            <p>
+                                We use genome-wide data to characterize the genetic structure and ancestry of the Mexican population. By analyzing more than 6,000 individuals from all 32 states, we reconstruct demographic history, including migration, admixture, and population size changes over time.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="research-card">
+                            <div class="icon-box" style="background-image: url('assets/icons/medical_genomics.png');"></div>
+                            <h3>Medical Genomics</h3>
+                            <p>
+                                By integrating genomic and health data, we identify genetic variants associated with complex traits and diseases. Our research focuses on understanding how genetic diversity influences disease risk, metabolic traits, and public health indicators in Mexico.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="research-card">
+                            <div class="icon-box" style="background-image: url('assets/icons/ancient_dna.png');"></div>
+                            <h3>Ancient DNA</h3>
+                            <p>
+                                We analyze genomic data from archaeological human remains to reconstruct population history and migration. Integrating ancient genomes with present-day data provides evolutionary context for modern genetic diversity in Mexico.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="research-card">
+                            <div class="icon-box" style="background-image: url('assets/icons/serology.png');"></div>
+                            <h3>Serology</h3>
+                            <p>
+                                Serological data capture population-wide exposure to infectious diseases and vaccine coverage. Integrated with genomic data, these analyses inform immunity, disease risk, and public health impact.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; 2026 Mexican Biobank Project.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

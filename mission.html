@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mission | Mexican Biobank Project</title>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        
+        <style>
+            :root {
+                --primary-navy: #002147; /* Azul Oxford Académico */
+                --accent-teal: #008080; /* Teal distintivo */
+                --light-bg: #fdfdfd;
+                --light-gray: #f8f9fa;
+            }
+    
+            body { 
+                font-family: 'Roboto', sans-serif; 
+                background-color: var(--light-bg); 
+                color: #333; 
+                line-height: 1.7; 
+            }
+    
+            h1, h2, h3 { 
+                font-family: 'Playfair Display', serif; 
+                color: var(--primary-navy); 
+                font-weight: 700; 
+            }
+    
+            /* Navbar Unificada */
+            .navbar { 
+                background-color: var(--primary-navy); 
+                border-bottom: 4px solid var(--accent-teal); 
+            }
+            
+            .navbar-brand { font-weight: 700; }
+    
+            /* Divisores de sección teal */
+            .section-divider { 
+                border-bottom: 3px solid var(--accent-teal); 
+                width: 50px; 
+                margin: 10px 0 30px; 
+                text-align: left;
+            }
+    
+            /* Estilos para textos destacados (usados en About y Mission) */
+            .lead-text { 
+                font-size: 1.15rem; 
+                color: #555; 
+                margin-bottom: 30px; 
+            }
+    
+            /* Footer Unificado */
+            footer { 
+                background: var(--primary-navy); 
+                color: white; 
+                padding: 40px 0; 
+                margin-top: 80px; 
+            }
+            
+            footer img { 
+                filter: brightness(0) invert(1); 
+                height: 40px; 
+                margin-bottom: 15px;
+            }
+        </style>
+        
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">MX <span class="fw-light">Biobank</span> Project</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="mission.html">Mission</a></li>
+                    <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#data-access.html">Data Access & Tools</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#news.html">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-5"> 
+        <div class="text-center mb-5">
+            <h1 class="display-4 fw-bold mb-3">Mission</h1>
+    </div>
+
+    <div class="container content-section">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+
+                <p class="lead-text">
+                    Genomic data is transforming how we understand health, diversity, and human evolution.
+                </p>
+
+                <p class="lead-text">
+                    Yet many regions still lack the local capacity to lead large-scale genomic research. The MXB is changing this by creating a nationwide DNA biobank, genotyped entirely within Mexican institutions and analyzed by local scientists as part of an international collaborative network.
+                </p>
+
+                <p class="lead-text">
+                    This initiative builds national expertise in data generation, bioinformatics, and genomic medicine, strengthening Mexico’s ability to lead future population-scale projects and translate discoveries into improved healthcare.
+                </p>
+
+                <p class="lead-text">
+                    Drawing on samples from ENSA 2000, the MXB represents the most comprehensive genetic and phenotypic profiling of the Mexican population to date. It will reveal how genetics, migration, mating patterns, and environment have shaped Mexico’s diversity, offering new insights into both disease risk and national identity.
+                </p>
+
+                <h2 class="mt-5">Global Alignment</h2>
+                <div class="section-divider"></div>
+                
+                <p  class="lead-text">
+                    The MXB is aligned with global efforts such as the UK Biobank (led by Rory Collins, University of Oxford), the China Kadoorie Biobank (led by Zhengming Chen, University of Oxford), the African Partnership for Chronic Disease Research (coordinated by Shabbar Jaffar, Moffat Nyirenda, and collaborators across Africa and the UK), and regional projects including the Lesser Antilles Diversity Project (led by Jada Benn Torres, Vanderbilt University), the Peruvian Diversity Project (led by Anne Stone, Arizona State University), and the Chile Genómico and Patagonia Diversity Projects (led by Ricardo Verdugo and Mauricio Moraga, University of Chile).
+                </p>
+                
+                <p  class="lead-text">
+                While each population has its own diversity profile, the analytical tools, statistical models, and computational methods developed through the MXB benefit other Hispanic and Latin American genomic initiatives. By building genomic capacity locally, Mexico is creating a regional hub for discovery, training, and innovation in human genetics.
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; 2026 Mexican Biobank Project.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
