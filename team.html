@@ -7,43 +7,95 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        :root { --primary-navy: #002147; --accent-teal: #008080; --light-bg: #fdfdfd; }
-        body { font-family: 'Roboto', sans-serif; background-color: var(--light-bg); color: #333; }
-
-        h1, h2, h3 { font-family: 'Playfair Display', serif; color: var(--primary-navy); font-weight: 700; }
-        h3 { margin-top: 50px; margin-bottom: 20px; text-align: left; }
+        :root { 
+            --primary-navy: #002147; 
+            --accent-teal: #008080; 
+            --light-bg: #fdfdfd; 
+        }
         
+        body { font-family: 'Roboto', sans-serif; background-color: var(--light-bg); color: #333; line-height: 1.6; }
+        h1, h2, h3, h4 { font-family: 'Playfair Display', serif; color: var(--primary-navy); font-weight: 700; }
         .navbar { background-color: var(--primary-navy); border-bottom: 4px solid var(--accent-teal); }
-        .team-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 30px; margin-top: 30px; }
-        .team-card { background: white; border: 1px solid #eee; padding: 25px; text-align: center; transition: all 0.3s ease; border-radius: 12px; display: flex; flex-direction: column; }
-        .team-card:hover { box-shadow: 0 15px 30px rgba(0,0,0,0.08); transform: translateY(-5px); border-color: var(--accent-teal); }
-        .team-card img { width: 140px; height: 140px; object-fit: cover; border-radius: 50%; margin: 0 auto 15px; border: 4px solid #f8f9fa; }
-        .member-name { font-weight: 700; font-size: 1.1rem; margin-bottom: 5px; color: var(--primary-navy); }
-        .member-meta { font-size: 0.85rem; color: #555; margin-bottom: 10px; flex-grow: 1; }
-        .member-links { margin-top: auto; padding-top: 10px; border-top: 1px solid #f0f0f0; }
-        .member-links a { font-size: 0.8rem; color: var(--accent-teal); text-decoration: none; font-weight: bold; margin: 0 5px; }
-        
-        .section-divider { border-bottom: 3px solid var(--accent-teal); width: 50px; margin: 10px 0 40px; text-align: left; }
-        
-        /* Estilos Consorcio Estilo Tabla */
-        .consortium-box { background: #fff; border: 1px solid #e0e0e0; border-radius: 15px; padding: 40px; margin-bottom: 25px; box-shadow: 0 2px 10px rgba(0,0,0,0.02); }
-        .inst-title { font-weight: 700; font-size: 1.1rem; color: #333; margin-bottom: 20px; text-align: left; }
-        .members-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px 20px; font-size: 0.95rem; color: #444; text-align: left; }
-        .logo-container { display: flex; align-items: center; justify-content: center; padding: 20px; }
-        .logo-container img { max-width: 100%; height: auto; }
+        .section-divider { border-bottom: 3px solid var(--accent-teal); width: 50px; margin: 10px 0 40px; }
 
-        /* Estilos Funding */
-        .funding-box { background: #fcfdfe; border: 1px solid #e0e6ed; border-radius: 15px; padding: 40px; margin-bottom: 25px; text-align: left; }
-        .project-period { display: inline-block; background-color: var(--primary-navy); color: white; padding: 2px 12px; border-radius: 20px; font-size: 0.8rem; margin-bottom: 10px; }
-        
+        /* Estilos PIs y Researchers */
+        .team-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 25px; margin-bottom: 50px; }
+        .team-card { background: white; border: 1px solid #eee; padding: 25px; text-align: center; border-radius: 12px; transition: all 0.3s ease; }
+        .team-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.05); border-color: var(--accent-teal); }
+        .team-card img { width: 120px; height: 120px; object-fit: cover; border-radius: 50%; margin: 0 auto 15px; border: 3px solid #f8f9fa; }
+        .member-name { display: block; font-weight: 700; color: var(--primary-navy); font-size: 1.05rem; }
+        .member-meta { display: block; font-size: 0.85rem; color: #666; }
+
+        /* --- NUEVO DISEÑO DEL CONSORCIO --- */
+        .consortium-box {
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+        }
+
+        .inst-header {
+            background: #f8f9fa;
+            padding: 20px 30px;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .inst-logo-sm {
+            height: 50px;
+            width: auto;
+            max-width: 120px;
+            object-fit: contain;
+        }
+
+        .inst-name-title {
+            margin: 0;
+            font-size: 1.15rem;
+            color: var(--primary-navy);
+            font-family: 'Roboto', sans-serif; /* Más limpio para nombres largos */
+            font-weight: 700;
+        }
+
+        .inst-body {
+            padding: 25px 30px;
+        }
+
+        .names-list {
+            column-count: 3; /* Tres columnas de nombres */
+            column-gap: 30px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .names-list li {
+            font-size: 0.9rem;
+            color: #555;
+            padding: 4px 0;
+            break-inside: avoid;
+        }
+
+        .names-list li::before {
+            content: "•";
+            color: var(--accent-teal);
+            font-weight: bold;
+            display: inline-block; 
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        /* Funding Boxes */
+        .funding-box { background: #f8f9fa; border-radius: 10px; padding: 25px; margin-bottom: 20px; border-left: 5px solid var(--primary-navy); }
         footer { background: var(--primary-navy); color: white; padding: 40px 0; margin-top: 80px; }
-        @media (max-width: 768px) { .members-list { grid-template-columns: 1fr; } }
-        
-        /* Estilos para textos destacados (usados en About y Mission) */
-        .lead-text { 
-            font-size: 1.15rem; 
-            color: #555; 
-            margin-bottom: 30px; 
+
+        /* Responsive */
+        @media (max-width: 992px) { .names-list { column-count: 2; } }
+        @media (max-width: 768px) { 
+            .inst-header { flex-direction: column; text-align: center; }
+            .names-list { column-count: 1; }
         }
     </style>
 </head>
@@ -118,7 +170,7 @@
         </section>
 
         <section>
-            <h3>International Collaborators</h3>
+            <h3>International Co-investigators</h3>
             <div class="section-divider"></div>
             <div class="team-grid">
                 <div class="team-card">
@@ -140,11 +192,6 @@
                     <img src="assets/img/dr-tim-waterboer.png" alt="Tim Waterboer">
                     <span class="member-name">Tim Waterboer</span>
                     <p class="member-meta">German Cancer Research Center (DKFZ)</p>
-                </div>
-                <div class="team-card">
-                    <img src="assets/img/alexioannidis.jpeg" alt="Alexander Ioannidis">
-                    <span class="member-name">Alexander Ioannidis</span>
-                    <p class="member-meta">UC Santa Cruz</p>
                 </div>
             </div>
         </section>
@@ -189,6 +236,11 @@
                     <p class="member-meta">Population Genomics - CCG-UNAM</p>
                 </div>
                 <div class="team-card">
+                    <img src="assets/img/alexioannidis.jpeg" alt="Alexander Ioannidis">
+                    <span class="member-name">Alexander Ioannidis</span>
+                    <p class="member-meta">Stanford University</p>
+                </div>
+                <div class="team-card">
                     <img src="assets/img/Ram_Gonzalez.jpeg" alt="Ram Gonzalez">
                     <span class="member-name">Ram Gonzalez</span>
                     <p class="member-meta">Human Adaptation - CINVESTAV</p>
@@ -225,77 +277,63 @@
                 </div>
             </div>
         </section>
-
-        <section class="mt-5">
+        
+        <section class="mb-5">
             <h3>ENSA Genomics Consortium</h3>
             <div class="section-divider"></div>
-
-            <div class="consortium-box">
-                <div class="row align-items-center">
-                    <div class="col-md-4 logo-container">
-                        <img src="assets/logos/logo_insp_principal_dark.png" alt="INSP" style="width: 180px;">
-                    </div>
-                    <div class="col-md-8">
-                        <h4 class="inst-title">Instituto Nacional de Salud Pública (INSP)</h4>
-                        <div class="members-list">
-                            <span>Sergio Canizales-Quintero</span><span>Luis Juárez-Figueroa</span>
-                            <span>Luis Pablo Cruz-Hervert</span><span>Elsa Sarti-Gutíerrez</span>
-                            <span>Guadalupe Delgado-Sánchez</span><span>Jaime Sepúlveda-Amor</span>
-                            <span>Elizabeth Ferreira-Guerrero</span><span>José Luis Valdespino-Gómez</span>
-                            <span>Leticia Ferreyra-Reyes</span><span>Norma Tellez-Vazquez</span>
-                            <span>Lourdes García-García</span><span>Manuel Velázquez-Meza</span>
-                            <span>Juan Eugenio Hernández-Avila</span><span>Eduardo Lazcano-Ponce</span>
-                            <span>Norma Mongua-Rodriguéz</span>
-                        </div>
-                    </div>
+            
+            <div class="consortium-box mb-4">
+                <div class="inst-header">
+                    <img src="assets/logos/logo_insp_principal_dark.png" class="inst-logo-sm" alt="INSP">
+                    <h4 class="inst-name-title">Instituto Nacional de Salud Pública (INSP)</h4>
                 </div>
-            </div>
-
-            <div class="consortium-box">
-                <div class="row align-items-center">
-                    <div class="col-md-8">
-                        <h4 class="inst-title">Centro de Investigación y Estudios Avanzados (Cinvestav)</h4>
-                        <div class="members-list">
-                            <span>Carmina Barberena-Jonás</span><span>María de Jesús Ortega-Estrada</span>
-                            <span>Vianka Cedillo-Castelán</span><span>María José Palma-Martínez</span>
-                            <span>Cecilia Gutiérrez-López</span><span>Consuelo D Quinto-Cortés</span>
-                            <span>Andres Moreno-Estrada</span><span>Mashaal Sohail</span>
-                        </div>
-                    </div>
-                    <div class="col-md-4 logo-container">
-                        <img src="assets/logos/logo2.jpg" alt="Cinvestav" style="width: 100px;">
-                    </div>
+                <div class="inst-body">
+                    <ul class="names-list">
+                        <li>Sergio Canizales-Quintero</li><li>Luis Pablo Cruz-Hervert</li>
+                        <li>Guadalupe Delgado-Sánchez</li><li>Elizabeth Ferreira-Guerrero</li>
+                        <li>Leticia Ferreyra-Reyes</li><li>Lourdes García-García</li>
+                        <li>Juan Eugenio Hernández-Avila</li><li>Norma Mongua-Rodriguéz</li>
+                        <li>Luis Juárez-Figueroa</li><li>Elsa Sarti-Gutíerrez</li>
+                        <li>Jaime Sepúlveda-Amor</li><li>José Luis Valdespino-Gómez</li>
+                        <li>Norma Tellez-Vazquez</li><li>Manuel Velázquez-Meza</li>
+                        <li>Eduardo Lazcano-Ponce</li>
+                    </ul>
                 </div>
-            </div>
 
-            <div class="consortium-box">
-                <div class="row align-items-center">
-                    <div class="col-md-4 logo-container">
-                        <img src="assets/logos/Escudo_del_Instituto_Nacional_de_Ciencias_Médicas_y_Nutrición_Salvador_Zubirán.png" alt="INCMNSZ" style="width: 120px;">
-                    </div>
-                    <div class="col-md-8">
-                        <h4 class="inst-title">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ)</h4>
-                        <div class="members-list">
-                            <span>Carlos Aguilar-Salinas</span><span>Alicia Huerta-Chagoya</span>
-                            <span>Hortensia Moreno-Macias</span><span>Maria Luisa Ordóñez-Sánchez</span>
-                            <span>Rosario Rodríguez-Guillen</span><span>Maria Teresa Tusié-Luna</span>
-                        </div>
-                    </div>
+                <div class="inst-header" style="border-top: 1px solid #eee;">
+                    <img src="assets/logos/logo2.jpg" class="inst-logo-sm" alt="Cinvestav">
+                    <h4 class="inst-name-title">Centro de Investigación y de Estudios Avanzados (Cinvestav)</h4>
                 </div>
-            </div>
+                <div class="inst-body">
+                    <ul class="names-list">
+                        <li>Carmina Barberena-Jonás</li><li>María de Jesús Ortega-Estrada</li>
+                        <li>Vianka Cedillo-Castelán</li><li>María José Palma-Martínez</li>
+                        <li>Cecilia Gutiérrez-López</li><li>Consuelo D Quinto-Cortés</li>
+                        <li>Andres Moreno-Estrada</li><li>Mashaal Sohail</li>
+                    </ul>
+                </div>
 
-            <div class="consortium-box">
-                <div class="row align-items-center">
-                    <div class="col-md-8">
-                        <h4 class="inst-title">Secretaría de Salud</h4>
-                        <div class="members-list">
-                            <span>Pablo Kuri-Morales</span><span>Carlos Magis-Rodriguéz</span>
-                            <span>Roberto Tapia-Conyer</span><span>Oscar Velázquez-Monroy</span>
-                        </div>
-                    </div>
-                    <div class="col-md-4 logo-container">
-                        <img src="assets/logos/SALUD_Logo.png" alt="SSA" style="width: 180px;">
-                    </div>
+                <div class="inst-header" style="border-top: 1px solid #eee;">
+                    <img src="assets/logos/Escudo_del_Instituto_Nacional_de_Ciencias_Médicas_y_Nutrición_Salvador_Zubirán.png" class="inst-logo-sm" alt="INCMNSZ">
+                    <h4 class="inst-name-title">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán</h4>
+                </div>
+                <div class="inst-body">
+                    <ul class="names-list">
+                        <li>Carlos Aguilar-Salinas</li><li>Alicia Huerta-Chagoya</li>
+                        <li>Hortensia Moreno-Macias</li><li>Maria Luisa Ordóñez-Sánchez</li>
+                        <li>Rosario Rodríguez-Guillen</li><li>Maria Teresa Tusié-Luna</li>
+                    </ul>
+                </div>
+
+                <div class="inst-header" style="border-top: 1px solid #eee;">
+                    <img src="assets/logos/SALUD_Logo.png" class="inst-logo-sm" alt="SSA">
+                    <h4 class="inst-name-title">Secretaría de Salud</h4>
+                </div>
+                <div class="inst-body">
+                    <ul class="names-list">
+                        <li>Pablo Kuri-Morales</li><li>Carlos Magis-Rodriguéz</li>
+                        <li>Roberto Tapia-Conyer</li><li>Oscar Velázquez-Monroy</li>
+                    </ul>
                 </div>
             </div>
         </section>
