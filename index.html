@@ -46,8 +46,8 @@
                     <li class="nav-item"><a class="nav-link" href="mission.html">Mission</a></li>
                     <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
                     <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#data-access.html">Data Access & Tools</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#news.html">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="data.html">Data Access & Tools</a></li>
+                    <li class="nav-item"><a class="nav-link" href="news_publications.html">News & Publications</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact.html">Contact</a></li>
                 </ul>
             </div>
@@ -60,7 +60,8 @@
             <p class="lead mb-4">A nationwide effort to characterize the genomic diversity of the Mexican population.</p>
             <div class="d-flex justify-content-center gap-3">
                 <a href="team.html" class="btn btn-teal btn-lg px-4">Meet the team</a>
-                <a href="#publications" class="btn btn-outline-light btn-lg px-4">Read our publications</a>
+                <a href="news_publications.html" class="btn btn-outline-light btn-lg px-4">Check our latest publications</a>
+                <a href="research.html" class="btn btn-teal btn-lg px-4">Read about our research</a>
             </div>
         </div>
     </header>
@@ -107,89 +108,11 @@
 
     <section class="container mb-5">
         <div class="row justify-content-center">
-            <div class="col-lg-10 text-center">
+            <div class="col-lg-6 text-center">
                 <img src="assets/img/mxb_map.png" alt="Mexican Biobank Map and Diversity" class="img-fluid shadow rounded-4">
             </div>
         </div>
     </section>
-
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    
-    <style>
-        #map-container {
-            height: 600px;
-            width: 100%;
-            border-radius: 15px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-            z-index: 1; /* Para que no se sobreponga al navbar */
-        }
-        .map-section { margin: 50px 0; }
-        .leaflet-popup-content-wrapper { border-radius: 8px; font-family: 'Roboto', sans-serif; }
-    </style>
-    
-    <section class="container map-section">
-        <h2 class="text-center mb-4">Geographic Coverage</h2>
-        <div id="map-container"></div>
-        <p class="text-muted text-center mt-3">
-            Interactive map showing 898 rural and urban localities across 32 states. 
-            Click on the markers to see region details.
-        </p>
-    </section>
-    
-    <script>
-        // 1. Inicializar el mapa centrado en México
-        var map = L.map('map-container').setView([23.6345, -102.5528], 5);
-    
-        // 2. Agregar un fondo elegante (CartoDB Positron es ideal para ciencia)
-        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-            attribution: '&copy; OpenStreetMap &copy; CARTO'
-        }).addTo(map);
-    
-        // 3. Definir colores por región (Basado en tu imagen mxb_map.jpg)
-        function getColor(region) {
-            return region === 'Mayan'  ? '#D35400' :
-                   region === 'Oaxaca' ? '#F1C40F' :
-                   region === 'North'  ? '#16A085' :
-                   region === 'Centre' ? '#3498DB' :
-                                         '#95A5A6';
-        }
-    
-        // 4. Ejemplo de puntos (Aquí conectarías tu lista de 898 coordenadas)
-        var points = [
-            { lat: 19.4326, lng: -99.1332, name: "Mexico City", region: "Centre" },
-            { lat: 20.9674, lng: -89.5926, name: "Mérida", region: "Mayan" },
-            { lat: 25.6866, lng: -100.3161, name: "Monterrey", region: "North" },
-            { lat: 17.0732, lng: -96.7266, name: "Oaxaca City", region: "Oaxaca" }
-        ];
-    
-        points.forEach(function(p) {
-            L.circleMarker([p.lat, p.lng], {
-                radius: 6,
-                fillColor: getColor(p.region),
-                color: "#fff",
-                weight: 1,
-                opacity: 1,
-                fillOpacity: 0.8
-            })
-            .bindPopup("<b>" + p.name + "</b><br>Region: " + p.region)
-            .addTo(map);
-        });
-    
-        // 5. Opcional: Agregar leyenda
-        var legend = L.control({position: 'bottomright'});
-        legend.onAdd = function (map) {
-            var div = L.DomUtil.create('div', 'info legend', {
-                style: "background: white; padding: 10px; border-radius: 5px; line-height: 1.5;"
-            });
-            div.innerHTML += '<b>Regions</b><br>';
-            div.innerHTML += '<i style="background: #16A085; width: 12px; height: 12px; display: inline-block;"></i> North<br>';
-            div.innerHTML += '<i style="background: #D35400; width: 12px; height: 12px; display: inline-block;"></i> Mayan<br>';
-            div.innerHTML += '<i style="background: #F1C40F; width: 12px; height: 12px; display: inline-block;"></i> Oaxaca<br>';
-            return div;
-        };
-        legend.addTo(map);
-    </script>
 
     <section id="publications" class="bg-light py-5">
         <div class="container">
@@ -207,6 +130,14 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mb-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+                <img src="assets/img/MXB_cover.jpg" alt="Mexican Biobank Map and Diversity" class="img-fluid shadow rounded-4">
             </div>
         </div>
     </section>

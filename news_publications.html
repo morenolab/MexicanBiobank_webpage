@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News & Publications | Mexican Biobank Project</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-navy: #002147;
+            --accent-teal: #008080;
+            --light-bg: #fdfdfd;
+        }
+
+        body { 
+            font-family: 'Roboto', sans-serif; 
+            background-color: var(--light-bg); 
+            color: #333; 
+            line-height: 1.7; 
+        }
+
+        h1, h2, h3 { 
+            font-family: 'Playfair Display', serif; 
+            color: var(--primary-navy); 
+            font-weight: 700; 
+        }
+
+        .navbar { background-color: var(--primary-navy); border-bottom: 4px solid var(--accent-teal); }
+        .section-divider { border-bottom: 3px solid var(--accent-teal); width: 50px; margin: 10px 0 30px; }
+
+        /* Estilo unificado de tarjetas */
+        .content-card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            border-left: 5px solid var(--primary-navy);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        .content-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+        }
+
+        .badge-date {
+            background-color: var(--primary-navy);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            display: inline-block;
+        }
+
+        .card-category {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--accent-teal);
+            font-weight: 700;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .card-title { font-size: 1.15rem; margin-bottom: 10px; }
+        .card-title a { text-decoration: none; color: var(--primary-navy); }
+        .card-title a:hover { color: var(--accent-teal); }
+
+        .card-meta { font-size: 0.9rem; color: #666; margin-bottom: 8px; font-weight: 500; }
+        .card-body-text { font-size: 0.95rem; color: #555; margin-bottom: 0; }
+        
+        .card-links { margin-top: 15px; border-top: 1px solid #eee; pt-2; }
+        .card-links a { font-size: 0.85rem; color: var(--accent-teal); text-decoration: none; margin-right: 15px; font-weight: 500; }
+        .card-links a:hover { text-decoration: underline; }
+
+        footer { background: var(--primary-navy); color: white; padding: 40px 0; margin-top: 60px; }
+
+		.lead-text { 
+            font-size: 1.15rem; 
+            color: #555; 
+            margin-bottom: 30px; 
+        }
+	</style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">MX <span class="fw-light">Biobank</span> Project</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="mission.html">Mission</a></li>
+                    <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+                    <li class="nav-item"><a class="nav-link" href="data.html">Data Access & Tools</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="news_publications.html">News & Publications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+
+	<header class="text-center mb-5">
+		<h1 class="display-4 fw-bold">News and Publications</h1>
+	</header>
+
+	<section class="mb-5">
+		<p class="lead-text">Stay up to date with the latest discoveries, collaborations, and scientific achievements from the MXB.</p>
+
+		<p class="lead-text">This section highlights our ongoing progress in building one of the largest genomic resources in Latin America, along with key milestones in data generation, analysis, and international collaboration.</p>
+
+		<p class="lead-text">Here you will find news, publications, and announcements related to our research, training activities, and partnerships. Together, these updates reflect the MXB’s mission to advance genomic science, strengthen local research capacity, and contribute to a more inclusive understanding of human diversity and health.</p>
+	</section>
+
+        <h2>Latest News</h2>
+        <div class="section-divider"></div>
+
+        <div id="news-container">
+            <div class="content-card">
+                <span class="badge-date">JAN 2026</span>
+                <h4 class="card-title"><a href="https://www.nature.com/articles/s41591-025-04129-0" target="_blank">Research Briefing in Nature Medicine - Clinically relevant variants from the Mexican biobank show striking diversity across Hispanic people</a></h4>
+                <p class="card-meta">Andrés Moreno-Estrada & Carmina Barberena-Jonás, CINVESTAV, Mexico</p>
+            </div>
+
+            <div class="content-card">
+                <span class="badge-date">DEC 2025</span>
+                <h4 class="card-title"><a href="https://open.spotify.com/episode/16l1LFamzx1P87ZQcuNhKA" target="_blank">Interview about MXB in "On Humans" podcast</a></h4>
+                <p class="card-meta">Andrés Moreno-Estrada, CINVESTAV, Mexico</p>
+            </div>
+
+            <div class="content-card">
+                <span class="badge-date">OCT 2025</span>
+                <h4 class="card-title"><a href="https://meetings.ashg.org/event/ASHG25/sessions/SESSOAEI1EOL90ZZ0" target="_blank">Poster presentation at ASHG 2025 (Boston, USA)</a></h4>
+                <p class="card-meta">Carmina Barberena-Jonas, CINVESTAV, Mexico</p>
+                <p class="card-body-text">Board 2017F: <em>MexVar database for expanding Latin American precision medicine illustrates striking clinical genetic variation in the Mexican Biobank.</em></p>
+            </div>
+
+            <div class="content-card">
+                <span class="badge-date">OCT 2025</span>
+                <h4 class="card-title"><a href="https://rarerevolutionmagazine.com/rare-insider/mexvar-helping-to-increase-the-scientific-independence-of-mexico/" target="_blank">Interview about MexVar in RARE Revolution Magazine</a></h4>
+                <p class="card-meta">Andres Moreno-Estrada, Carmina Barberena-Jonas, CINVESTAV, Mexico</p>
+            </div>
+
+            <div class="content-card">
+                <span class="badge-date">OCT 2025</span>
+                <h4 class="card-title"><a href="https://open.spotify.com/episode/3SVAH5L8W45Opbjw90r2ye?si=dbfdce1738ed42ae" target="_blank">Interview about MXB in "De chicharos y habas" podcast</a></h4>
+                <p class="card-meta">Mashaal Sohail, CCG, Mexico</p>
+            </div>
+
+            <div class="content-card">
+                <span class="badge-date">AUG 2025</span>
+                <h4 class="card-title"><a href="https://open.spotify.com/episode/4r4JpGUtl92S4N0mAdOsyt?si=kWlgL67jRV6kbTWg8VeMdw&context=spotify%3Ashow%3A4loKt8BLA058IoA1mXaDKK" target="_blank">Interview about MerVar in "De chicharos y habas" podcast</a></h4>
+                <p class="card-meta">Carmina Barberena-Jonas, CINVESTAV, Mexico</p>
+            </div>
+
+            <div class="content-card">
+                <span class="badge-date">JUL 2025</span>
+                <h4 class="card-title">Poster presentation at SMBE 2025 (Beijing, China)</h4>
+                <p class="card-meta">Carmina Barberena-Jonas, CINVESTAV, Mexico</p>
+                <p class="card-body-text">S27-P11: <em>Unraveling 500 Years of Evolutionary History and Admixture Through IBD Genomic Analyses in the Mexican Biobank.</em></p>
+            </div>
+
+            <div class="content-card">
+                <span class="badge-date">JUL 2023</span>
+                <h4 class="card-title">Oral presentations on MXB data at SMBE 2023 (Ferrara, Italy)</h4>
+                <p class="card-meta">Carmina Barberena-Jonas, UGA, Mexico</p>
+                <p class="card-body-text"><em>Analyzing IBD segments in the MX Biobank to track the genetic structure of Mexico through time.</em></p>
+            </div>
+
+            <div class="content-card">
+                <span class="badge-date">JUL 2023</span>
+                <h4 class="card-title"><a href="https://www.smbe.org/smbe-graduate-student-excellence-awards/" target="_blank">SMBE Graduate Student Excellence Award at SMBE 2023</a></h4>
+                <p class="card-meta">Santiago Medina-Muñoz, CINVESTAV, Mexico</p>
+                <p class="card-body-text"><em>Demographic modeling of admixed Latin American populations from whole genomes.</em></p>
+            </div>
+
+            <div class="content-card">
+                <span class="badge-date">NOV 2018</span>
+                <h4 class="card-title"><a href="https://mxbiobankworkshop.wordpress.com/" target="_blank">Workshop on Large-Scale Genomic Data Analyses</a></h4>
+                <p class="card-meta">CINVESTAV, Mexico</p>
+                <p class="card-body-text">Focused on the practical analysis of GWAS data in structured populations.</p>
+            </div>
+
+            <div class="content-card">
+                <span class="badge-date">JUN 2018</span>
+                <h4 class="card-title">Poster presentations at the Closing the Genome Research Gap symposium (Montreal)</h4>
+                <p class="card-meta">Maria Jose Palma-Martinez & Andres Jimenez-Kaufmann, CINVESTAV</p>
+                <p class="card-body-text"><em>Building Capacity for Big Data Science & Imputation performance in Latin Americans.</em></p>
+            </div>
+        </div>
+
+        <h2>Scientific Publications</h2>
+        <div class="section-divider"></div>
+
+        <div id="publications-container">
+            <div class="content-card">
+                <span class="card-category">Nature Medicine • 2026</span>
+                <h4 class="card-title"><a href="https://www.nature.com/articles/s41591-025-04100-z" target="_blank">Clinically relevant variants from the Mexican Biobank show striking diversity across Hispanic people</a></h4>
+                <p class="card-authors">Barberena-Jonás C, et al.</p>
+                <div class="card-links">
+                    <a href="https://pubmed.ncbi.nlm.nih.gov/41566040/">PMID: 41566040</a>
+                    <a href="https://doi.org/10.1038/s41591-025-04100-z">DOI: 10.1038/s41591-025-04100-z</a>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <span class="card-category">medRxiv (preprint) • 2025</span>
+                <h4 class="card-title"><a href="https://pubmed.ncbi.nlm.nih.gov/40778152/" target="_blank">Multi-ancestry polygenic risk scores for the prediction of type 2 diabetes and complications in diverse ancestries</a></h4>
+                <p class="card-authors">Huerta-Chagoya A, et al.</p>
+                <div class="card-links">
+                    <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12330429/">PMC12330429</a>
+                    <a href="https://doi.org/10.1101/2025.07.21.25331778">DOI: 10.1101/2025.07.21.25331778</a>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <span class="card-category">Genes & Diseases • 2025</span>
+                <h4 class="card-title"><a href="https://www.sciencedirect.com/science/article/pii/S2352304225000315?via%3Dihub" target="_blank">Genetic analysis of <em>APOE</em> reveals distinct origins and distribution of ancestry-enrichment haplotypes in the Mexican Biobank</a></h4>
+                <p class="card-authors">Barberena-Jonás C, et al.</p>
+                <div class="card-links">
+                    <a href="https://pubmed.ncbi.nlm.nih.gov/41049132/">PMID: 41049132</a>
+                    <a href="https://doi.org/10.1016/j.gendis.2025.101542">DOI: 10.1016/j.gendis.2025.1015423</a>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <span class="card-category">Disease Models & Mechanisms • 2024</span>
+                <h4 class="card-title"><a href="https://journals.biologists.com/dmm/article/17/1/dmm050522/342683/The-Mexican-Biobank-Project-promotes-genetic" target="_blank">The Mexican Biobank Project promotes genetic discovery, inclusive science and local capacity building</a></h4>
+                <p class="card-authors">Sohail M & Moreno-Estrada A</p>
+                <div class="card-links">
+                    <a href="https://pubmed.ncbi.nlm.nih.gov/38299665/">PMC10855211</a>
+                    <a href="https://doi.org/10.1242/dmm.050522">DOI: 10.1242/dmm.050522</a>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <span class="card-category">Nature • 2023</span>
+                <h4 class="card-title"><a href="https://www.nature.com/articles/s41586-023-06560-0" target="_blank">Mexican Biobank advances population and medical genomics of diverse ancestries</a></h4>
+                <p class="card-authors">Sohail M, Palma-Martínez MJ, Chong AY, et al.</p>
+                <div class="card-links">
+                    <a href="https://pubmed.ncbi.nlm.nih.gov/37821706/">PMC10600006</a>
+                    <a href="https://doi.org/10.1038/s41586-023-06560-0">DOI: 10.1038/s41586-023-06560-0</a>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <span class="card-category">American Journal of Human Genetics • 2023</span>
+                <h4 class="card-title"><a href="https://www.sciencedirect.com/science/article/pii/S0002929723002914?via%3Dihub" target="_blank">Demographic modeling of admixed Latin American populations from whole genomes</a></h4>
+                <p class="card-authors">Medina-Muñoz SG, et al.</p>
+                <div class="card-links">
+                    <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10577084/">PMID: PMC10577084</a>
+                    <a href="https://doi.org/10.1016/j.ajhg.2023.08.015">DOI: 10.1016/j.ajhg.2023.08.015</a>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <span class="card-category">Diabetologia • 2023</span>
+                <h4 class="card-title"><a href="https://pubmed.ncbi.nlm.nih.gov/37148359/" target="_blank">The power of TOPMed imputation for the discovery of Latino-enriched rare variants associated with type 2 diabetes</a></h4>
+                <p class="card-authors">Huerta-Chagoya A, et al.</p>
+                <div class="card-links">
+                    <a href="https://pubmed.ncbi.nlm.nih.gov/37148359/">PMID: 37148359</a>
+                    <a href="https://doi.org/10.1007/s00125-023-05912-9">10.1007/s00125-023-05912-9</a>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <span class="card-category">Frontiers in Genetics • 2022</span>
+                <h4 class="card-title"><a href="https://pubmed.ncbi.nlm.nih.gov/35046991/" target="_blank">Imputation Performance in Latin American Populations: Improving Rare Variants Representation With the Inclusion of Native American Genomes</a></h4>
+                <p class="card-authors">Jiménez-Kaufmann A, et al.</p>
+                <div class="card-links">
+                    <a href="https://pubmed.ncbi.nlm.nih.gov/35046991/">PMID: 35046991</a>
+                    <a href="https://doi.org/10.3389/fgene.2021.719791">10.3389/fgene.2021.719791</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center">
+        <div class="container"><p>&copy; 2026 Mexican Biobank Project</p></div>
+    </footer>
+
+</body>
+</html>
